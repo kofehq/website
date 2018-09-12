@@ -1,22 +1,60 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>Kofe</title>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis:300">
-	<link rel="stylesheet" href="assets/styles/global.css">
-	<meta property="og:title" content="Kofe" />
-	<meta property="og:description" content="Good days start with Kofe." />
-	<meta property="og:image" content="assets/images/kofe.png" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800" rel="stylesheet">
+	<link rel="stylesheet" href="assets/styles/src/global.css">
 </head>
 <body>
-	<div class="center">
-		<img src="assets/images/team.png" alt="Team" class="team">
-		<img src="assets/images/kofe.svg" alt="Kofe" class="logo">
-		<div class="contact">
-			<a href="mailto:hello@kofe.com" class="contact-link">hello@kofe.com</a>
+	<section class="section section-01">
+		<div class="center">
+			<h1 class="logo">Kofe</h1>
+			<img src="assets/images/chimp-pc.png" alt="Chimp no pc" class="chimp">
+			<h2 class="title">
+				<span>It is about</span>
+				<span>making</span>
+				<span>things</span>
+				<span>work better</span>
+			</h2>
 		</div>
-		<span class="description">coming soon</span>
-	</div>
+	</section>
+	<section class="section section-02">
+		<div class="center">
+			<div class="col-1">
+				<p>Having good ideas is not an easy task, but put them in practice could be even more complicated. Using the right technology and a specialized team, we can turn your ideas into something real.</p>
+				<h3>We are engaged to make it easy to build solutions that are delightful to use.</h3>
+			</div>
+			<div class="col-2">
+				<img src="assets/images/image-01.jpg" class="image">
+				<img src="assets/images/image-02.jpg" class="image">
+				<img src="assets/images/image-03.jpg" class="image">
+				<ul class="list">
+					<li class="list-item">Systems</li>
+					<li class="list-item">Platforms</li>
+					<li class="list-item">Applications</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<img src="assets/images/chimp-cube.png" alt="Chimp resolvendo cubo mágico" class="image">
+		<div class="contact">
+			<h4 class="contact-title">Subscribe to our newsletter:</h4>
+			<form action="" class="contact-form">
+				<div class="form-item">
+					<input type="email" name="contact-email" id="contact-email" class="form-input">
+					<label for="contact-email" class="form-label">E-mail</label>
+				</div>
+				<button type="submit" class="btn">Ok</button>
+			</form>
+		</div>
+		<div class="email-wrapper">
+			<a href="mailto:hello@kofe.com" class="email">hello@kofe.com</a>
+		</div>
+		<span class="copyright">Kofe | 2018</span>
+	</footer>
+	<script src="assets/scripts/src/global.js"></script>
 </body>
 </html>
