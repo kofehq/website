@@ -8,7 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "sal.js": "^0.5.0",
     "vue": "^2.5.17",
     "vuelidate": "^0.7.4"
