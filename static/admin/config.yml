@@ -15,7 +15,20 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Imagem', name: 'image', widget: 'image' }
+      - { label: 'Título', name: 'title', widget: 'string' }
+      - { label: 'Descrição', name: 'description', widget: 'string' }
+      - { label: 'Conteúdo', name: 'body', widget: 'markdown' }
+
+  - name: 'testimonial'
+    label: 'Depoimentos'
+    folder: 'content/testimonial'
+    format: 'frontmatter'
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: 'Imagem', name: 'image', widget: 'image' }
+      - { label: 'Nome', name: 'name', widget: 'string' }
+      - { label: 'Empresa', name: 'company', widget: 'string' }
+      - { label: 'Depoimento', name: 'content', widget: 'string' }
