@@ -1,7 +1,7 @@
 <template>
   <div :class="$style['blog']">
     <k-center>
-      <h3 :class="$style['blog-title']">ÚLTIMOS POSTS</h3>
+      <h3 :class="$style['blog-title']">Últimos posts</h3>
       <div :class="$style['blog-list']">
         <div :class="$style['blog-post']">
           <div :class="$style['blog-post-image-wrapper']">
