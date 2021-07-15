@@ -22,6 +22,11 @@ export default {
         href:
           'https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;800&display=swap',
       },
+    ],
+    script: [
+      {
+        src: 'https://identity.netlify.com/v1/netlify-identity-widget.js'
+      }
     ]
   },
 
