@@ -10,12 +10,12 @@
           <span :class="$style['footer-logo-text']">studio</span>
         </div>
         <div :class="$style['footer-mail']">
-          <img src="" alt="" :class="$style['footer-mail-icon']">
-          <span :class="$style['footer-mail-text']"></span>
+          <img src="@/assets/mail.svg" alt="" :class="$style['footer-mail-icon']">
+          <span :class="$style['footer-mail-text']">hello@kofe.work</span>
         </div>
         <div :class="$style['footer-address']">
-          <img src="" alt="" :class="$style['footer-address-icon']">
-          <span :class="$style['footer-address-text']"></span>
+          <img src="@/assets/pin.svg" alt="" :class="$style['footer-address-icon']">
+          <span :class="$style['footer-address-text']">Rafael Bandeira, 328 <br>Florianópolis, SC Brasil</span>
         </div>
       </div>
     </k-center>
@@ -62,5 +62,31 @@ export default {
   line-height: 23px;
   letter-spacing: 0.45em;
   margin-left: 30px;
+}
+
+.footer-mail {
+  display: flex;
+  align-items: center;
+}
+
+.footer-mail-text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.2em;
+  margin-left: 20px;
+}
+
+.footer-address {
+  display: flex;
+  align-items: center;
+}
+
+.footer-address-text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.2em;
+  margin-left: 20px;
 }
 </style>

@@ -29,7 +29,6 @@ export default {
 .design-sprint {
   height: 1285px;
   background: linear-gradient(180deg, rgba(240, 226, 187, 0) 0%, #F0E2BB 35.94%, #F1E8EB 73.44%, rgba(241, 232, 235, 0) 100%);
-  box-shadow: 0px 20px 50px rgba(241, 232, 235, 0.5);
 }
 
 .design-sprint-content {

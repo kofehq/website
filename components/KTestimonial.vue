@@ -46,8 +46,8 @@
         <div v-if="currentIndex === 1" :class="$style['testimonial-item']">
           <div :class="$style['testimonial-user']">
             <img src="@/assets/testimonial-2.png" alt="" :class="$style['testimonial-user-image']">
-            <span :class="$style['testimonial-user-name']">Raquel Ramos</span>
-            <span :class="$style['testimonial-user-company']">Mobiliza</span>
+            <span :class="$style['testimonial-user-name']">Cristina Villar</span>
+            <span :class="$style['testimonial-user-company']">Instituto Floripa Jazz</span>
           </div>
           <p :class="$style['testimonial-text']">”O Design Sprint facilitado por Bruna foi um processo muito intenso e que otimizou nosso tempo gerando resultados bem precisos enquanto grupo e ideias diversas. Em todo processo era possível enxergar os caminhos que foram sendo conduzidos ao encontro dos nossos objetivos principais. A metodologia permite uma participação responsável e colaborativa de todos e que no final encontra-se de maneira harmoniosa uma solução para os desafios. Além disso um momento de avaliação externa por quem não participou do processo nos fez descobrir mais soluções para realização do projeto.”</p>
         </div>
@@ -61,8 +61,8 @@
         <div v-if="currentIndex === 2" :class="$style['testimonial-item']">
           <div :class="$style['testimonial-user']">
             <img src="@/assets/testimonial-3.png" alt="" :class="$style['testimonial-user-image']">
-            <span :class="$style['testimonial-user-name']">Raquel Ramos</span>
-            <span :class="$style['testimonial-user-company']">Mobiliza</span>
+            <span :class="$style['testimonial-user-name']">Abel Silva</span>
+            <span :class="$style['testimonial-user-company']">Instituto Floripa Jazz</span>
           </div>
           <p :class="$style['testimonial-text']">”Aprendizado! Penso que representa uma oportunidade de solução para muitos clientes, especialmente os que precisam sintetizar suas ideias, quando são muitas e dispõem de um grande volume de conteúdo. Contar com especialistas ajuda. Ainda mais quando o objeto ou coisa do site ainda precisam ser melhor compreendidos pelos próprios gestores. Outra percepção é a importância de uma imersão, com comunicação direta em tempo real para compartilhar as sugestões, possibilidades e agilizar a tomada de decisão.”</p>
         </div>
