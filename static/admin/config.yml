@@ -23,6 +23,7 @@ collections:
   - name: 'testimonial'
     label: 'Depoimentos'
     folder: 'content/testimonial'
+    summary: '{{name}} - {{company}}'
     format: 'frontmatter'
     create: true
     editor:
