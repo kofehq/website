@@ -8,7 +8,7 @@
           <p :class="$style['design-sprint-description']">Método escrito no Google por Jake Knapp, utilizado para inovar, solucionando grandes desafios em poucos dias. Bruna Ferencz é nossa facilitadora de Design Sprints certificada por Jake Knapp e AJ&Smart.</p>
         </div>
       </div>
-      <k-testimonial />
+      <k-testimonial :testimonials="testimonials" />
     </k-center>
   </div>
 </template>
@@ -21,6 +21,13 @@ export default {
   components: {
     KCenter,
     KTestimonial,
+  },
+
+  props: {
+    testimonials: {
+      type: Array,
+      default: () => ([])
+    },
   }
 }
 </script>

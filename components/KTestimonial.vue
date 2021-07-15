@@ -9,9 +9,14 @@
         <img src="@/assets/btn-prev.svg" alt="">
       </button>
       <div :class="$style['testimonial-nav-list']">
-        <div :class="[$style['testimonial-nav-item'], {[$style['is-current']]: currentIndex === 0}]"></div>
-        <div :class="[$style['testimonial-nav-item'], {[$style['is-current']]: currentIndex === 1}]"></div>
-        <div :class="[$style['testimonial-nav-item'], {[$style['is-current']]: currentIndex === 2}]"></div>
+        <template v-for="(testimonial, index) in testimonials">
+          <div
+            :key="index"
+            :class="[$style['testimonial-nav-item'], {
+              [$style['is-current']]: currentIndex === index
+            }]">
+          </div>
+        </template>
       </div>
       <button
         type="button"
@@ -22,61 +27,40 @@
       </button>
     </div>
     <div :class="$style['testimonial-list']">
-      <transition
-        name="slide"
-        :duration="1500"
-        :enter-active-class="$style[`${slideDirectionClass}-enter-active`]"
-        :leave-active-class="$style['slide-leave-active']"
-      >
-        <div v-if="currentIndex === 0" :class="$style['testimonial-item']">
-          <div :class="$style['testimonial-user']">
-            <img src="@/assets/testimonial-1.png" alt="" :class="$style['testimonial-user-image']">
-            <span :class="$style['testimonial-user-name']">Raquel Ramos</span>
-            <span :class="$style['testimonial-user-company']">Mobiliza</span>
+      <template v-for="(testimonial, index) in testimonials">
+        <transition
+          :key="index"
+          name="slide"
+          :duration="1500"
+          :enter-active-class="$style[`${slideDirectionClass}-enter-active`]"
+          :leave-active-class="$style['slide-leave-active']"
+        >
+          <div v-if="currentIndex === index" :class="$style['testimonial-item']">
+            <div :class="$style['testimonial-user']">
+              <img :src="testimonial.image" alt="" :class="$style['testimonial-user-image']">
+              <span :class="$style['testimonial-user-name']">{{ testimonial.name }}</span>
+              <span :class="$style['testimonial-user-company']">{{ testimonial.company }}</span>
+            </div>
+            <p :class="$style['testimonial-text']">{{ testimonial.content }}</p>
           </div>
-          <p :class="$style['testimonial-text']">”Antes de experienciar o método, tinha algumas dúvidas sobre a eficiência e qualidade das ideias resultantes. Principalmente por ser um processo muito rápido e com pouca profundidade de reflexão. Me surpreendi bastante e positivamente! Com essa análise final de resultados deu pra perceber que funciona! =) ”</p>
-        </div>
-      </transition>
-      <transition
-        name="slide"
-        :duration="1500"
-        :enter-active-class="$style[`${slideDirectionClass}-enter-active`]"
-        :leave-active-class="$style['slide-leave-active']"
-      >
-        <div v-if="currentIndex === 1" :class="$style['testimonial-item']">
-          <div :class="$style['testimonial-user']">
-            <img src="@/assets/testimonial-2.png" alt="" :class="$style['testimonial-user-image']">
-            <span :class="$style['testimonial-user-name']">Cristina Villar</span>
-            <span :class="$style['testimonial-user-company']">Instituto Floripa Jazz</span>
-          </div>
-          <p :class="$style['testimonial-text']">”O Design Sprint facilitado por Bruna foi um processo muito intenso e que otimizou nosso tempo gerando resultados bem precisos enquanto grupo e ideias diversas. Em todo processo era possível enxergar os caminhos que foram sendo conduzidos ao encontro dos nossos objetivos principais. A metodologia permite uma participação responsável e colaborativa de todos e que no final encontra-se de maneira harmoniosa uma solução para os desafios. Além disso um momento de avaliação externa por quem não participou do processo nos fez descobrir mais soluções para realização do projeto.”</p>
-        </div>
-      </transition>
-      <transition
-        name="slide"
-        :duration="1500"
-        :enter-active-class="$style[`${slideDirectionClass}-enter-active`]"
-        :leave-active-class="$style['slide-leave-active']"
-      >
-        <div v-if="currentIndex === 2" :class="$style['testimonial-item']">
-          <div :class="$style['testimonial-user']">
-            <img src="@/assets/testimonial-3.png" alt="" :class="$style['testimonial-user-image']">
-            <span :class="$style['testimonial-user-name']">Abel Silva</span>
-            <span :class="$style['testimonial-user-company']">Instituto Floripa Jazz</span>
-          </div>
-          <p :class="$style['testimonial-text']">”Aprendizado! Penso que representa uma oportunidade de solução para muitos clientes, especialmente os que precisam sintetizar suas ideias, quando são muitas e dispõem de um grande volume de conteúdo. Contar com especialistas ajuda. Ainda mais quando o objeto ou coisa do site ainda precisam ser melhor compreendidos pelos próprios gestores. Outra percepção é a importância de uma imersão, com comunicação direta em tempo real para compartilhar as sugestões, possibilidades e agilizar a tomada de decisão.”</p>
-        </div>
-      </transition>
+        </transition>
+      </template>
     </div>
   </div>
 </template>
 
 <script>
 export default {
+  props: {
+    testimonials: {
+      type: Array,
+      default: () => ([])
+    },
+  },
+
   data () {
     return {
       currentIndex: 0,
-      totalItems: 3,
       direction: null,
     }
   },
@@ -88,6 +72,10 @@ export default {
       }
       return 'slide-bottom'
     },
+
+    totalItems () {
+      return this.testimonials.length
+    }
   },
 
   methods: {

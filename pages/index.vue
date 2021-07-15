@@ -4,11 +4,11 @@
     <main :class="$style['main']">
       <k-services />
       <k-digital />
-      <k-design-sprint />
+      <k-design-sprint :testimonials="testimonials" />
       <k-projects />
       <k-zaman />
       <k-clients />
-      <k-blog />
+      <k-blog :posts="posts" />
     </main>
     <k-footer />
   </div>
@@ -36,6 +36,22 @@ export default {
     KClients,
     KBlog,
     KFooter,
+  },
+
+  async asyncData({ $content }) {
+    const posts = await $content('blog')
+      .only(['title', 'description', 'image', 'slug'])
+      .sortBy('updatedAt')
+      .limit(2)
+      .fetch()
+    const testimonials = await $content('testimonial')
+      .only(['name', 'company', 'content', 'image'])
+      .fetch()
+
+    return {
+      posts,
+      testimonials,
+    }
   }
 }
 </script>

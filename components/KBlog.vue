@@ -3,40 +3,26 @@
     <k-center>
       <h3 :class="$style['blog-title']">Últimos posts</h3>
       <div :class="$style['blog-list']">
-        <div :class="$style['blog-post']">
-          <div :class="$style['blog-post-image-wrapper']">
-            <img src="@/assets/blog/blog-post-1.jpg" alt="" :class="$style['blog-post-image']">
-          </div>
-          <div :class="$style['blog-post-content']">
-            <h4 :class="$style['blog-post-title']">Plataforma Mobiliza: como ajudamos na estratégia do produto</h4>
-            <div :class="$style['blog-post-description']">
-              <p>Phasellus vestibulum turpis vitae pulvinar tempor. Fusce eget arcu dictum, pharetra justo sit amet, tempor dolor. Cras tempus arcu vel turpis commodo placerat. Aliquam maximus nulla quis eros euismod dictum. </p>
+        <template v-for="(post, index) in posts">
+          <div :key="index" :class="$style['blog-post']">
+            <div :class="$style['blog-post-image-wrapper']">
+              <img :src="post.image" alt="" :class="$style['blog-post-image']">
             </div>
-            <button
-              type="button"
-              :class="$style['blog-post-button']"
-            >
-              Ler mais
-            </button>
-          </div>
-        </div>
-        <div :class="$style['blog-post']">
-          <div :class="$style['blog-post-image-wrapper']">
-            <img src="@/assets/blog/blog-post-2.jpg" alt="" :class="$style['blog-post-image']">
-          </div>
-          <div :class="$style['blog-post-content']">
-            <h4 :class="$style['blog-post-title']">O que é análise heurística e como aplicar no seu projeto</h4>
-            <div :class="$style['blog-post-description']">
-              <p>Phasellus vestibulum turpis vitae pulvinar tempor. Fusce eget arcu dictum, pharetra justo sit amet, tempor dolor. Cras tempus arcu vel turpis commodo placerat. Aliquam maximus nulla quis eros euismod dictum. </p>
+            <div :class="$style['blog-post-content']">
+              <h4 :class="$style['blog-post-title']">{{ post.title }}</h4>
+              <div :class="$style['blog-post-description']">
+                <p>{{ post.description }}</p>
+              </div>
+              <button
+                type="button"
+                :class="$style['blog-post-button']"
+              >
+                Ler mais
+              </button>
             </div>
-            <button
-              type="button"
-              :class="$style['blog-post-button']"
-            >
-              Ler mais
-            </button>
           </div>
-        </div>
+
+        </template>
       </div>
     </k-center>
   </div>
@@ -49,20 +35,24 @@ export default {
   components: {
     KCenter
   },
+
+  props: {
+    posts: {
+      type: Array,
+      default: () => ([])
+    },
+  },
 }
 </script>
 
 <style lang="scss" module>
-.blog {
-
-}
-
 .blog-title {
   font-weight: 200;
   font-size: 40px;
   line-height: 63px;
   letter-spacing: 0.5em;
   margin-bottom: 40px;
+  text-transform: uppercase;
 }
 
 .blog-list {
