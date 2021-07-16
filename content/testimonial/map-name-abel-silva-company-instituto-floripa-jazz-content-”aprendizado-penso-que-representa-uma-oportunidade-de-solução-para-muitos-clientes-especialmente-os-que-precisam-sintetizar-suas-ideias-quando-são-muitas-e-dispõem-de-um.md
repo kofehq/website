@@ -9,4 +9,5 @@ content: ”Aprendizado! Penso que representa uma oportunidade de solução para
   compreendidos pelos próprios gestores. Outra percepção é a importância de uma
   imersão, com comunicação direta em tempo real para compartilhar as sugestões,
   possibilidades e agilizar a tomada de decisão.”
+order: 3
 ---

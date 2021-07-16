@@ -7,4 +7,5 @@ content: ”Antes de experienciar o método, tinha algumas dúvidas sobre a
   processo muito rápido e com pouca profundidade de reflexão. Me surpreendi
   bastante e positivamente! Com essa análise final de resultados deu pra
   perceber que funciona! =) ”
+order: 1
 ---
