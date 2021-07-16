@@ -35,3 +35,16 @@ collections:
       - { label: 'Empresa', name: 'company', widget: 'string' }
       - { label: 'Depoimento', name: 'content', widget: 'string' }
       - { label: 'Ordem', name: 'order', widget: 'number', value_type: 'int', min: 1 }
+
+  - name: 'projects'
+    label: 'Projetos'
+    folder: 'content/projects'
+    summary: '({{order}}) {{title}}'
+    format: 'frontmatter'
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: 'Imagem', name: 'image', widget: 'image' }
+      - { label: 'Título', name: 'title', widget: 'string' }
+      - { label: 'Ordem', name: 'order', widget: 'number', value_type: 'int', min: 1 }
