@@ -10,4 +10,5 @@ content: ”O Design Sprint facilitado por Bruna foi um processo muito intenso e
   encontra-se de maneira harmoniosa uma solução para os desafios. Além disso um
   momento de avaliação externa por quem não participou do processo nos fez
   descobrir mais soluções para realização do projeto.”
+order: 2
 ---
