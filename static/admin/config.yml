@@ -25,7 +25,7 @@ collections:
   - name: 'testimonial'
     label: 'Depoimentos'
     folder: 'content/testimonial'
-    summary: '{{name}} - {{company}}'
+    summary: '({{order}}) {{name}} - {{company}}'
     format: 'frontmatter'
     create: true
     editor:
