@@ -4,8 +4,9 @@
     <main :class="$style['main']">
       <k-services />
       <k-digital />
-      <k-design-sprint :testimonials="testimonials" />
-      <k-projects />
+      <k-design-sprint />
+      <k-testimonial :testimonials="testimonials" />
+      <k-projects :projects="projects" />
       <k-zaman />
       <k-clients />
       <k-blog :posts="posts" />
@@ -19,6 +20,7 @@ import KHeader from '@/components/KHeader'
 import KServices from '@/components/KServices'
 import KDigital from '@/components/KDigital'
 import KDesignSprint from '@/components/KDesignSprint'
+import KTestimonial from '@/components/KTestimonial'
 import KProjects from '@/components/KProjects'
 import KZaman from '@/components/KZaman'
 import KClients from '@/components/KClients'
@@ -31,6 +33,7 @@ export default {
     KServices,
     KDigital,
     KDesignSprint,
+    KTestimonial,
     KProjects,
     KZaman,
     KClients,
@@ -48,10 +51,15 @@ export default {
       .only(['name', 'company', 'content', 'image', 'order'])
       .sortBy('order')
       .fetch()
+    const projects = await $content('projects')
+      .only(['title', 'image', 'order'])
+      .sortBy('order')
+      .fetch()
 
     return {
       posts,
       testimonials,
+      projects,
     }
   }
 }

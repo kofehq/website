@@ -1,13 +1,12 @@
 <template>
   <div :class="$style['testimonial']">
     <div :class="$style['testimonial-nav']">
-      <button
+      <k-action
         type="button"
-        :class="$style['testimonial-nav-button']"
         @click="prevSlide"
       >
         <img src="@/assets/btn-prev.svg" alt="">
-      </button>
+      </k-action>
       <div :class="$style['testimonial-nav-list']">
         <template v-for="(testimonial, index) in testimonials">
           <div
@@ -18,13 +17,12 @@
           </div>
         </template>
       </div>
-      <button
+      <k-action
         type="button"
-        :class="$style['testimonial-nav-button']"
         @click="nextSlide"
       >
         <img src="@/assets/btn-next.svg" alt="">
-      </button>
+      </k-action>
     </div>
     <div :class="$style['testimonial-list']">
       <template v-for="(testimonial, index) in testimonials">
@@ -50,7 +48,13 @@
 </template>
 
 <script>
+import KAction from '@/components/KAction'
+
 export default {
+  components: {
+    KAction,
+  },
+
   props: {
     testimonials: {
       type: Array,
@@ -120,13 +124,6 @@ export default {
   align-items: center;
 }
 
-.testimonial-nav-button {
-  cursor: pointer;
-  background: none;
-  border: 0;
-  border-radius: 0;
-}
-
 .testimonial-nav-list {
   margin: 55px 0;
 }
@@ -194,7 +191,7 @@ export default {
 
 .slide-top-enter-active {
   animation-name: slide-top-in;
-  animation-duration: 0.3s;
+  animation-duration: 0.5s;
 }
 
 @keyframes slide-top-in {
@@ -210,7 +207,7 @@ export default {
 
 .slide-bottom-enter-active {
   animation-name: slide-bottom-in;
-  animation-duration: 0.3s;
+  animation-duration: 0.5s;
 }
 
 @keyframes slide-bottom-in {

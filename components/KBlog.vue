@@ -13,12 +13,12 @@
               <div :class="$style['blog-post-description']">
                 <p>{{ post.description }}</p>
               </div>
-              <button
+              <k-action
                 type="button"
-                :class="$style['blog-post-button']"
+                color="primary"
               >
                 Ler mais
-              </button>
+              </k-action>
             </div>
           </div>
 
@@ -30,10 +30,12 @@
 
 <script>
 import KCenter from '@/components/KCenter'
+import KAction from '@/components/KAction'
 
 export default {
   components: {
-    KCenter
+    KCenter,
+    KAction,
   },
 
   props: {
@@ -104,21 +106,5 @@ export default {
   line-height: 28px;
   letter-spacing: 0.1em;
   margin-bottom: 20px;
-}
-
-.blog-post-button {
-  font-family: $font-primary;
-  font-weight: 800;
-  font-size: 14px;
-  line-height: 22px;
-  letter-spacing: 0.3em;
-  color: rgba(#58223A, 0.8);
-  border: 1px solid #F0E2BB;
-  background: none;
-  border-radius: 0;
-  height: 50px;
-  padding: 0 45px;
-  text-transform: uppercase;
-  cursor: pointer;
 }
 </style>

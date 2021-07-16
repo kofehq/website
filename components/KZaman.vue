@@ -5,11 +5,14 @@
         <div :class="$style['zaman-content-inner']">
           <h3 :class="$style['zaman-title']">Aplicativo Zaman</h3>
           <p :class="$style['zaman-description']">Um APP para facilitar a gestão do seu ponto. Pode ser utilizado com diferentes serviços de controle, confira!</p>
-          <button
-            :class="$style['zaman-button']"
+          <k-action
+            tag="a"
+            url="https://play.google.com/store/apps/details?id=com.zaman&hl=pt"
+            target="_blank"
+            color="primary"
           >
             Baixe grátis para android
-          </button>
+          </k-action>
         </div>
         <img src="@/assets/chimp02.png" alt="">
       </div>
@@ -19,10 +22,12 @@
 
 <script>
 import KCenter from '@/components/KCenter'
+import KAction from '@/components/KAction'
 
 export default {
   components: {
     KCenter,
+    KAction,
   },
 }
 </script>
@@ -71,23 +76,5 @@ export default {
   line-height: 35px;
   letter-spacing: 0.2em;
   margin-bottom: 10px;
-}
-
-.zaman-button {
-  border: 1px solid #89536B;
-  border-radius: 2px;
-  height: 49px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-transform: uppercase;
-  font-weight: 800;
-  font-size: 14px;
-  line-height: 22px;
-  letter-spacing: 0.3em;
-  background: none;
-  color: rgba(#89536B, 0.8);
-  padding: 0 45px;
-  cursor: pointer;
 }
 </style>
