@@ -1,13 +1,14 @@
 <template>
   <k-center>
     <div :class="$style['post']">
-      <k-action
-        tag="nuxt-link"
-        :to="{ name: 'index' }"
-        :class="$style['post-back']"
-      >
-        <img src="@/assets/back.svg" alt="Voltar" loading="lazy" />
-      </k-action>
+      <div :class="$style['post-back']">
+        <k-action
+          tag="nuxt-link"
+          :to="{ name: 'index' }"
+        >
+          <img src="@/assets/back.svg" alt="Voltar" loading="lazy" />
+        </k-action>
+      </div>
       <k-svg
         name="logo"
         :class="$style['logo']"
@@ -121,6 +122,48 @@ export default {
 
   p {
     margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1120px) {
+  .post-back {
+    top: 90px;
+    left: 0;
+  }
+
+  .logo {
+    margin-left: 55px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .logo {
+    margin-bottom: 50px;
+  }
+
+  .post {
+    &::before {
+      display: none;
+    }
+  }
+
+  .post-content-wrapper {
+    padding-bottom: 40px;
+  }
+
+  .post-image-wrapper {
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+
+  .post-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .post-content {
+    margin: 0 20px;
   }
 }
 </style>

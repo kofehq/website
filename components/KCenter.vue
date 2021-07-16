@@ -13,4 +13,10 @@ export default {}
   max-width: 1080px;
   margin: 0 auto;
 }
+
+@media (max-width: 1120px) {
+  .center {
+    margin: 0 20px;
+  }
+}
 </style>

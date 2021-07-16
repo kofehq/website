@@ -72,6 +72,8 @@ export default {
 .blog-post {
   border: 1px solid #F0E2BB;
   border-radius: 2px;
+  flex: 1;
+  max-width: calc(50% - 40px);
   position: relative;
 
   &:first-child {
@@ -111,7 +113,7 @@ export default {
   font-size: 20px;
   line-height: 32px;
   letter-spacing: 0.2em;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .blog-post-description {
@@ -119,5 +121,39 @@ export default {
   line-height: 28px;
   letter-spacing: 0.1em;
   margin-bottom: 20px;
+}
+
+@media (max-width: 1120px) {
+  .blog-post {
+    flex: 1;
+    max-width: calc(50% - 20px);
+
+    &:first-child {
+      margin-right: 40px;
+    }
+
+    &::before {
+      width: 20px;
+      left: -20px;
+    }
+  }
+}
+
+@media (max-width: 1023px) {
+  .blog-title {
+    text-align: center;
+  }
+  
+  .blog-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blog-post {
+    &:first-child {
+      margin-right: 0;
+      margin-bottom: 40px;
+    }
+  }
 }
 </style>

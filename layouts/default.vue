@@ -42,7 +42,7 @@ body {
   overflow-y: auto;
   overflow-y: overlay;
   scrollbar-width: thin;
-  scrollbar-color: #727a8a transparent;
+  scrollbar-color: rgba(#89536B, 0.8) transparent;
 
   &::-webkit-scrollbar {
     z-index: 999;
@@ -55,11 +55,11 @@ body {
   }
 
   &::-webkit-scrollbar-thumb {
-    background-color: #727a8a;
+    background-color: rgba(#89536B, 0.8);
     border-radius: 6px;
 
     &:hover {
-      background-color: #727a8a;
+      background-color: rgba(#89536B, 0.8);
     }
   }
 }

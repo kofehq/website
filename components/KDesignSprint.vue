@@ -69,4 +69,22 @@ export default {
   color: rgba(#5A223B, 0.8);
   max-width: 300px;
 }
+
+@media (max-width: 1120px) {
+  .design-sprint-image {
+    margin-left: -20px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .design-sprint-content {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .design-sprint-description {
+    max-width: 400px;
+  }
+}
 </style>

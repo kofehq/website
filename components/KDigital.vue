@@ -46,4 +46,32 @@ export default {
   color: rgba(#58223A, 0.8);
   max-width: 300px;
 }
+
+@media (max-width: 1120px) {
+  .digital {
+    background-size: 600px auto;
+  }
+}
+
+@media (max-width: 1023px) {
+  .digital {
+    height: auto;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &::after {
+      content: '';
+      width: 100%;
+      height: 400px;
+      background: url('~@/assets/pc.png') no-repeat center/contain;
+      margin-top: 40px;
+    }
+  }
+
+  .digital-description {
+    max-width: 420px;
+  }
+}
 </style>

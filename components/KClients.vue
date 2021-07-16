@@ -3,12 +3,12 @@
     <h3 :class="$style['clients-title']">Clientes</h3>
     <k-center>
       <div :class="$style['clients-list']">
-        <img src="@/assets/clients/detran.png" alt="">
-        <img src="@/assets/clients/bdr.png" alt="">
-        <img src="@/assets/clients/s7.png" alt="">
-        <img src="@/assets/clients/mobiliza.png" alt="">
-        <img src="@/assets/clients/tivit.png" alt="">
-        <img src="@/assets/clients/dot.png" alt="">
+        <img src="@/assets/clients/detran.png" alt="Detran" :class="$style['clients-logo']">
+        <img src="@/assets/clients/bdr.png" alt="BDR" :class="$style['clients-logo']">
+        <img src="@/assets/clients/s7.png" alt="S7" :class="$style['clients-logo']">
+        <img src="@/assets/clients/mobiliza.png" alt="Mobiliza" :class="$style['clients-logo']">
+        <img src="@/assets/clients/tivit.png" alt="Tivit" :class="$style['clients-logo']">
+        <img src="@/assets/clients/dot.png" alt="DOT" :class="$style['clients-logo']">
       </div>
     </k-center>
   </div>
@@ -43,5 +43,16 @@ export default {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+@media (max-width: 1023px) {
+  .clients-list {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .clients-logo {
+    margin-bottom: 20px;
+  }
 }
 </style>

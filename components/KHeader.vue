@@ -37,6 +37,7 @@ export default {
     position: absolute;
     top: 80px;
     left: 0;
+    z-index: -1;
     height: 710px;
     width: 540px;
     background: linear-gradient(180deg, #F0E2BB 0%, #F1E8EB 100%);
@@ -69,5 +70,46 @@ export default {
   text-transform: uppercase;
   max-width: 310px;
   margin-right: 40px;
+}
+
+@media (max-width: 1120px) {
+  .header-image {
+    width: 600px;
+    height: auto;
+  }
+}
+
+@media (max-width: 1023px) {
+  .header {
+    padding-top: 60px;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+
+    &::before {
+      top: 100px;
+      height: 340px;
+      width: 260px;
+    }
+  }
+
+  .header-logo {
+    width: 60px;
+    height: auto;
+    top: 40px;
+  }
+
+  .header-image {
+    position: static;
+    max-width: 340px;
+    width: auto;
+    height: auto;
+    margin-right: -50px;
+  }
+
+  .header-title {
+    margin-right: 0;
+    margin-top: 50px;
+  }
 }
 </style>

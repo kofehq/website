@@ -89,4 +89,20 @@ export default {
   letter-spacing: 0.2em;
   margin-left: 20px;
 }
+
+@media (max-width: 1023px) {
+  .footer {
+    height: auto;
+    padding: 100px 0;
+  }
+
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-logo-wrapper,
+  .footer-mail {
+    margin-bottom: 30px;
+  }
+}
 </style>

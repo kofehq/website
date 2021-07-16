@@ -77,4 +77,15 @@ export default {
   letter-spacing: 0.2em;
   margin-bottom: 10px;
 }
+
+@media (max-width: 1023px) {
+  .zaman-content {
+    flex-direction: column;
+  }
+
+  .zaman-content-inner {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+}
 </style>

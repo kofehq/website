@@ -97,4 +97,26 @@ export default {
   letter-spacing: 0.2em;
   color: rgba(#3E293D, 0.8);
 }
+
+@media (max-width: 1120px) {
+  .service-item {
+    margin-right: 20px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+@media (max-width: 1023px) {
+  .services-list {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .service-item {
+    margin-bottom: 20px;
+  }
+}
 </style>
