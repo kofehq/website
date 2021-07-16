@@ -5,6 +5,9 @@ backend:
 media_folder: static/images
 public_folder: /images
 locale: pt
+slug:
+  encoding: 'ascii'
+  clean_accents: true
 
 collections:
   - name: 'blog'
