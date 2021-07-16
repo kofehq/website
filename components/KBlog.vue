@@ -14,8 +14,14 @@
                 <p>{{ post.description }}</p>
               </div>
               <k-action
-                type="button"
+                tag="nuxt-link"
                 color="primary"
+                :to="{
+                  name: 'blog-slug',
+                  params: {
+                    slug: post.slug,
+                  }
+                }"
               >
                 Ler mais
               </k-action>
@@ -87,6 +93,13 @@ export default {
 .blog-post-image-wrapper {
   height: 170px;
   overflow: hidden;
+}
+
+.blog-post-image {
+  display: block;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
 }
 
 .blog-post-content {

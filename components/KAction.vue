@@ -46,6 +46,11 @@ export default {
       type: String,
       default: null,
     },
+
+    disabled: {
+      type: Boolean,
+      default: false,
+    },
   },
 
   computed: {

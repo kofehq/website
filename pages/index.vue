@@ -1,7 +1,7 @@
 <template>
-  <div :class="$style['page']">
+  <div>
     <k-header />
-    <main :class="$style['main']">
+    <main>
       <k-services />
       <k-digital />
       <k-design-sprint />
@@ -11,7 +11,6 @@
       <k-clients />
       <k-blog :posts="posts" />
     </main>
-    <k-footer />
   </div>
 </template>
 
@@ -25,7 +24,6 @@ import KProjects from '@/components/KProjects'
 import KZaman from '@/components/KZaman'
 import KClients from '@/components/KClients'
 import KBlog from '@/components/KBlog'
-import KFooter from '@/components/KFooter'
 
 export default {
   components: {
@@ -38,7 +36,6 @@ export default {
     KZaman,
     KClients,
     KBlog,
-    KFooter,
   },
 
   async asyncData({ $content }) {
@@ -64,9 +61,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss" module>
-.page {}
-
-.main {}
-</style>

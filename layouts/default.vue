@@ -1,9 +1,18 @@
 <template>
-  <Nuxt />
+  <div>
+    <Nuxt />
+    <k-footer />
+  </div>
 </template>
 
 <script>
-export default {}
+import KFooter from '@/components/KFooter'
+
+export default {
+  components: {
+    KFooter,
+  },
+}
 </script>
 
 <style lang="scss">

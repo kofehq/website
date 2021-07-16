@@ -5,12 +5,6 @@
         name="logo"
         :class="$style['header-logo']"
       />
-      <img
-        src="@/assets/logo.svg"
-        alt="Kofe"
-        loading="lazy"
-        :class="$style['header-logo']"
-      />
       <img :class="$style['header-image']" src="@/assets/chimp01.png" alt="">
       <h2 :class="$style['header-title']">Design code & design sprint</h2>
     </header>
