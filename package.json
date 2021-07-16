@@ -14,7 +14,7 @@
     "@nuxt/content": "^1.14.0",
     "@nuxtjs/axios": "^5.13.6",
     "core-js": "^3.15.1",
-    "netlify-cms-locales": "^1.33.0",
+    
     "nuxt": "^2.15.7"
   },
   "devDependencies": {
@@ -30,6 +30,9 @@
     "fibers": "^5.0.0",
     "prettier": "^2.3.2",
     "sass": "^1.35.2",
-    "sass-loader": "10"
+    "sass-loader": "10",
+    "webpack-cli": "^4.7.2",
+    "path": "^0.12.7",
+    "netlify-cms-locales": "^1.33.0"
   }
 }
