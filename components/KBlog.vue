@@ -6,7 +6,7 @@
         <template v-for="(post, index) in posts">
           <div :key="index" :class="$style['blog-post']">
             <div :class="$style['blog-post-image-wrapper']">
-              <img :src="post.image" alt="" :class="$style['blog-post-image']">
+              <img :src="post.image" alt="Imagem do post" :class="$style['blog-post-image']" loading="lazy">
             </div>
             <div :class="$style['blog-post-content']">
               <h4 :class="$style['blog-post-title']">{{ post.title }}</h4>

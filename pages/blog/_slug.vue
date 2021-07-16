@@ -6,7 +6,7 @@
         :to="{ name: 'index' }"
         :class="$style['post-back']"
       >
-        <img src="@/assets/back.svg" alt="Voltar" />
+        <img src="@/assets/back.svg" alt="Voltar" loading="lazy" />
       </k-action>
       <k-svg
         name="logo"
@@ -14,7 +14,7 @@
       />
       <div :class="$style['post-content-wrapper']">
         <div :class="$style['post-image-wrapper']">
-          <img :src="post.image" :class="$style['post-image']" />
+          <img :src="post.image" alt="Imagem do post" :class="$style['post-image']" loading="lazy" />
         </div>
         <div :class="$style['post-content']">
           <h1 :class="$style['post-title']">{{ post.title }}</h1>
@@ -22,7 +22,6 @@
             <nuxt-content :document="post" />
           </div>
         </div>
-
       </div>
     </div>
   </k-center>
