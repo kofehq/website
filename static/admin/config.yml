@@ -4,7 +4,6 @@ backend:
 
 media_folder: static/images
 public_folder: /images
-publish_mode: editorial_workflow
 locale: pt
 
 collections:
