@@ -35,3 +35,4 @@ collections:
       - { label: 'Nome', name: 'name', widget: 'string' }
       - { label: 'Empresa', name: 'company', widget: 'string' }
       - { label: 'Depoimento', name: 'content', widget: 'string' }
+      - { label: 'Ordem', name: 'order', widget: 'number', value_type: 'int', min: 1 }

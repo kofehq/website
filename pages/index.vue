@@ -45,7 +45,8 @@ export default {
       .limit(2)
       .fetch()
     const testimonials = await $content('testimonial')
-      .only(['name', 'company', 'content', 'image'])
+      .only(['name', 'company', 'content', 'image', 'order'])
+      .sortBy('order')
       .fetch()
 
     return {
