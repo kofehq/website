@@ -1,27 +1,27 @@
 <template>
   <div :class="$style['services']">
     <k-center>
-      <h3 :class="$style['services-title']">Nossos serviços</h3>
+      <h3 :class="$style['services-title']">Serviços</h3>
       <div :class="$style['services-list']">
         <div :class="$style['service-item']">
           <img src="@/assets/clock.svg" alt="" :class="$style['service-icon']">
-          <h4 :class="$style['service-title']">Design</h4>
+          <h4 :class="$style['service-title']">Design de interfaces</h4>
           <div :class="$style['service-description']">
-            <p>Design de Interação, User Experience, User Interface, Usabilidade e Design Visual para interfaces digitais.</p>
+            <p>Fazemos projetos de Design para produtos digitais, com foco nos objetivos da empresa e na experiência de uso que será promovida aos clientes.</p>
           </div>
         </div>
         <div :class="$style['service-item']">
           <img src="@/assets/clock.svg" alt="" :class="$style['service-icon']">
-          <h4 :class="$style['service-title']">Sprints</h4>
+          <h4 :class="$style['service-title']">Design Sprints</h4>
           <div :class="$style['service-description']">
-            <p>Organização e facilitação do método <strong>Design Sprint 2.0</strong>. Sucesso escrito pelo Google e aplicado em 4 dias.</p>
+            <p>Aplicamos o método Design Sprint, escrito no Google, para ajudar seu time a conceber, prototipar e testar projetos de interface em apenas QUATRO DIAS.</p>
           </div>
         </div>
         <div :class="$style['service-item']">
           <img src="@/assets/clock.svg" alt="" :class="$style['service-icon']">
-          <h4 :class="$style['service-title']">Code</h4>
+          <h4 :class="$style['service-title']">Front-end</h4>
           <div :class="$style['service-description']">
-            <p>Desenvolvimento Front-end em</p>
+            <p>Entregamos interfaces com o código escrito em nível de desenvolvimento Front-end. Utilizamos frameworks como Vue JS e Nuxt.</p>
           </div>
         </div>
       </div>
@@ -65,8 +65,8 @@ export default {
 
 .service-item {
   flex: 1;
-  max-width: 340px;
-  padding: 20px 40px 25px;
+  max-width: 350px;
+  padding: 35px 20px;
   box-shadow: 0px 10px 10px rgba(241, 232, 235, 0.5);
   border-radius: 6px;
 
@@ -79,15 +79,21 @@ export default {
   }
 }
 
+.service-icon {
+  display: block;
+  margin: 0 auto;
+}
+
 .service-title {
   font-family: $font-primary;
   font-weight: 600;
   font-size: 20px;
   line-height: 32px;
-  letter-spacing: 0.25em;
+  letter-spacing: 0.2em;
+  text-align: center;
   text-transform: uppercase;
-  margin-top: 15px;
-  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 15px;
   color: rgba(#5A223B, 0.8);
 }
 

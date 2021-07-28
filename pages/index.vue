@@ -2,8 +2,8 @@
   <div>
     <k-header />
     <main>
-      <k-services />
       <k-digital />
+      <k-services />
       <k-design-sprint />
       <k-highlights :highlights="highlights" />
       <k-testimonial :testimonials="testimonials" />

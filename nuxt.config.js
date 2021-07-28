@@ -20,7 +20,7 @@ export default {
       {
         rel: 'stylesheet',
         href:
-          'https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;800&display=swap',
+          'https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;600;800&display=swap',
       },
     ],
     script: [

@@ -2,7 +2,10 @@
   <k-center>  
     <div :class="$style['digital']">
       <h3 :class="$style['digital-title']">Interfaces digitais</h3>
-      <p :class="$style['digital-description']">Projetamos interfaces digitais para sistemas, plataformas, aplicativos, websites, soluções educacionais e mais!</p>
+      <div :class="$style['digital-description']">
+        <p>Websites, Aplicativos, Portais,  Sistemas e até cursos online, são alguns exemplos de interfaces digitais utilizadas para promover a interação com clientes por meio de diferentes dispositivos.</p>
+        <p>Nós oferecemos serviços de design e desenvolvimento focados no projeto de interfaces intuitivas e únicas para cada objetivo de negócio.</p>
+      </div>
     </div>
   </k-center>
 </template>
@@ -34,17 +37,21 @@ export default {
   line-height: 72px;
   letter-spacing: 0.25em;
   color: rgba(#5A223B, 0.8);
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   text-transform: uppercase;
   max-width: 420px;
 }
 
 .digital-description {
   font-size: 20px;
-  line-height: 34px;
+  line-height: 25px;
   letter-spacing: 0.1em;
   color: rgba(#58223A, 0.8);
-  max-width: 300px;
+  max-width: 350px;
+
+  p {
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 1120px) {
