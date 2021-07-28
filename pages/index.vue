@@ -5,6 +5,7 @@
       <k-services />
       <k-digital />
       <k-design-sprint />
+      <k-highlights :highlights="highlights" />
       <k-testimonial :testimonials="testimonials" />
       <k-projects :projects="projects" />
       <k-zaman />
@@ -19,6 +20,7 @@ import KHeader from '@/components/KHeader'
 import KServices from '@/components/KServices'
 import KDigital from '@/components/KDigital'
 import KDesignSprint from '@/components/KDesignSprint'
+import KHighlights from '@/components/KHighlights'
 import KTestimonial from '@/components/KTestimonial'
 import KProjects from '@/components/KProjects'
 import KZaman from '@/components/KZaman'
@@ -31,6 +33,7 @@ export default {
     KServices,
     KDigital,
     KDesignSprint,
+    KHighlights,
     KTestimonial,
     KProjects,
     KZaman,
@@ -39,10 +42,9 @@ export default {
   },
 
   async asyncData({ $content }) {
-    const posts = await $content('blog')
-      .only(['title', 'description', 'image', 'slug'])
-      .sortBy('updatedAt')
-      .limit(2)
+    const highlights = await $content('highlights')
+      .only(['description', 'image', 'order'])
+      .sortBy('order')
       .fetch()
     const testimonials = await $content('testimonial')
       .only(['name', 'company', 'content', 'image', 'order'])
@@ -52,11 +54,17 @@ export default {
       .only(['title', 'image', 'order'])
       .sortBy('order')
       .fetch()
+    const posts = await $content('blog')
+      .only(['title', 'description', 'image', 'slug'])
+      .sortBy('updatedAt')
+      .limit(2)
+      .fetch()
 
     return {
-      posts,
+      highlights,
       testimonials,
       projects,
+      posts,
     }
   }
 }

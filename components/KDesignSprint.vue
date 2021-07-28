@@ -2,10 +2,16 @@
   <div :class="$style['design-sprint']">
     <k-center>
       <div :class="$style['design-sprint-content']">
-        <img src="@/assets/design-sprint.png" alt="" :class="$style['design-sprint-image']">
+        <div :class="$style['design-sprint-image-wrapper']">
+          <img src="@/assets/design-sprint.png" alt="" :class="$style['design-sprint-image']">
+          <p :class="$style['design-sprint-image-description']">Facilitação profissional pela Designer Bruna Ferencz, certificada por Jake Knapp e a agência AJ&Smart, baseada em Berlim.</p>
+        </div>
         <div>
           <h3 :class="$style['design-sprint-title']">Design sprints</h3>
-          <p :class="$style['design-sprint-description']">Método escrito no Google por Jake Knapp, utilizado para inovar, solucionando grandes desafios em poucos dias. Bruna Ferencz é nossa facilitadora de Design Sprints certificada por Jake Knapp e AJ&Smart.</p>
+          <div :class="$style['design-sprint-description']">
+            <p>Facilitamos o método Design Sprint 2.0 por sua capacidade de alcançar resultados de alta qualidade em apenas quatro dias. </p>
+            <p>Durante a imersão com o time de especialistas do negócio, conduzimos da concepção, à construção e a validação de soluções para produtos e serviços digitais. </p>
+          </div>
         </div>
       </div>
     </k-center>
@@ -23,32 +29,30 @@ export default {
 </script>
 
 <style lang="scss" module>
-.design-sprint {
-  position: relative;
-
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    height: 1285px;
-  background: linear-gradient(180deg, rgba(240, 226, 187, 0) 0%, #F0E2BB 35.94%, #F1E8EB 73.44%, rgba(241, 232, 235, 0) 100%);
-  }
-}
-
 .design-sprint-content {
   display: flex;
   align-items: center;
-  margin-bottom: 70px;
-  position: relative;
-  z-index: 2;
+  margin-bottom: 125px;
+}
+
+.design-sprint-image-wrapper {
+  margin-left: 25px;
+  margin-right: 80px;
+  max-width: 530px;
 }
 
 .design-sprint-image {
-  margin-left: -62px;
-  margin-right: 95px;
+  display: block;
+  margin-bottom: 25px;
+}
+
+.design-sprint-image-description {
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  max-width: 420px;
+  margin: 0 auto;
 }
 
 .design-sprint-title {
@@ -59,15 +63,19 @@ export default {
   text-transform: uppercase;
   color: rgba(#5A223B, 0.8);
   max-width: 400px;
-  margin-bottom: 10px;
-  }
+  margin-bottom: 25px;
+}
 
 .design-sprint-description {
   font-size: 20px;
-  line-height: 34px;
+  line-height: 25px;
   letter-spacing: 0.1em;
   color: rgba(#5A223B, 0.8);
-  max-width: 300px;
+  max-width: 415px;
+
+  p {
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 1120px) {
