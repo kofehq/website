@@ -10,19 +10,18 @@ slug:
   clean_accents: true
 
 collections:
-  - name: 'blog'
-    label: 'Blog'
-    folder: 'content/blog'
+  - name: 'highlights'
+    label: 'Destaques'
+    folder: 'content/highlights'
+    summary: '({{order}}) {{description}}'
     format: 'frontmatter'
     create: true
-    slug: '{{slug}}'
     editor:
       preview: false
     fields:
       - { label: 'Imagem', name: 'image', widget: 'image' }
-      - { label: 'Título', name: 'title', widget: 'string' }
       - { label: 'Descrição', name: 'description', widget: 'string' }
-      - { label: 'Conteúdo', name: 'body', widget: 'markdown' }
+      - { label: 'Ordem', name: 'order', widget: 'number', value_type: 'int', min: 1 }
 
   - name: 'testimonial'
     label: 'Depoimentos'
@@ -51,3 +50,17 @@ collections:
       - { label: 'Imagem', name: 'image', widget: 'image' }
       - { label: 'Título', name: 'title', widget: 'string' }
       - { label: 'Ordem', name: 'order', widget: 'number', value_type: 'int', min: 1 }
+
+  - name: 'blog'
+    label: 'Blog'
+    folder: 'content/blog'
+    format: 'frontmatter'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Imagem', name: 'image', widget: 'image' }
+      - { label: 'Título', name: 'title', widget: 'string' }
+      - { label: 'Descrição', name: 'description', widget: 'string' }
+      - { label: 'Conteúdo', name: 'body', widget: 'markdown' }
