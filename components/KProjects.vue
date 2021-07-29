@@ -1,6 +1,7 @@
 <template>
   <div :class="$style['projects']">
     <k-center>
+      <h2 :class="$style['projects-title']">Projetos</h2>
       <div :class="$style['projects-list']">
         <template v-for="(project, index) in projects">
           <transition
@@ -106,19 +107,17 @@ export default {
 
 <style lang="scss" module>
 .projects {
-  margin-bottom: 125px;
-  position: relative;
+  margin-bottom: 160px;
+}
 
-  &::before {
-    content: '';
-    position: absolute;
-    top: 75px;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    height: 460px;
-    background: radial-gradient(100% 100% at 50% 0%, #F1E8EB 0%, #F8F9F9 100%), #F8F9F9;
-  }
+.projects-title {
+  font-size: 60px;
+  font-weight: 200;
+  line-height: 76px;
+  letter-spacing: 0.2em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .projects-list {
@@ -126,23 +125,34 @@ export default {
   height: 600px;
   position: relative;
   overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 75px;
+    left: 0;
+    right: 0;
+    height: 459px;
+    background: linear-gradient(180deg, #F0E2BB 0%, #FFEDF3 100%);
+    border-radius: 2px;
+  }
 }
 
 .projects-nav {
-  margin-top: 30px;
+  margin: 30px auto 0;
+  max-width: 235px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .projects-nav-list {
-  margin: 0 100px;
   display: flex;
   align-items: center;
 }
 
 .projects-nav-item {
-  width: 30px;
+  width: 10px;
   height: 2px;
   background: rgba(#FFBE2E, 0.3);
   border-radius: 2px;
@@ -174,7 +184,6 @@ export default {
 .project-image {
   display: block;
   margin: 0 auto;
-  transform: translateX(-38px);
 }
 
 .slide-left-enter-active {
