@@ -1,58 +1,65 @@
 <template>
   <div :class="$style['testimonial']">
-    <div :class="$style['testimonial-nav']">
-      <k-action
-        type="button"
-        @click="prevSlide"
-      >
-        <img src="@/assets/btn-prev.svg" alt="">
-      </k-action>
-      <div :class="$style['testimonial-nav-list']">
-        <template v-for="(testimonial, index) in testimonials">
-          <div
-            :key="index"
-            :class="[$style['testimonial-nav-item'], {
-              [$style['is-current']]: currentIndex === index
-            }]">
+    <k-center>
+      <h2 :class="$style['testimonial-title']">Feedback dos clientes</h2>
+      <div :class="$style['testimonial-list']">
+        <div :class="$style['testimonial-nav']">
+          <k-action
+            type="button"
+            @click="prevSlide"
+          >
+            <img src="@/assets/btn-prev.svg" alt="">
+          </k-action>
+          <div :class="$style['testimonial-nav-list']">
+            <template v-for="(testimonial, index) in testimonials">
+              <div
+                :key="index"
+                :class="[$style['testimonial-nav-item'], {
+                  [$style['is-current']]: currentIndex === index
+                }]">
+              </div>
+            </template>
           </div>
+          <k-action
+            type="button"
+            @click="nextSlide"
+          >
+            <img src="@/assets/btn-next.svg" alt="">
+          </k-action>
+        </div>
+        <template v-for="(testimonial, index) in testimonials">
+          <transition
+            :key="index"
+            name="slide"
+            :duration="1500"
+            :enter-active-class="$style[`${slideDirectionClass}-enter-active`]"
+            :leave-active-class="$style['slide-leave-active']"
+          >
+            <div v-if="currentIndex === index" :class="$style['testimonial-item']">
+              <div :class="$style['testimonial-user']">
+                <div :class="$style['testimonial-user-image-wrapper']">
+                  <img :src="testimonial.image" alt="" :class="$style['testimonial-user-image']">
+                </div>
+                <span :class="$style['testimonial-user-name']">{{ testimonial.name }}</span>
+                <span :class="$style['testimonial-user-company']">{{ testimonial.company }}</span>
+              </div>
+              <p :class="$style['testimonial-text']">{{ testimonial.content }}</p>
+            </div>
+          </transition>
         </template>
       </div>
-      <k-action
-        type="button"
-        @click="nextSlide"
-      >
-        <img src="@/assets/btn-next.svg" alt="">
-      </k-action>
-    </div>
-    <div :class="$style['testimonial-list']">
-      <template v-for="(testimonial, index) in testimonials">
-        <transition
-          :key="index"
-          name="slide"
-          :duration="1500"
-          :enter-active-class="$style[`${slideDirectionClass}-enter-active`]"
-          :leave-active-class="$style['slide-leave-active']"
-        >
-          <div v-if="currentIndex === index" :class="$style['testimonial-item']">
-            <div :class="$style['testimonial-user']">
-              <img :src="testimonial.image" alt="" :class="$style['testimonial-user-image']">
-              <span :class="$style['testimonial-user-name']">{{ testimonial.name }}</span>
-              <span :class="$style['testimonial-user-company']">{{ testimonial.company }}</span>
-            </div>
-            <p :class="$style['testimonial-text']">{{ testimonial.content }}</p>
-          </div>
-        </transition>
-      </template>
-    </div>
+    </k-center>
   </div>
 </template>
 
 <script>
 import KAction from '@/components/KAction'
+import KCenter from '@/components/KCenter'
 
 export default {
   components: {
     KAction,
+    KCenter,
   },
 
   props: {
@@ -106,34 +113,38 @@ export default {
 
 <style lang="scss" module>
 .testimonial {
-  width: 870px;
-  height: 400px;
-  margin: 0 auto;
-  position: relative;
-  z-index: 1;
+  margin-bottom: 200px;
+}
+
+.testimonial-title {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 55px;
 }
 
 .testimonial-nav {
   position: absolute;
   top: 50%;
-  left: 235px;
+  left: 300px;
   z-index: 20;
   transform: translateY(-50%);
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.testimonial-nav-list {
-  margin: 55px 0;
+  justify-content: space-between;
+  height: 200px;
 }
 
 .testimonial-nav-item {
   width: 2px;
-  height: 30px;
+  height: 10px;
   background: rgba(#FFBE2E, 0.3);
   border-radius: 2px;
-  margin: 7px 0;
+  margin: 10px 0;
   transition: background-color 0.5s;
 
   &.is-current {
@@ -142,7 +153,8 @@ export default {
 }
 
 .testimonial-list {
-  height: 100%;
+  height: 200px;
+  position: relative;
 }
 
 .testimonial-item {
@@ -158,35 +170,43 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  width: 200px;
-  margin-right: 95px;
+  width: 250px;
+  margin-right: 120px;
+}
+
+.testimonial-user-image-wrapper {
+  background: url('~@/assets/testimonial-image.png') no-repeat;
+  width: 95px;
+  height: 93px;
+  padding: 5px 8px;
+  text-align: center;
+  margin-bottom: 25px;
 }
 
 .testimonial-user-image {
   width: 80px;
   height: 80px;
-  margin-bottom: 10px;
 }
 
 .testimonial-user-name {
   font-size: 16px;
   font-weight: 700;
-  line-height: 28px;
+  line-height: 20px;
   letter-spacing: 0.2em;
 }
 
 .testimonial-user-company {
   font-size: 16px;
   font-weight: 300;
-  line-height: 28px;
+  line-height: 20px;
   letter-spacing: 0.2em;
 }
 
 .testimonial-text {
-  font-size: 18px;
-  line-height: 32px;
-  letter-spacing: 0.2em;
-  max-width: 580px;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  max-width: 700px;
 }
 
 .slide-top-enter-active {

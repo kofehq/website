@@ -106,7 +106,6 @@ export default {
 
 <style lang="scss" module>
 .projects {
-  margin-top: 125px;
   margin-bottom: 125px;
   position: relative;
 

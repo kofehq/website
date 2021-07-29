@@ -31,7 +31,7 @@ export default {
 
 <style lang="scss" module>
 .highlights {
-  margin-bottom: 200px;
+  margin-bottom: 120px;
 }
 
 .highlights-title {
