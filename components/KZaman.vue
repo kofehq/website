@@ -2,6 +2,7 @@
   <div :class="$style['zaman']">
     <k-center>
       <div :class="$style['zaman-content']">
+        <img src="@/assets/chimp02.png" alt="Macaco">
         <div :class="$style['zaman-content-inner']">
           <h3 :class="$style['zaman-title']">Aplicativo Zaman</h3>
           <p :class="$style['zaman-description']">Um APP para facilitar a gestão do seu ponto. Pode ser utilizado com diferentes serviços de controle, confira!</p>
@@ -14,7 +15,6 @@
             Baixe grátis para android
           </k-action>
         </div>
-        <img src="@/assets/chimp02.png" alt="">
       </div>
     </k-center>
   </div>
@@ -41,7 +41,7 @@ export default {
   display: flex;
   align-items: center;
   position: relative;
-  padding-left: 70px;
+  padding-left: 110px;
 
   &::before {
     content: '';
@@ -49,33 +49,34 @@ export default {
     top: 50%;
     left: -100px;
     transform: translateY(-50%);
-    height: 620px;
-    width: 100px;
+    height: 580px;
+    width: 440px;
     background: linear-gradient(180deg, #F0E2BB 0%, #F1E8EB 100%), #F0E2BB;
+    z-index: -1;
   }
 }
 
 .zaman-content-inner {
   flex: 1;
-  max-width: 425px;
-  margin-right: 45px;
+  max-width: 350px;
+  margin-left: 20px;
 }
 
 .zaman-title {
+  font-size: 40px;
   font-weight: 200;
-  font-size: 44px;
-  line-height: 69px;
-  letter-spacing: 0.5em;
+  line-height: 50px;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 .zaman-description {
-  font-weight: 300;
   font-size: 20px;
-  line-height: 35px;
-  letter-spacing: 0.2em;
-  margin-bottom: 10px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 1023px) {

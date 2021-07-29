@@ -88,14 +88,14 @@ export default {
 }
 
 .btn-color-primary {
-  font-weight: 800;
   font-size: 14px;
+  font-weight: 800;
   letter-spacing: 0.3em;
-  color: rgba(#58223A, 0.8);
-  border: 1px solid #89536B;
+  color: rgba(#89536B, 0.8);
+  border: 1px solid #f0e2bb;
   border-radius: 2px;
   height: 50px;
-  padding: 0 45px;
+  padding: 0 35px;
   text-transform: uppercase;
   transition: background-color 0.3s;
 
