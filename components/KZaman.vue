@@ -34,7 +34,7 @@ export default {
 
 <style lang="scss" module>
 .zaman {
-  margin-bottom: 125px;
+  margin-bottom: 100px;
 }
 
 .zaman-content {

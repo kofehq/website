@@ -55,11 +55,12 @@ export default {
 
 <style lang="scss" module>
 .blog-title {
+  font-size: 30px;
   font-weight: 200;
-  font-size: 40px;
-  line-height: 63px;
-  letter-spacing: 0.5em;
-  margin-bottom: 40px;
+  line-height: 38px;
+  letter-spacing: 0.2em;
+  margin-bottom: 45px;
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -73,27 +74,28 @@ export default {
   border: 1px solid #F0E2BB;
   border-radius: 2px;
   flex: 1;
-  max-width: calc(50% - 40px);
+  max-width: calc(50% - 20px);
   position: relative;
+  padding-left: 57px;
 
   &:first-child {
-    margin-right: 80px;
+    margin-right: 20px;
   }
 
   &::before {
     content: '';
     position: absolute;
     top: 0;
-    left: -57px;
+    left: 0;
     bottom: 0;
     width: 57px;
-    background: linear-gradient(180deg, #F0E2BB 0%, #F1E8EB 100%);
+    background: linear-gradient(180deg, #F0E2BB 0%, #FFEDF3 100%);
     border-radius: 2px;
   }
 }
 
 .blog-post-image-wrapper {
-  height: 170px;
+  height: 185px;
   overflow: hidden;
 }
 
@@ -105,45 +107,28 @@ export default {
 }
 
 .blog-post-content {
-  padding: 30px 75px;
+  padding: 20px;
 }
 
 .blog-post-title {
-  font-weight: 500;
   font-size: 20px;
-  line-height: 32px;
+  font-weight: 500;
+  line-height: 25px;
   letter-spacing: 0.2em;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  color: rgba(#5A223B, 0.8);
 }
 
 .blog-post-description {
-  font-size: 16px;
-  line-height: 28px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
   letter-spacing: 0.1em;
-  margin-bottom: 20px;
-}
-
-@media (max-width: 1120px) {
-  .blog-post {
-    flex: 1;
-    max-width: calc(50% - 20px);
-
-    &:first-child {
-      margin-right: 40px;
-    }
-
-    &::before {
-      width: 20px;
-      left: -20px;
-    }
-  }
+  margin-bottom: 25px;
+  color: rgba(#5A223B, 0.8);
 }
 
 @media (max-width: 1023px) {
-  .blog-title {
-    text-align: center;
-  }
-  
   .blog-list {
     flex-direction: column;
     align-items: center;
@@ -154,6 +139,11 @@ export default {
       margin-right: 0;
       margin-bottom: 40px;
     }
+  }
+
+  .blog-post-image {
+    width: 100%;
+    height: auto;
   }
 }
 </style>
