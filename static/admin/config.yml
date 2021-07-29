@@ -51,6 +51,19 @@ collections:
       - { label: 'Título', name: 'title', widget: 'string' }
       - { label: 'Ordem', name: 'order', widget: 'number', value_type: 'int', min: 1 }
 
+  - name: 'clients'
+    label: 'Clientes'
+    folder: 'content/clients'
+    summary: '({{order}}) {{title}}'
+    format: 'frontmatter'
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: 'Imagem', name: 'image', widget: 'image' }
+      - { label: 'Título', name: 'title', widget: 'string' }
+      - { label: 'Ordem', name: 'order', widget: 'number', value_type: 'int', min: 1 }
+
   - name: 'blog'
     label: 'Blog'
     folder: 'content/blog'

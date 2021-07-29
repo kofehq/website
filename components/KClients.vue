@@ -21,6 +21,13 @@ export default {
   components: {
     KCenter,
   },
+
+  props: {
+    clients: {
+      type: Array,
+      default: () => ([])
+    },
+  }
 }
 </script>
 
@@ -30,19 +37,26 @@ export default {
 }
 
 .clients-title {
+  font-size: 30px;
   font-weight: 300;
-  font-size: 20px;
-  line-height: 32px;
+  line-height: 38px;
   text-align: center;
-  letter-spacing: 0.8em;
+  letter-spacing: 0.2em;
   text-transform: uppercase;
-  margin-bottom: 55px;
+  margin-bottom: 50px;
 }
 
 .clients-list {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.clients-logo {
+  margin-bottom: 45px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 @media (max-width: 1023px) {

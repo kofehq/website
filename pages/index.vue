@@ -8,8 +8,8 @@
       <k-highlights :highlights="highlights" />
       <k-testimonial :testimonials="testimonials" />
       <k-projects :projects="projects" />
+      <k-clients :clients="clients" />
       <k-zaman />
-      <k-clients />
       <k-blog :posts="posts" />
     </main>
   </div>
@@ -54,6 +54,10 @@ export default {
       .only(['title', 'image', 'order'])
       .sortBy('order')
       .fetch()
+    const clients = await $content('clients')
+      .only(['title', 'image', 'order'])
+      .sortBy('order')
+      .fetch()
     const posts = await $content('blog')
       .only(['title', 'description', 'image', 'slug'])
       .sortBy('updatedAt')
@@ -65,6 +69,7 @@ export default {
       testimonials,
       projects,
       posts,
+      clients,
     }
   }
 }
