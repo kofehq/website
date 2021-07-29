@@ -3,12 +3,11 @@
     <h3 :class="$style['clients-title']">Clientes</h3>
     <k-center>
       <div :class="$style['clients-list']">
-        <img src="@/assets/clients/detran.png" alt="Detran" :class="$style['clients-logo']">
-        <img src="@/assets/clients/bdr.png" alt="BDR" :class="$style['clients-logo']">
-        <img src="@/assets/clients/s7.png" alt="S7" :class="$style['clients-logo']">
-        <img src="@/assets/clients/mobiliza.png" alt="Mobiliza" :class="$style['clients-logo']">
-        <img src="@/assets/clients/tivit.png" alt="Tivit" :class="$style['clients-logo']">
-        <img src="@/assets/clients/dot.png" alt="DOT" :class="$style['clients-logo']">
+        <template v-for="(client, index) in clients">
+          <div :key="index" :class="$style['client-item']">
+            <img :src="client.image" :alt="client.title">
+          </div>
+        </template>
       </div>
     </k-center>
   </div>
@@ -48,15 +47,17 @@ export default {
 
 .clients-list {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.clients-logo {
-  margin-bottom: 45px;
-  margin-left: 25px;
-  margin-right: 25px;
+.client-item {
+  height: 140px;
+  min-width: calc(100% / 5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 1023px) {
@@ -65,7 +66,7 @@ export default {
     justify-content: center;
   }
 
-  .clients-logo {
+  .client-item {
     margin-bottom: 20px;
   }
 }
