@@ -1,18 +1,7 @@
 <template>
-  <k-center>
-    <div :class="$style['post']">
-      <div :class="$style['post-back']">
-        <k-action
-          tag="nuxt-link"
-          :to="{ name: 'index' }"
-        >
-          <img src="@/assets/back.svg" alt="Voltar" loading="lazy" />
-        </k-action>
-      </div>
-      <k-svg
-        name="logo"
-        :class="$style['logo']"
-      />
+  <div :class="$style['post']">
+    <k-header-internal back @back="$router.push({ name: 'blog' })" />
+    <k-center>
       <div :class="$style['post-content-wrapper']">
         <div :class="$style['post-image-wrapper']">
           <img :src="post.image" alt="Imagem do post" :class="$style['post-image']" loading="lazy" />
@@ -24,20 +13,18 @@
           </div>
         </div>
       </div>
-    </div>
-  </k-center>
+    </k-center>
+  </div>
 </template>
 
 <script>
+import KHeaderInternal from '@/components/KHeaderInternal'
 import KCenter from '@/components/KCenter'
-import KSvg from '@/components/KSvg'
-import KAction from '@/components/KAction'
 
 export default {
   components: {
+    KHeaderInternal,
     KCenter,
-    KSvg,
-    KAction,
   },
 
   async asyncData({ $content, params }) {
@@ -53,71 +40,52 @@ export default {
 </script>
 
 <style lang="scss" module>
-.post {
-  padding-top: 80px;
+.post-content-wrapper {
   position: relative;
-
+  margin-bottom: 100px;
+  
   &::before {
     content: '';
     position: absolute;
-    top: 220px;
+    top: 150px;
     left: 0;
-    height: 520px;
+    height: 500px;
     width: 57px;
     background: linear-gradient(180deg, #F0E2BB 0%, #F1E8EB 100%), #F0E2BB;
     border-radius: 2px;
   }
 }
 
-.logo {
-  width: 61px;
-  height: 40px;
-  margin-left: 35px;
-  margin-bottom: 100px;
-}
-
-.post-back {
-  position: absolute;
-  top: 165px;
-  left: -28px;
-}
-
-.post-content-wrapper {
-  border: 1px solid #F0E2BB;
-  border-radius: 2px;
-  padding-bottom: 100px;
-}
-
 .post-image-wrapper {
   height: 300px;
   overflow: hidden;
-  margin-bottom: 55px;
-  margin-top: -55px;
+  margin-bottom: 40px;
 }
 
 .post-image {
-  height: 100%;
-  width: auto;
+  height: auto;
+  width: 100%;
+  object-fit: cover;
   display: block;
   margin: 0 auto;
 }
 
 .post-content {
-  max-width: 800px;
+  max-width: 715px;
   margin: 0 auto;
 }
 
 .post-title {
-  font-weight: 500;
   font-size: 40px;
-  line-height: 63px;
+  font-weight: 500;
+  line-height: 50px;
   letter-spacing: 0.2em;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 
 .post-body {
   font-size: 16px;
-  line-height: 28px;
+  line-height: 20px;
   letter-spacing: 0.1em;
 
   p {

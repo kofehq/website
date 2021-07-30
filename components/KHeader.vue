@@ -30,6 +30,7 @@ export default {
   align-items: center;
   justify-content: flex-end;
   height: 800px;
+  margin-top: -50px;
   margin-bottom: 100px;
 
   &::before {

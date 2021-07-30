@@ -1,0 +1,96 @@
+<template>
+  <div :class="$style['blog']">
+    <k-header-internal />
+    <k-center>
+      <div :class="$style['blog-list']">
+        <template v-for="(post, index) in filterPosts">
+          <k-blog-post :key="index" :post="post" :class="$style['blog-post']" />
+        </template>
+      </div>
+      <div :class="$style['blog-actions']">
+        <k-action
+          v-if="showLoadMore"
+          tag="button"
+          color="primary"
+          @click="loadMore"
+        >
+          Carregar mais
+        </k-action>
+      </div>
+
+    </k-center>
+  </div>
+</template>
+
+<script>
+import KHeaderInternal from '@/components/KHeaderInternal'
+import KCenter from '@/components/KCenter'
+import KAction from '@/components/KAction'
+import KBlogPost from '@/components/KBlogPost'
+
+export default {
+  components: {
+    KHeaderInternal,
+    KCenter,
+    KAction,
+    KBlogPost,
+  },
+
+  async asyncData({ $content }) {
+    const posts = await $content('blog')
+      .only(['title', 'description', 'image', 'slug'])
+      .sortBy('updatedAt')
+      .fetch()
+
+    return {
+      posts,
+    }
+  },
+
+  data () {
+    return {
+      limit: 4,
+    }
+  },
+
+  computed: {
+    filterPosts () {
+      return this.posts.slice(0, this.limit)
+    },
+
+    showLoadMore () {
+      return this.posts.length > this.limit
+    },
+  },
+
+  methods: {
+    loadMore () {
+      this.limit = this.limit + 4
+    },
+  },
+}
+</script>
+
+<style lang="scss" module>
+.blog-list {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+.blog-post {
+  margin-bottom: 20px;
+
+  &:nth-last-child(-n+2) {
+    margin-bottom: 0;
+  }
+}
+
+.blog-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+</style>

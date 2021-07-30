@@ -91,7 +91,7 @@ export default {
   font-size: 14px;
   font-weight: 800;
   letter-spacing: 0.3em;
-  color: rgba(#89536B, 0.8);
+  color: rgba(#58223A, 0.8);
   border: 1px solid #f0e2bb;
   border-radius: 2px;
   height: 50px;

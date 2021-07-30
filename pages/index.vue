@@ -1,21 +1,26 @@
 <template>
-  <div>
+  <div :class="$style['page']">
+    <k-center>
+      <k-menu />
+    </k-center>
     <k-header />
     <main>
       <k-digital />
-      <k-services />
-      <k-design-sprint />
+      <k-services ref="servicos" />
+      <k-design-sprint ref="design" />
       <k-highlights :highlights="highlights" />
       <k-testimonial :testimonials="testimonials" />
-      <k-projects :projects="projects" />
-      <k-clients :clients="clients" />
+      <k-projects ref="projetos" :projects="projects" />
+      <k-clients ref="clientes" :clients="clients" />
       <k-zaman />
-      <k-blog :posts="posts" />
+      <k-blog ref="blog" :posts="posts" />
     </main>
   </div>
 </template>
 
 <script>
+import KCenter from '@/components/KCenter'
+import KMenu from '@/components/KMenu'
 import KHeader from '@/components/KHeader'
 import KServices from '@/components/KServices'
 import KDigital from '@/components/KDigital'
@@ -29,6 +34,8 @@ import KBlog from '@/components/KBlog'
 
 export default {
   components: {
+    KCenter,
+    KMenu,
     KHeader,
     KServices,
     KDigital,
@@ -71,6 +78,37 @@ export default {
       posts,
       clients,
     }
+  },
+
+  watch: {
+    '$route' () {
+      this.scrollToHash()
+    }
+  },
+
+  mounted () {
+    this.scrollToHash()
+  },
+
+  methods: {
+    scrollToHash () {
+      if (this.$route.hash) {
+      const hash = this.$route.hash.replace('#', '')
+      const element = this.$refs[hash].$el
+      const topPosition = element.getBoundingClientRect().top
+  
+      window.scrollTo({
+        top: topPosition,
+        behavior: 'smooth'
+      })
+    }
+    }
   }
 }
 </script>
+
+<style lang="scss" module>
+.page {
+  padding-top: 30px;
+}
+</style>
