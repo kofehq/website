@@ -23,11 +23,6 @@ export default {
           'https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;600;800&display=swap',
       },
     ],
-    script: [
-      {
-        src: 'https://identity.netlify.com/v1/netlify-identity-widget.js'
-      }
-    ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
