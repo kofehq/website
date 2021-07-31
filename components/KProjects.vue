@@ -12,7 +12,7 @@
             :leave-active-class="$style['slide-leave-active']"
           >
             <div v-if="currentIndex === index" :class="$style['project']">
-              <h4 :class="$style['project-title']">{{ project.title }}</h4>
+              <h3 :class="$style['project-title']">{{ project.title }}</h3>
               <img :src="project.image" :alt="project.title" :class="$style['project-image']" width="815" height="459">
             </div>
           </transition>
