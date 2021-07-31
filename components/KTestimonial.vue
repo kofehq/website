@@ -8,7 +8,7 @@
             type="button"
             @click="prevSlide"
           >
-            <img src="@/assets/btn-prev.svg" alt="">
+            <img src="@/assets/btn-prev.svg" alt="Seta para esquerda" width="26" height="28">
           </k-action>
           <div :class="$style['testimonial-nav-list']">
             <template v-for="(testimonial, index) in testimonials">
@@ -24,7 +24,7 @@
             type="button"
             @click="nextSlide"
           >
-            <img src="@/assets/btn-next.svg" alt="">
+            <img src="@/assets/btn-next.svg" alt="Seta para a direita" width="26" height="28">
           </k-action>
         </div>
         <template v-for="(testimonial, index) in testimonials">
@@ -38,7 +38,7 @@
             <div v-if="currentIndex === index" :class="$style['testimonial-item']">
               <div :class="$style['testimonial-user']">
                 <div :class="$style['testimonial-user-image-wrapper']">
-                  <img :src="testimonial.image" alt="" :class="$style['testimonial-user-image']">
+                  <img :src="testimonial.image" :alt="`Foto de ${testimonial.name}`" :class="$style['testimonial-user-image']" width="80" height="80">
                 </div>
                 <span :class="$style['testimonial-user-name']">{{ testimonial.name }}</span>
                 <span :class="$style['testimonial-user-company']">{{ testimonial.company }}</span>

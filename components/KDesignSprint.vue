@@ -3,7 +3,7 @@
     <k-center>
       <div :class="$style['design-sprint-content']">
         <div :class="$style['design-sprint-image-wrapper']">
-          <img src="@/assets/design-sprint.png" alt="" :class="$style['design-sprint-image']">
+          <img src="@/assets/design-sprint.png" alt="Bruna Ferencz" :class="$style['design-sprint-image']" width="530" height="483">
           <p :class="$style['design-sprint-image-description']">Facilitação profissional pela Designer Bruna Ferencz, certificada por Jake Knapp e a agência AJ&Smart, baseada em Berlim.</p>
         </div>
         <div>

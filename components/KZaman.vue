@@ -2,7 +2,7 @@
   <div :class="$style['zaman']">
     <k-center>
       <div :class="$style['zaman-content']">
-        <img src="@/assets/chimp02.png" alt="Macaco">
+        <img src="@/assets/chimp02.png" alt="Macaco" width="461" height="899">
         <div :class="$style['zaman-content-inner']">
           <h3 :class="$style['zaman-title']">Aplicativo Zaman</h3>
           <p :class="$style['zaman-description']">Um APP para facilitar a gestão do seu ponto. Pode ser utilizado com diferentes serviços de controle, confira!</p>

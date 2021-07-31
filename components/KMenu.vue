@@ -1,7 +1,7 @@
 <template>
   <div :class="$style['menu-wrapper']">
     <k-action :class="$style['menu-btn']" @click="showMenu = true">
-      <img src="@/assets/menu.svg" alt="Menu" />
+      <img src="@/assets/menu.svg" alt="Menu" width="56" height="55" />
     </k-action>
     <div
       v-if="showMenu"
@@ -12,7 +12,7 @@
         :class="$style['menu-close']"
         @click="showMenu = false"
       >
-        <img src="@/assets/close.svg" alt="Fechar">
+        <img src="@/assets/close.svg" alt="Fechar" width="32" height="32">
       </k-action>
       <div :class="$style['menu-list']">
         <k-action
@@ -52,7 +52,7 @@
             target="_blank"
             :class="$style['menu-social-link']"
           >
-            <img src="@/assets/spotify.svg" alt="Spotify" :class="$style['menu-social-image']">
+            <img src="@/assets/spotify.svg" alt="Spotify" :class="$style['menu-social-image']" width="27" height="26">
           </k-action>
           <k-action
             tag="a"
@@ -60,7 +60,7 @@
             target="_blank"
             :class="$style['menu-social-link']"
           >
-            <img src="@/assets/instagram.svg" alt="Instagram" :class="$style['menu-social-image']">
+            <img src="@/assets/instagram.svg" alt="Instagram" :class="$style['menu-social-image']" width="26" height="26">
           </k-action>
           <k-action
             tag="a"
@@ -68,7 +68,7 @@
             target="_blank"
             :class="$style['menu-social-link']"
           >
-            <img src="@/assets/facebook.svg" alt="Facebook" :class="$style['menu-social-image']">
+            <img src="@/assets/facebook.svg" alt="Facebook" :class="$style['menu-social-image']" width="26" height="26">
           </k-action>
           <k-action
             tag="a"
@@ -76,7 +76,7 @@
             target="_blank"
             :class="$style['menu-social-link']"
           >
-            <img src="@/assets/linkedin.svg" alt="Linkedin" :class="$style['menu-social-image']">
+            <img src="@/assets/linkedin.svg" alt="Linkedin" :class="$style['menu-social-image']" width="27" height="26">
           </k-action>
           <k-action
             tag="a"
@@ -84,7 +84,7 @@
             target="_blank"
             :class="$style['menu-social-link']"
           >
-            <img src="@/assets/whatsapp.svg" alt="Whatsapp" :class="$style['menu-social-image']">
+            <img src="@/assets/whatsapp.svg" alt="Whatsapp" :class="$style['menu-social-image']" width="27" height="27">
           </k-action>
           <k-action
             tag="a"
@@ -92,7 +92,7 @@
             target="_blank"
             :class="$style['menu-social-link']"
           >
-            <img src="@/assets/mail.svg" alt="Email" :class="$style['menu-social-image']">
+            <img src="@/assets/mail.svg" alt="Email" :class="$style['menu-social-image']" width="26" height="18">
           </k-action>
           <k-action
             tag="a"
@@ -100,7 +100,7 @@
             target="_blank"
             :class="$style['menu-social-link']"
           >
-            <img src="@/assets/pin.svg" alt="Pin" :class="$style['menu-social-image']">
+            <img src="@/assets/pin.svg" alt="Pin" :class="$style['menu-social-image']" width="23" height="27">
           </k-action>
         </div>
       </div>

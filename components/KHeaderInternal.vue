@@ -8,7 +8,7 @@
           :class="$style['header-back']"
           @click="$emit('back')"
         >
-          <img src="@/assets/back.svg" alt="Voltar">
+          <img src="@/assets/back.svg" alt="Voltar" width="56" height="55">
         </k-action>
         <k-menu v-else />
         <k-svg

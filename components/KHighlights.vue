@@ -4,7 +4,7 @@
       <h2 :class="$style['highlights-title']">4 dias de imersão em floripa</h2>
       <template v-for="(highlight, index) in highlights">
         <div :key="index" :class="$style['highlight']">
-          <img :src="highlight.image" :class="$style['highlight-image']">
+          <img :src="highlight.image" :class="$style['highlight-image']" width="754" height="440">
           <p :class="$style['highlight-description']">{{ highlight.description }}</p>
         </div>
       </template>

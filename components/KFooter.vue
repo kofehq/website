@@ -15,7 +15,7 @@
             target="_blank"
             :class="$style['footer-social-link']"
           >
-            <img src="@/assets/spotify.svg" alt="Spotify">
+            <img src="@/assets/spotify.svg" alt="Spotify" width="27" height="26">
           </k-action>
           <k-action
             tag="a"
@@ -23,7 +23,7 @@
             target="_blank"
             :class="$style['footer-social-link']"
           >
-            <img src="@/assets/instagram.svg" alt="Instagram">
+            <img src="@/assets/instagram.svg" alt="Instagram" width="26" height="26">
           </k-action>
           <k-action
             tag="a"
@@ -31,7 +31,7 @@
             target="_blank"
             :class="$style['footer-social-link']"
           >
-            <img src="@/assets/facebook.svg" alt="Facebook">
+            <img src="@/assets/facebook.svg" alt="Facebook" width="26" height="26">
           </k-action>
           <k-action
             tag="a"
@@ -39,7 +39,7 @@
             target="_blank"
             :class="$style['footer-social-link']"
           >
-            <img src="@/assets/linkedin.svg" alt="Linkedin">
+            <img src="@/assets/linkedin.svg" alt="Linkedin" width="27" height="26">
           </k-action>
         </div>
         <div :class="$style['footer-info']">
@@ -49,7 +49,7 @@
               url="https://goo.gl/maps/t7jo9jXGKzrxe7dE8"
               target="_blank"
             >
-              <img src="@/assets/pin.svg" alt="Pin">
+              <img src="@/assets/pin.svg" alt="Pin" width="23" height="27">
             </k-action>
             <span :class="$style['footer-address-text']">Rua Lauro Linhares, 2123. Sala 402 Torre B. <br>Trindade, Florianópolis, SC – Brasil.</span>
           </div>
@@ -59,7 +59,7 @@
               url="mailto:hello@kofe.work"
               target="_blank"
             >
-              <img src="@/assets/mail.svg" alt="Email">
+              <img src="@/assets/mail.svg" alt="Email" width="26" height="18">
             </k-action>
             <span :class="$style['footer-mail-text']">hello@kofe.work</span>
           </div>
@@ -69,7 +69,7 @@
               url="https://api.whatsapp.com/send?phone=5548991409750&text=Ol%C3%A1!%20Gostaria%20de%20receber%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Kofe.%20Poderiam%20me%20ajudar%3F"
               target="_blank"
             >
-              <img src="@/assets/whatsapp.svg" alt="Whatsapp">
+              <img src="@/assets/whatsapp.svg" alt="Whatsapp" width="27" height="27">
             </k-action>
             <span :class="$style['footer-phone-text']">+55 48 99140-9750</span>
           </div>

@@ -4,21 +4,21 @@
       <h3 :class="$style['services-title']">Serviços</h3>
       <div :class="$style['services-list']">
         <div :class="$style['service-item']">
-          <img src="@/assets/clock.svg" alt="" :class="$style['service-icon']">
+          <img src="@/assets/clock.svg" alt="Relógio" :class="$style['service-icon']" width="42" height="41">
           <h4 :class="$style['service-title']">Design de interfaces</h4>
           <div :class="$style['service-description']">
             <p>Fazemos projetos de Design para produtos digitais, com foco nos objetivos da empresa e na experiência de uso que será promovida aos clientes.</p>
           </div>
         </div>
         <div :class="$style['service-item']">
-          <img src="@/assets/clock.svg" alt="" :class="$style['service-icon']">
+          <img src="@/assets/clock.svg" alt="Relógio" :class="$style['service-icon']" width="42" height="41">
           <h4 :class="$style['service-title']">Design Sprints</h4>
           <div :class="$style['service-description']">
             <p>Aplicamos o método Design Sprint, escrito no Google, para ajudar seu time a conceber, prototipar e testar projetos de interface em apenas QUATRO DIAS.</p>
           </div>
         </div>
         <div :class="$style['service-item']">
-          <img src="@/assets/clock.svg" alt="" :class="$style['service-icon']">
+          <img src="@/assets/clock.svg" alt="Relógio" :class="$style['service-icon']" width="42" height="41">
           <h4 :class="$style['service-title']">Front-end</h4>
           <div :class="$style['service-description']">
             <p>Entregamos interfaces com o código escrito em nível de desenvolvimento Front-end. Utilizamos frameworks como Vue JS e Nuxt.</p>

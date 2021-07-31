@@ -13,7 +13,7 @@
           >
             <div v-if="currentIndex === index" :class="$style['project']">
               <h4 :class="$style['project-title']">{{ project.title }}</h4>
-              <img :src="project.image" :alt="project.title" :class="$style['project-image']">
+              <img :src="project.image" :alt="project.title" :class="$style['project-image']" width="815" height="459">
             </div>
           </transition>
         </template>
@@ -23,7 +23,7 @@
           type="button"
           @click="prevSlide"
         >
-          <img src="@/assets/btn-prev-left.svg" alt="">
+          <img src="@/assets/btn-prev-left.svg" alt="Seta para esquerda" width="28" height="26">
         </k-action>
         <div :class="$style['projects-nav-list']">
           <template v-for="(project, index) in projects">
@@ -39,7 +39,7 @@
           type="button"
           @click="nextSlide"
         >
-          <img src="@/assets/btn-next-right.svg" alt="">
+          <img src="@/assets/btn-next-right.svg" alt="Seta para direita" width="28" height="26">
         </k-action>
       </div>
     </k-center>
