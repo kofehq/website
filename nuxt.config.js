@@ -12,7 +12,8 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { name: 'format-detection', content: 'telephone=no' },
+      { name: 'description', content: 'Kofe é um estúdio de design e desenvolvimento com sede em Florianópolis, Santa Catarina. Atende remotamente clientes de diferentes cidades do mundo, projetando interfaces para produtos digitais, como sistemas, plataformas, aplicativos e sites.' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
