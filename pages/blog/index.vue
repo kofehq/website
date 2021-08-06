@@ -53,6 +53,12 @@ export default {
     }
   },
 
+  head () {
+    return {
+      title: 'Kofe Design | Blog'
+    }
+  },
+
   computed: {
     filterPosts () {
       return this.posts.slice(0, this.limit)

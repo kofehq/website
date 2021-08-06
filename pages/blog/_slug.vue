@@ -35,7 +35,63 @@ export default {
     return {
       post: posts[0],
     }
-  }
+  },
+
+  head () {
+    const facebookMeta = [
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: this.post.title,
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: this.post.description,
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: this.post.image,
+      },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: this.$route.fullPath,
+      },
+    ]
+
+    const twitterMeta = [
+        {
+          hid: 'twitter:title',
+          property: 'twitter:title',
+          content: this.post.title,
+        },
+        {
+          hid: 'twitter:description',
+          property: 'twitter:description',
+          content: this.post.description,
+        },
+        {
+          hid: 'twitter:image',
+          property: 'twitter:image',
+          content: this.post.image,
+        },
+        {
+          hid: 'twitter:card',
+          property: 'twitter:card',
+          content: 'summary_large_image',
+        },
+      ]
+
+    return {
+      title: `Kofe Design | ${this.post.title}`,
+      meta: [
+        ...facebookMeta,
+        ...twitterMeta,
+      ],
+    }
+  },
 }
 </script>
 
