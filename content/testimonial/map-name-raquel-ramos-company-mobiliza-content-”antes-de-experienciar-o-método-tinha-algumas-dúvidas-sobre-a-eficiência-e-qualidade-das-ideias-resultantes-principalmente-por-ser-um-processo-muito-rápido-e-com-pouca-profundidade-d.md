@@ -1,5 +1,5 @@
 ---
-image: /img/testimonial-1.png
+image: /images/testimonial-1.png
 name: Raquel Ramos
 company: Mobiliza
 content: ”Antes de experienciar o método, tinha algumas dúvidas sobre a
