@@ -1,5 +1,5 @@
 ---
-image: /img/testimonial-3.png
+image: /images/testimonial-3.png
 name: Abel Silva
 company: Instituto Floripa Jazz
 content: ”Aprendizado! Penso que representa uma oportunidade de solução para
