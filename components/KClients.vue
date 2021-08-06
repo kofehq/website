@@ -54,7 +54,7 @@ export default {
 
 .client-item {
   height: 140px;
-  min-width: calc(100% / 5);
+  width: calc(100% / 5);
   display: flex;
   align-items: center;
   justify-content: center;
