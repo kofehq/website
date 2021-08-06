@@ -70,6 +70,7 @@ export default {
   color: #89536B;
   text-transform: uppercase;
   max-width: 310px;
+  height: 260px;
   margin-right: 40px;
 }
 
