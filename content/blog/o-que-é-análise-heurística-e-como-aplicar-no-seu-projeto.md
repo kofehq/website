@@ -1,5 +1,5 @@
 ---
-image: /img/blog-post-2.jpg
+image: /images/blog-2.jpg
 title: O que é análise heurística e como aplicar no seu projeto
 description: "Phasellus vestibulum turpis vitae pulvinar tempor. Fusce eget arcu
   dictum, pharetra justo sit amet, tempor dolor. Cras tempus arcu vel turpis
