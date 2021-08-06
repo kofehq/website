@@ -1,5 +1,5 @@
 ---
-image: /img/testimonial-2.png
+image: /images/testimonial-2.png
 name: Cristina Villar
 company: Instituto Floripa Jazz
 content: ”O Design Sprint facilitado por Bruna foi um processo muito intenso e
