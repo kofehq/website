@@ -6,6 +6,7 @@
         <div :class="$style['testimonial-nav']">
           <k-action
             type="button"
+            :class="$style['testimonial-nav-left']"
             @click="prevSlide"
           >
             <img src="@/assets/btn-prev.svg" alt="Seta para esquerda" width="26" height="28">
@@ -22,6 +23,7 @@
           </div>
           <k-action
             type="button"
+            :class="$style['testimonial-nav-right']"
             @click="nextSlide"
           >
             <img src="@/assets/btn-next.svg" alt="Seta para a direita" width="26" height="28">
@@ -86,7 +88,7 @@ export default {
 
     totalItems () {
       return this.testimonials.length
-    }
+    },
   },
 
   methods: {
@@ -172,6 +174,7 @@ export default {
   align-items: flex-end;
   width: 250px;
   margin-right: 120px;
+  flex-shrink: 0;
 }
 
 .testimonial-user-image-wrapper {
@@ -253,6 +256,76 @@ export default {
   }
   50%, 100% {
     opacity: 0;
+  }
+}
+
+@media (max-width: 1023px) {
+  .testimonial-nav {
+    left: 230px;
+  }
+
+  .testimonial-user {
+    width: 180px;
+  }
+
+  .testimonial-text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .testimonial {
+    margin-bottom: 100px;
+  }
+
+  .testimonial-nav {
+    flex-direction: row;
+    width: 235px;
+    height: auto;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 190px;
+  }
+
+  .testimonial-nav-left {
+    transform: rotate(-90deg);
+  }
+
+  .testimonial-nav-right {
+    transform: rotate(-90deg);
+  }
+
+  .testimonial-nav-list {
+    display: flex;
+    align-items: center;
+  }
+
+  .testimonial-nav-item {
+    width: 10px;
+    height: 2px;
+    margin: 0 10px;
+  }
+
+  .testimonial-list {
+    height: auto;
+  }
+
+  .testimonial-item {
+    flex-direction: column;
+    position: static;
+    height: auto;
+  }
+
+  .testimonial-user {
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+    margin-bottom: 100px;
+    width: 250px;
+  }
+
+  .testimonial-user-company {
+    text-align: center;
   }
 }
 </style>

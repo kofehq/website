@@ -77,8 +77,18 @@ export default {
     }
   }
 
-  .digital-description {
-    max-width: 420px;
+  .digital-title {
+    max-width: none;
+    text-align: center;
+    font-size: 50px;
   }
+
+  .digital-description {
+    max-width: none;
+  }
+}
+
+@media (max-width: 767px) {
+  
 }
 </style>

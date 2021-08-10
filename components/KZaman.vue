@@ -2,7 +2,7 @@
   <div :class="$style['zaman']">
     <k-center>
       <div :class="$style['zaman-content']">
-        <img src="@/assets/chimp02.png" alt="Macaco" width="461" height="899">
+        <img src="@/assets/chimp02.png" alt="Macaco" width="461" height="899" :class="$style['zaman-image']">
         <div :class="$style['zaman-content-inner']">
           <h3 :class="$style['zaman-title']">Aplicativo Zaman</h3>
           <p :class="$style['zaman-description']">Um APP para facilitar a gestão do seu ponto. Pode ser utilizado com diferentes serviços de controle, confira!</p>
@@ -82,11 +82,27 @@ export default {
 @media (max-width: 1023px) {
   .zaman-content {
     flex-direction: column;
+    padding-left: 0;
+
+    &::before {
+      top: 150px;
+      transform: none;
+      width: 300px;
+      height: 350px;
+    }
   }
 
   .zaman-content-inner {
-    margin-right: 0;
+    margin-left: 0;
     margin-bottom: 40px;
+    max-width: none;
+    text-align: center;
+  }
+
+  .zaman-image {
+    max-width: 461px;
+    width: 100%;
+    height: auto;
   }
 }
 </style>

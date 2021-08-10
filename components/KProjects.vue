@@ -6,8 +6,6 @@
         <template v-for="(project, index) in projects">
           <transition
             :key="index"
-            name="slide"
-            :duration="1500"
             :enter-active-class="$style[`${slideDirectionClass}-enter-active`]"
             :leave-active-class="$style['slide-leave-active']"
           >
@@ -230,6 +228,42 @@ export default {
   }
   50%, 100% {
     opacity: 0;
+  }
+}
+
+@media (max-width: 1023px) {
+  .projects-list {
+    background: none;
+    height: auto;
+
+    &::before {
+      content: unset;
+    }
+  }
+
+  .project {
+    position: static;
+    height: auto;
+  }
+
+  .project-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .slide-left-enter-active {
+    animation-name: unset;
+    animation-duration: 0s;
+  }
+
+  .slide-right-enter-active {
+    animation-name: unset;
+    animation-duration: 0s;
+  }
+
+  .slide-leave-active {
+    animation-name: unset;
+    animation-duration: 0s;
   }
 }
 </style>

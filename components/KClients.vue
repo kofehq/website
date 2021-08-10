@@ -5,7 +5,7 @@
       <div :class="$style['clients-list']">
         <template v-for="(client, index) in clients">
           <div :key="index" :class="$style['client-item']">
-            <img :src="client.image" :alt="client.title">
+            <img :src="client.image" :alt="client.title" :class="$style['client-image']">
           </div>
         </template>
       </div>
@@ -61,13 +61,29 @@ export default {
 }
 
 @media (max-width: 1023px) {
-  .clients-list {
-    flex-direction: column;
-    justify-content: center;
+  .client-item {
+    width: calc(100% / 3);
+  }
+}
+
+@media (max-width: 767px) {
+  .client-item {
+    width: calc(100% / 2);
   }
 
+  .client-image {
+    max-width: 90%;
+    height: auto;
+  }
+}
+
+@media (max-width: 320px) {
   .client-item {
-    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .client-image {
+    max-width: 100%;
   }
 }
 </style>

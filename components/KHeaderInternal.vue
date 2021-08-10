@@ -8,7 +8,7 @@
           :class="$style['header-back']"
           @click="$emit('back')"
         >
-          <img src="@/assets/back.svg" alt="Voltar" width="56" height="55">
+          <img src="@/assets/back.svg" alt="Voltar" width="56" height="55" :class="$style['header-back-image']">
         </k-action>
         <k-menu v-else />
         <k-svg
@@ -59,5 +59,18 @@ export default {
 
 .header-back {
   transform: translateX(-76px);
+}
+
+@media (max-width: 1250px) {
+  .header-back {
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 767px) {
+  .header-back-image {
+    width: 40px;
+    height: auto;
+  }
 }
 </style>

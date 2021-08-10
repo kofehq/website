@@ -1,7 +1,7 @@
 <template>
   <div :class="$style['menu-wrapper']">
     <k-action :class="$style['menu-btn']" @click="showMenu = true">
-      <img src="@/assets/menu.svg" alt="Menu" width="56" height="55" />
+      <img src="@/assets/menu.svg" alt="Menu" width="56" height="55" :class="$style['menu-btn-image']" />
     </k-action>
     <div
       v-if="showMenu"
@@ -150,6 +150,8 @@ export default {
 
 <style lang="scss" module>
 .menu-btn {
+  position: relative;
+  z-index: 999;
   transform: translateX(-76px);
 }
 
@@ -208,5 +210,26 @@ export default {
   justify-content: center;
   width: 30px;
   height: 30px;
+}
+
+@media (max-width: 1250px) {
+  .menu-btn {
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 767px) {
+  .menu-btn-image {
+    width: 40px;
+    height: auto;
+  }
+
+  .menu-list {
+    padding-left: 40px;
+  }
+
+  .menu-link {
+    font-size: 40px;
+  }
 }
 </style>

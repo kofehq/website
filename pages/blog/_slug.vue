@@ -165,14 +165,12 @@ export default {
     margin-bottom: 50px;
   }
 
-  .post {
+  .post-content-wrapper {
+    margin-bottom: 40px;
+
     &::before {
       display: none;
     }
-  }
-
-  .post-content-wrapper {
-    padding-bottom: 40px;
   }
 
   .post-image-wrapper {
@@ -188,6 +186,17 @@ export default {
 
   .post-content {
     margin: 0 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .post-content {
+    margin: 0;
+  }
+
+  .post-title {
+    font-size: 26px;
+    line-height: 30px;
   }
 }
 </style>

@@ -99,4 +99,10 @@ export default {
   justify-content: center;
   margin-top: 60px;
 }
+
+@media (max-width: 1023px) {
+  .blog-list {
+    flex-direction: column;
+  }
+}
 </style>

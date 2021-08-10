@@ -89,10 +89,59 @@ export default {
   .design-sprint-content {
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 100px;
+  }
+
+  .design-sprint-image-wrapper {
+    margin-right: 0;
+    margin-left: 0;
+    max-width: none;
+  }
+
+  .design-sprint-image {
+    margin: 0 auto;
+  }
+
+  .design-sprint-image-description {
+    max-width: none;
   }
 
   .design-sprint-description {
-    max-width: 400px;
+    max-width: none;
+  }
+
+  .design-sprint-title {
+    font-size: 50px;
+    max-width: none;
+    text-align: center;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .design-sprint-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .design-sprint-image-description {
+    font-size: 16px;
+  }
+
+  .design-sprint-title {
+    font-size: 35px;
+    letter-spacing: 0.2em;
+  }
+
+  .design-sprint-description {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 320px) {
+  .design-sprint-title {
+    font-size: 30px;
+    letter-spacing: 0.1em;
   }
 }
 </style>

@@ -180,18 +180,45 @@ export default {
 }
 
 @media (max-width: 1023px) {
-  .footer {
+  .footer-content {
     height: auto;
-    padding: 100px 0;
+    padding: 30px 0;
   }
 
-  .footer-content {
+  .footer-logo-wrapper {
+    margin-bottom: 40px;
+  }
+
+  .footer-social-media {
+    margin-bottom: 40px;
+  }
+
+  .footer-info {
     flex-direction: column;
   }
 
-  .footer-logo-wrapper,
+  .footer-address {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
   .footer-mail {
-    margin-bottom: 30px;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-address-text {
+    font-size: 16px;
+  }
+  
+  .footer-mail-text {
+    font-size: 16px;
+  }
+  
+  .footer-phone-text {
+    font-size: 16px;
   }
 }
 </style>

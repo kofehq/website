@@ -105,5 +105,10 @@ export default {
   }
 }
 
-
+@media (max-width: 767px) {
+  .btn-color-primary {
+    height: 40px;
+    padding: 0 20px;
+  }
+}
 </style>

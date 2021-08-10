@@ -98,13 +98,15 @@ export default {
   .header-logo {
     width: 60px;
     height: auto;
-    top: 40px;
+    top: 10px;
+    left: auto;
+    right: 40px;
   }
 
   .header-image {
     position: static;
     max-width: 340px;
-    width: auto;
+    width: 100%;
     height: auto;
     margin-right: -50px;
   }
@@ -112,6 +114,12 @@ export default {
   .header-title {
     margin-right: 0;
     margin-top: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header-image {
+    margin-right: 0;
   }
 }
 </style>

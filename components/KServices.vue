@@ -115,6 +115,10 @@ export default {
 }
 
 @media (max-width: 1023px) {
+  .services {
+    margin-bottom: 100px;
+  }
+
   .services-list {
     flex-direction: column;
     align-items: center;
@@ -123,6 +127,8 @@ export default {
 
   .service-item {
     margin-bottom: 20px;
+    max-width: none;
+    margin-right: 0;
   }
 }
 </style>

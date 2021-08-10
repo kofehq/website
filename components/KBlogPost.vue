@@ -103,6 +103,8 @@ export default {
 
 @media (max-width: 1023px) {
   .blog-post {
+    max-width: none;
+
     &:first-child {
       margin-right: 0;
       margin-bottom: 40px;
@@ -112,6 +114,30 @@ export default {
   .blog-post-image {
     width: 100%;
     height: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .blog-post {
+    padding-left: 10px;
+    
+    &::before {
+      width: 10px;
+    }
+  }
+
+  .blog-post-image-wrapper {
+    height: auto;
+    max-height: 120px;
+  }
+
+  .blog-post-title {
+    // font-size: 18px;
+    letter-spacing: 0.1em;
+  }
+
+  .blog-post-description {
+    font-size: 16px;
   }
 }
 </style>
