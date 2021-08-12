@@ -89,8 +89,29 @@ export default {
 }
 
 @media (max-width: 767px) {
+  .digital {
+    margin-bottom: 100px;
+  }
+  
   .digital-title {
     font-size: 40px;
+  }
+
+  .digital-description {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 320px) {
+  .digital {
+    &::after {
+      height: 250px;
+    }
+  }
+
+  .digital-title {
+    font-size: 30px;
+    line-height: 50px;
   }
 }
 </style>

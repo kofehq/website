@@ -122,4 +122,18 @@ export default {
     margin-right: 0;
   }
 }
+
+@media (max-width: 320px) {
+  .header {
+    &::before {
+      height: 300px;
+    }
+  }
+
+  .header-title {
+    height: auto;
+    font-size: 30px;
+    text-align: center;
+  }
+}
 </style>

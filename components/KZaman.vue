@@ -11,6 +11,7 @@
             url="https://play.google.com/store/apps/details?id=com.zaman&hl=pt"
             target="_blank"
             color="primary"
+            :class="$style['zaman-button']"
           >
             Baixe grátis para android
           </k-action>
@@ -103,6 +104,15 @@ export default {
     max-width: 461px;
     width: 100%;
     height: auto;
+  }
+}
+
+@media (max-width: 320px) {
+  .zaman {
+    .zaman-button {
+      padding: 0 10px;
+      font-size: 13px;
+    }
   }
 }
 </style>

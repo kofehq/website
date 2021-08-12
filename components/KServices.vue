@@ -131,4 +131,11 @@ export default {
     margin-right: 0;
   }
 }
+
+@media (max-width: 767px) {
+  .services-title {
+    height: auto;
+    margin-bottom: 30px;
+  }
+}
 </style>

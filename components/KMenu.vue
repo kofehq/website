@@ -219,9 +219,18 @@ export default {
 }
 
 @media (max-width: 767px) {
+
+  .menu-wrapper {
+    min-height: 42px;
+  }
+
   .menu-close {
     top: 20px;
     left: 20px;
+  }
+
+  .menu-btn {
+    position: fixed;
   }
 
   .menu-btn-image {

@@ -124,8 +124,6 @@ export default {
 
     checkHeight () {
       this.height = this.$refs.testimonial[0].offsetHeight
-      // eslint-disable-next-line no-console
-      console.log(this.$refs.testimonial[0], this.height)
     },
   }
 }
