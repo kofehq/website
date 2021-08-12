@@ -27,7 +27,7 @@
           </k-action>
           <k-action
             tag="a"
-            url="https://www.facebook.com/kofe.work/"
+            url="https://www.facebook.com/kofe.design/"
             target="_blank"
             :class="$style['footer-social-link']"
           >
@@ -56,12 +56,12 @@
           <div :class="$style['footer-mail']">
             <k-action
               tag="a"
-              url="mailto:hello@kofe.work"
+              url="mailto:atelie@kofe.design"
               target="_blank"
             >
               <img src="@/assets/mail.svg" alt="Email" width="26" height="18">
             </k-action>
-            <span :class="$style['footer-mail-text']">hello@kofe.work</span>
+            <span :class="$style['footer-mail-text']">atelie@kofe.design</span>
           </div>
           <div :class="$style['footer-phone']">
             <k-action

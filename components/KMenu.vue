@@ -64,7 +64,7 @@
           </k-action>
           <k-action
             tag="a"
-            url="https://www.facebook.com/kofe.work/"
+            url="https://www.facebook.com/kofe.design/"
             target="_blank"
             :class="$style['menu-social-link']"
           >
@@ -88,7 +88,7 @@
           </k-action>
           <k-action
             tag="a"
-            url="mailto:hello@kofe.work"
+            url="mailto:atelie@kofe.design"
             target="_blank"
             :class="$style['menu-social-link']"
           >
