@@ -173,7 +173,7 @@ export default {
 .testimonial-list {
   min-height: 200px;
   position: relative;
-  transition: height 200ms;
+  transition: height 400ms;
 }
 
 .testimonial-item {
