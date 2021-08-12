@@ -15,6 +15,7 @@
             </div>
           </transition>
         </template>
+        <img :src="projects[0].image" alt="Placeholder image" :class="$style['project-image-placeholder']" width="815" height="459" aria-hidden="true">
       </div>
       <div :class="$style['projects-nav']">
         <k-action
@@ -120,9 +121,11 @@ export default {
 
 .projects-list {
   background: url('~@/assets/computer.svg') no-repeat center bottom;
-  height: 600px;
+  height: 100%;
   position: relative;
   overflow: hidden;
+  padding-top: 75px;
+  padding-bottom: 66px;
 
   &::before {
     content: '';
@@ -166,22 +169,32 @@ export default {
   position: absolute;
   top: 0;
   z-index: 10;
+  padding-top: 75px;
   height: 100%;
   width: 100%;
 }
 
 .project-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
   font-weight: 300;
   font-size: 20px;
   line-height: 20px;
   text-align: center;
   letter-spacing: 0.1em;
-  margin-bottom: 55px;
 }
 
 .project-image {
   display: block;
   margin: 0 auto;
+}
+
+.project-image-placeholder {
+  display: block;
+  margin: 0 auto;
+  visibility: hidden;
 }
 
 .slide-left-enter-active {
@@ -232,9 +245,18 @@ export default {
 }
 
 @media (max-width: 1023px) {
+  .projects {
+    margin-bottom: 100px;
+  }
+
+  .projects-title {
+    font-size: 50px;
+  }
+
   .projects-list {
     background: none;
-    height: auto;
+    padding-bottom: 0;
+    padding-top: 50px;
 
     &::before {
       content: unset;
@@ -242,8 +264,7 @@ export default {
   }
 
   .project {
-    position: static;
-    height: auto;
+    padding-top: 50px;
   }
 
   .project-image {
@@ -251,19 +272,19 @@ export default {
     height: auto;
   }
 
-  .slide-left-enter-active {
-    animation-name: unset;
-    animation-duration: 0s;
+  .project-image-placeholder {
+    width: 100%;
+    height: auto;
   }
+}
 
-  .slide-right-enter-active {
-    animation-name: unset;
-    animation-duration: 0s;
+@media (max-width: 767px) {
+  .projects-title {
+    font-size: 40px;
   }
-
-  .slide-leave-active {
-    animation-name: unset;
-    animation-duration: 0s;
+  
+  .project-title {
+    font-size: 16px;
   }
 }
 </style>

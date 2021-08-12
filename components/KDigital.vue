@@ -89,6 +89,8 @@ export default {
 }
 
 @media (max-width: 767px) {
-  
+  .digital-title {
+    font-size: 40px;
+  }
 }
 </style>

@@ -2,7 +2,7 @@
   <div :class="$style['testimonial']">
     <k-center>
       <h2 :class="$style['testimonial-title']">Feedback dos clientes</h2>
-      <div :class="$style['testimonial-list']">
+      <div :class="$style['testimonial-list']" :style="listStylesObj">
         <div :class="$style['testimonial-nav']">
           <k-action
             type="button"
@@ -33,11 +33,10 @@
           <transition
             :key="index"
             name="slide"
-            :duration="1500"
             :enter-active-class="$style[`${slideDirectionClass}-enter-active`]"
             :leave-active-class="$style['slide-leave-active']"
           >
-            <div v-if="currentIndex === index" :class="$style['testimonial-item']">
+            <div v-if="currentIndex === index" ref="testimonial" :class="$style['testimonial-item']">
               <div :class="$style['testimonial-user']">
                 <div :class="$style['testimonial-user-image-wrapper']">
                   <img :src="testimonial.image" :alt="`Foto de ${testimonial.name}`" :class="$style['testimonial-user-image']" width="80" height="80">
@@ -73,6 +72,7 @@ export default {
 
   data () {
     return {
+      height: null,
       currentIndex: 0,
       direction: null,
     }
@@ -89,6 +89,16 @@ export default {
     totalItems () {
       return this.testimonials.length
     },
+
+    listStylesObj () {
+      return {
+        height: `${this.height}px`
+      }
+    },
+  },
+
+  mounted () {
+    this.checkHeight()
   },
 
   methods: {
@@ -99,6 +109,7 @@ export default {
       } else {
         this.currentIndex = 0
       }
+      this.$nextTick(this.checkHeight)
     },
 
     prevSlide () {
@@ -108,7 +119,14 @@ export default {
       } else {
         this.currentIndex = this.totalItems - 1
       }
-    }
+      this.$nextTick(this.checkHeight)
+    },
+
+    checkHeight () {
+      this.height = this.$refs.testimonial[0].offsetHeight
+      // eslint-disable-next-line no-console
+      console.log(this.$refs.testimonial[0], this.height)
+    },
   }
 }
 </script>
@@ -155,17 +173,18 @@ export default {
 }
 
 .testimonial-list {
-  height: 200px;
+  min-height: 200px;
   position: relative;
+  transition: height 200ms;
 }
 
 .testimonial-item {
   position: absolute;
-  top: 0;
+  top: 50%;
   z-index: 10;
-  height: 100%;
   display: flex;
   align-items: center;
+  transform: translateY(-50%);
 }
 
 .testimonial-user {
@@ -196,6 +215,7 @@ export default {
   font-weight: 700;
   line-height: 20px;
   letter-spacing: 0.2em;
+  text-align: right;
 }
 
 .testimonial-user-company {
@@ -203,6 +223,7 @@ export default {
   font-weight: 300;
   line-height: 20px;
   letter-spacing: 0.2em;
+  text-align: right;
 }
 
 .testimonial-text {
@@ -220,11 +241,11 @@ export default {
 @keyframes slide-top-in {
   0%, 20% {
     opacity: 0;
-    transform: translateY(50%);
+    transform: translateY(0);
   }
   100% {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(-50%);
   }
 }
 
@@ -236,11 +257,11 @@ export default {
 @keyframes slide-bottom-in {
   0%, 20% {
     opacity: 0;
-    transform: translateY(-50%);
+    transform: translateY(-100%);
   }
   100% {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(-50%);
   }
 }
 
@@ -254,7 +275,7 @@ export default {
   0% {
     opacity: 1;
   }
-  50%, 100% {
+  20%, 100% {
     opacity: 0;
   }
 }
@@ -308,12 +329,13 @@ export default {
 
   .testimonial-list {
     height: auto;
+    overflow: hidden;
   }
 
   .testimonial-item {
     flex-direction: column;
-    position: static;
-    height: auto;
+    top: 0;
+    transform: none;
   }
 
   .testimonial-user {
@@ -326,6 +348,38 @@ export default {
 
   .testimonial-user-company {
     text-align: center;
+  }
+
+  .slide-top-enter-active {
+    animation-name: slide-left-in;
+    animation-duration: 0.5s;
+  }
+
+  @keyframes slide-left-in {
+    0%, 20% {
+      opacity: 0;
+      transform: translateX(50%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .slide-bottom-enter-active {
+    animation-name: slide-right-in;
+    animation-duration: 0.5s;
+  }
+
+  @keyframes slide-right-in {
+    0%, 20% {
+      opacity: 0;
+      transform: translateX(-50%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
   }
 }
 </style>

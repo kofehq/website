@@ -219,17 +219,39 @@ export default {
 }
 
 @media (max-width: 767px) {
+  .menu-close {
+    top: 20px;
+    left: 20px;
+  }
+
   .menu-btn-image {
     width: 40px;
     height: auto;
   }
 
   .menu-list {
-    padding-left: 40px;
+    margin-top: 40px;
+    padding-left: 30px;
   }
 
   .menu-link {
     font-size: 40px;
+  }
+
+  .menu-social-media {
+    max-width: 70%;
+    flex-wrap: wrap;
+  }
+
+  .menu-social-link {
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .menu-link {
+    font-size: 30px;
   }
 }
 </style>
