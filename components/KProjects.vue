@@ -1,5 +1,5 @@
 <template>
-  <div :class="$style['projects']">
+  <div :class="$style['projects']" data-aos="fade-up">
     <k-center>
       <h2 :class="$style['projects-title']">Projetos</h2>
       <div :class="$style['projects-list']">

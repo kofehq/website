@@ -2,11 +2,11 @@
   <div :class="$style['design-sprint']">
     <k-center>
       <div :class="$style['design-sprint-content']">
-        <div :class="$style['design-sprint-image-wrapper']">
+        <div :class="$style['design-sprint-image-wrapper']" data-aos="fade-right">
           <img src="@/assets/design-sprint.png" alt="Bruna Ferencz" :class="$style['design-sprint-image']" width="530" height="483">
           <p :class="$style['design-sprint-image-description']">Facilitação profissional pela Designer Bruna Ferencz, certificada por Jake Knapp e a agência AJ&Smart, baseada em Berlim.</p>
         </div>
-        <div>
+        <div data-aos="fade-left">
           <h3 :class="$style['design-sprint-title']">Design sprints</h3>
           <div :class="$style['design-sprint-description']">
             <p>Facilitamos o método Design Sprint 2.0 por sua capacidade de alcançar resultados de alta qualidade em apenas quatro dias. </p>

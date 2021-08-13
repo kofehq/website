@@ -1,6 +1,6 @@
 <template>
   <k-center>  
-    <div :class="$style['digital']">
+    <div :class="$style['digital']" data-aos="fade-right">
       <h3 :class="$style['digital-title']">Interfaces digitais</h3>
       <div :class="$style['digital-description']">
         <p>Websites, Aplicativos, Portais,  Sistemas e até cursos online, são alguns exemplos de interfaces digitais utilizadas para promover a interação com clientes por meio de diferentes dispositivos.</p>

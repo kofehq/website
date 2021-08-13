@@ -2,8 +2,8 @@
   <div :class="$style['zaman']">
     <k-center>
       <div :class="$style['zaman-content']">
-        <img src="@/assets/chimp02.png" alt="Macaco" width="461" height="899" :class="$style['zaman-image']">
-        <div :class="$style['zaman-content-inner']">
+        <img src="@/assets/chimp02.png" alt="Macaco" width="461" height="899" :class="$style['zaman-image']" data-aos="fade-right">
+        <div :class="$style['zaman-content-inner']" data-aos="fade-left">
           <h3 :class="$style['zaman-title']">Aplicativo Zaman</h3>
           <p :class="$style['zaman-description']">Um APP para facilitar a gestão do seu ponto. Pode ser utilizado com diferentes serviços de controle, confira!</p>
           <k-action

@@ -4,10 +4,10 @@
       <h3 :class="$style['blog-title']">Últimos posts</h3>
       <div :class="$style['blog-list']">
         <template v-for="(post, index) in posts">
-          <k-blog-post :key="index" :post="post" />
+          <k-blog-post :key="index" :post="post" data-aos="fade-up" :data-aos-delay="`${200 * index}`" />
         </template>
       </div>
-      <div :class="$style['blog-actions']">
+      <div :class="$style['blog-actions']" data-aos="fade-up">
         <k-action
           tag="nuxt-link"
           color="primary"

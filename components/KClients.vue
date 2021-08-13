@@ -1,10 +1,10 @@
 <template>
   <div :class="$style['clients']">
-    <h3 :class="$style['clients-title']">Clientes</h3>
+    <h3 :class="$style['clients-title']" data-aos="fade-down">Clientes</h3>
     <k-center>
       <div :class="$style['clients-list']">
         <template v-for="(client, index) in clients">
-          <div :key="index" :class="$style['client-item']">
+          <div :key="index" :class="$style['client-item']" data-aos="fade-up" :data-aos-delay="`${200 * index}`">
             <img :src="client.image" :alt="client.title" :class="$style['client-image']">
           </div>
         </template>

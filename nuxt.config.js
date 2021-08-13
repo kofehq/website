@@ -23,6 +23,11 @@ export default {
         href:
           'https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;600;800&display=swap',
       },
+      {
+        rel: 'stylesheet',
+        href:
+          'https://unpkg.com/aos@next/dist/aos.css',
+      },
     ],
   },
 
@@ -33,7 +38,7 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     { src: '@/plugins/vueMq' },
-    { src: '@/plugins/vueAos' },
+    { src: '@/plugins/aos', ssr: false, },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -45,7 +50,21 @@ export default {
     '@nuxtjs/eslint-module',
     '@nuxtjs/svg',
     '@nuxtjs/style-resources',
+    'nuxt-purgecss'
   ],
+
+  purgeCSS: {
+    whitelist: [
+      'aos-init',
+      'aos-animate',
+      'data-aos-delay',
+      'data-aos-duration',
+      'fade-up',
+      'fade-left',
+      'fade-right',
+      'flip-left',
+    ],
+  },
 
   styleResources: {
     scss: ['@/assets/css/_variables.scss'],

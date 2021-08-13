@@ -1,9 +1,9 @@
 <template>
   <div :class="$style['highlights']">
     <k-center>
-      <h2 :class="$style['highlights-title']">4 dias de imersão em floripa</h2>
+      <h2 :class="$style['highlights-title']" data-aos="fade-down">4 dias de imersão em floripa</h2>
       <template v-for="(highlight, index) in highlights">
-        <div :key="index" :class="$style['highlight']">
+        <div :key="index" :class="$style['highlight']" data-aos="fade-up">
           <div :class="$style['highligh-image-wrapper']">
             <img :src="highlight.image" :class="$style['highlight-image']" width="754" height="440" :alt="`Imagem destaque ${index}`">
           </div>
