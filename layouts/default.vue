@@ -1,6 +1,5 @@
 <template>
   <div>
-    Teste
     <Nuxt />
     <k-footer />
   </div>
