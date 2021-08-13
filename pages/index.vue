@@ -104,15 +104,15 @@ export default {
   methods: {
     scrollToHash () {
       if (this.$route.hash) {
-      const hash = this.$route.hash.replace('#', '')
-      const element = this.$refs[hash].$el
-      const topPosition = element.getBoundingClientRect().top
-  
-      window.scrollTo({
-        top: topPosition,
-        behavior: 'smooth'
-      })
-    }
+        const hash = this.$route.hash.replace('#', '')
+        const element = this.$refs[hash].$el
+        const topPosition = element.getBoundingClientRect().top
+    
+        window.scrollTo({
+          top: topPosition,
+          behavior: 'smooth'
+        })
+      }
     }
   }
 }
