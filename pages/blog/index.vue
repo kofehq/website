@@ -27,6 +27,7 @@ import KHeaderInternal from '@/components/KHeaderInternal'
 import KCenter from '@/components/KCenter'
 import KAction from '@/components/KAction'
 import KBlogPost from '@/components/KBlogPost'
+import head from '~/mixins/head'
 
 export default {
   components: {
@@ -35,6 +36,8 @@ export default {
     KAction,
     KBlogPost,
   },
+
+  mixins: [head],
 
   async asyncData({ $content }) {
     const posts = await $content('blog')
@@ -55,7 +58,10 @@ export default {
 
   head () {
     return {
-      title: 'Kofe Design | Blog'
+      title: 'Kofe Design | Blog',
+      meta: [
+        ...this.meta,
+      ]
     }
   },
 

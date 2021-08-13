@@ -31,6 +31,7 @@ import KProjects from '@/components/KProjects'
 import KZaman from '@/components/KZaman'
 import KClients from '@/components/KClients'
 import KBlog from '@/components/KBlog'
+import head from '~/mixins/head'
 
 export default {
   components: {
@@ -47,6 +48,8 @@ export default {
     KClients,
     KBlog,
   },
+
+  mixins: [head],
 
   async asyncData({ $content }) {
     const highlights = await $content('highlights')
@@ -77,6 +80,14 @@ export default {
       projects,
       posts,
       clients,
+    }
+  },
+
+  head () {
+    return {
+      meta: [
+        ...this.meta,
+      ]
     }
   },
 
