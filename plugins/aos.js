@@ -7,7 +7,7 @@ const isBot = navigator.userAgent && botRegex.test(navigator.userAgent)
 
 if (!isBot) {
   Vue.use(AOS.init({
-    disable: 'phone'
+    disable: 'mobile'
   }))
 }
 
