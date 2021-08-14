@@ -171,7 +171,7 @@ export default {
 }
 
 .testimonial-list {
-  min-height: 200px;
+  min-height: 250px;
   position: relative;
   transition: height 400ms;
 }
