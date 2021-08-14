@@ -87,7 +87,8 @@ export default {
     return {
       meta: [
         ...this.meta,
-      ]
+      ],
+      script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
     }
   },
 
