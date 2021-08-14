@@ -2,6 +2,8 @@ backend:
   name: git-gateway
   branch: v2 # Branch to update (optional; defaults to master)
 
+site_url: https://v2.kofe.design
+display_url: https://v2.kofe.design
 media_folder: static/images
 public_folder: /images
 locale: pt
