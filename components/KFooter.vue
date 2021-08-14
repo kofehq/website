@@ -133,15 +133,15 @@ export default {
 }
 
 .footer-info {
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .footer-address {
   display: flex;
   align-items: center;
-  margin-right: 60px;
 }
 
 .footer-address-text {
@@ -155,7 +155,6 @@ export default {
 .footer-mail {
   display: flex;
   align-items: center;
-  margin-right: 65px;
 }
 
 .footer-mail-text {
