@@ -102,6 +102,7 @@ export default {
   line-height: 24px;
   letter-spacing: 0.2em;
   color: rgba(#3E293D, 0.8);
+  text-align: center;
 }
 
 @media (max-width: 1120px) {
