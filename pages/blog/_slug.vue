@@ -140,9 +140,24 @@ export default {
 }
 
 .post-body {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 20px;
   letter-spacing: 0.1em;
+
+  h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  h4 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
 
   p {
     margin-bottom: 20px;

@@ -7,7 +7,7 @@
           <k-blog-post :key="index" :post="post" data-aos="fade-up" :data-aos-delay="`${200 * index}`" />
         </template>
       </div>
-      <div :class="$style['blog-actions']" data-aos="fade-up">
+      <div v-if="posts.length > 2" :class="$style['blog-actions']" data-aos="fade-up">
         <k-action
           tag="nuxt-link"
           color="primary"
