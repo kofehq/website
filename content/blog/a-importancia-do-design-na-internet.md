@@ -1,12 +1,12 @@
 ---
 image: /images/kofe-banner-design-interfaces.png
-title: A importância do Design na Internet
+title: A importância do Design de Interfaces para a Internet
 description: Neste post vamos explicar o conceito de interfaces digitais e quais
   são os fatores que mais impactam no seu Design.
 ---
 Vocês já pararam para pensar na importância do Design na internet? Ou o que de fato isso representa? Neste post vamos explicar o conceito de interfaces digitais e quais são os fatores que mais impactam no seu Design. 
 
-**Produto físico *vs* Produto digital**
+### **Produto físico *vs* Produto digital**
 
 Nós estamos acostumados com o Design de **produtos físicos**, como por exemplo, do celular ou do computador por onde você está lendo esse texto. Porém, para ler esse texto, você precisa estar conectado(a) à internet e acessar a um **produto digital** onde ele está publicado. E esse produto digital também tem seu próprio Design, não é mesmo? Cores, fontes, imagens, tudo isso é pensado por meio do projeto de Design.
 
@@ -14,7 +14,7 @@ Então basicamente, quando falamos sobre Design para a internet, estamos nos ref
 
 Por exemplo, é por meio da interface de um produto digital que você pode compartilhar um conteúdo ou até mesmo escolher um produto para comprar, fazer o pagamento e definir o endereço para recebe-lo em sua casa. 
 
-**Design de Interface**
+#### **Design de Interface**
 
 E quando pensamos em Design, logo lembramos de uma boa estética e de um acabamento visual mais refinado, certo? Porém, o Design para a internet é tão importante porque também leva em consideração outros fatores além do visual.
 
@@ -34,7 +34,7 @@ Você já desinstalou ou desistiu de usar algum aplicativo ou site por causa da 
 
 Como especialistas em projetos para a internet, trabalhamos para projetar interfaces mais interessantes, alinhadas aos objetivos dos negócios e é claro, fáceis de usar!
 
-**Gostou do assunto?**
+##### **Gostou do assunto?**
 
 Ficou com algum dúvida? Entre em contato com a gente!
 
