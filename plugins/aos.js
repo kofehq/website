@@ -5,7 +5,7 @@ import 'aos/dist/aos.css'
 const botRegex = /bot|googlebot|crawler|spider|robot|crawling|Chrome-Lighthouse/i
 const isBot = navigator.userAgent && botRegex.test(navigator.userAgent)
 
-if (!isBot) {
+if (!isBot && window.innerWidth >= 768) {
   Vue.use(AOS.init({
     disable: () => {
       return window.innerWidth < 768
