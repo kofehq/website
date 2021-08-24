@@ -4,7 +4,9 @@
       <h3 :class="$style['blog-title']">Últimos posts</h3>
       <div :class="$style['blog-list']">
         <template v-for="(post, index) in posts">
-          <k-blog-post :key="index" :post="post" data-aos="fade-up" :data-aos-delay="`${200 * index}`" />
+          <div :key="index" :class="$style['blog-item']" data-aos="fade-up" :data-aos-delay="`${200 * index}`">
+            <k-blog-post :post="post" />
+          </div>
         </template>
       </div>
       <div v-if="posts.length > 2" :class="$style['blog-actions']" data-aos="fade-up">
@@ -61,6 +63,15 @@ export default {
   justify-content: space-between;
 }
 
+.blog-item {
+  flex: 1;
+  max-width: calc(50% - 20px);
+
+  &:first-child {
+    margin-right: 20px;
+  }
+}
+
 .blog-actions {
   display: flex;
   align-items: center;
@@ -72,6 +83,15 @@ export default {
   .blog-list {
     flex-direction: column;
     align-items: center;
+  }
+
+  .blog-item {
+    max-width: none;
+
+    &:first-child {
+      margin-right: 0;
+      margin-bottom: 40px;
+    }
   }
 }
 </style>

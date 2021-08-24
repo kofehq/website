@@ -45,14 +45,8 @@ export default {
 .blog-post {
   border: 1px solid #F0E2BB;
   border-radius: 2px;
-  flex: 1;
-  max-width: calc(50% - 20px);
   position: relative;
   padding-left: 57px;
-
-  &:first-child {
-    margin-right: 20px;
-  }
 
   &::before {
     content: '';
@@ -102,15 +96,6 @@ export default {
 }
 
 @media (max-width: 1023px) {
-  .blog-post {
-    max-width: none;
-
-    &:first-child {
-      margin-right: 0;
-      margin-bottom: 40px;
-    }
-  }
-
   .blog-post-image {
     width: 100%;
     height: auto;
@@ -132,7 +117,6 @@ export default {
   }
 
   .blog-post-title {
-    // font-size: 18px;
     letter-spacing: 0.1em;
   }
 
