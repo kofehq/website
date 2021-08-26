@@ -1,5 +1,5 @@
 ---
 image: /images/kofe-spar.png
-title: Website Spar Financial
+title: Website para Spar Financial
 order: 7
 ---
