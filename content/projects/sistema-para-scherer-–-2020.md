@@ -1,5 +1,5 @@
 ---
 image: /images/project-5.jpg
-title: Sistema para Scherer
+title: Sistema TDR Scherer
 order: 4
 ---
