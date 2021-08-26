@@ -1,7 +1,7 @@
 ---
 image: /images/testimonial-1.png
 name: Raquel Ramos
-company: Mobiliza
+company: Customer Success Lead na Mobiliza
 content: ”Antes de experienciar o método, tinha algumas dúvidas sobre a
   eficiência e qualidade das ideias resultantes. Principalmente por ser um
   processo muito rápido e com pouca profundidade de reflexão. Me surpreendi
