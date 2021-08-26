@@ -1,7 +1,7 @@
 ---
 image: /images/testimonial-3.png
 name: Abel Silva
-company: Instituto Floripa Jazz
+company: Diretor Artístico no Instituto Floripa Jazz
 content: ”Aprendizado! Penso que representa uma oportunidade de solução para
   muitos clientes, especialmente os que precisam sintetizar suas ideias, quando
   são muitas e dispõem de um grande volume de conteúdo. Contar com especialistas
@@ -9,5 +9,5 @@ content: ”Aprendizado! Penso que representa uma oportunidade de solução para
   compreendidos pelos próprios gestores. Outra percepção é a importância de uma
   imersão, com comunicação direta em tempo real para compartilhar as sugestões,
   possibilidades e agilizar a tomada de decisão.”
-order: 3
+order: 9
 ---
