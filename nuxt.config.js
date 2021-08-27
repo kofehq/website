@@ -50,7 +50,8 @@ export default {
     '@nuxtjs/eslint-module',
     '@nuxtjs/svg',
     '@nuxtjs/style-resources',
-    'nuxt-purgecss'
+    'nuxt-purgecss',
+    '@nuxtjs/google-analytics'
   ],
 
   purgeCSS: {
@@ -98,5 +99,9 @@ export default {
         },
       },
     },
+  },
+
+  googleAnalytics: {
+    id: 'G-PCBZD4LED1'
   },
 }
