@@ -1,7 +1,7 @@
 ---
 image: /images/highlight-03.jpg
-description: Para times que encontram dificuldades para alinhar objetivos de
-  negócio, que carecem de dados, objetivos claros ou que têm pressão para serem
-  inovadores, mas não sabem como começar.
+description: Para qualquer time que deseja ganhar tempo, alinhar objetivos de
+  negócio e coletar dados ou ainda, que têm pressão para serem inovadores, mas
+  não sabem como começar.
 order: 3
 ---

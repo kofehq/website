@@ -1,5 +1,5 @@
 ---
 image: /images/project-2.jpg
-title: Website para S7iD – 2020
-order: 2
+title: Website para S7iD
+order: 8
 ---
