@@ -6,7 +6,7 @@ description: Neste post vamos explicar o conceito de interfaces digitais e quais
 ---
 Vocês já pararam para pensar na importância do Design na internet? Ou o que de fato isso representa? Neste post vamos explicar o conceito de interfaces digitais e quais são os fatores que mais impactam no seu Design. 
 
-**Produto físico *vs* Produto digital**
+## **Produto físico *vs* Produto digital**
 
 Nós estamos acostumados com o Design de **produtos físicos**, como por exemplo, do celular ou do computador por onde você está lendo esse texto. Porém, para ler esse texto, você precisa estar conectado(a) à internet e acessar a um **produto digital** onde ele está publicado. E esse produto digital também tem seu próprio Design, não é mesmo? Cores, fontes, imagens, tudo isso é pensado por meio do projeto de Design.
 
