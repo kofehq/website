@@ -39,6 +39,7 @@ export default {
   plugins: [
     { src: '@/plugins/vueMq' },
     { src: '@/plugins/aos', ssr: false, },
+    { src: '@/plugins/gtag', ssr: false, },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -51,7 +52,6 @@ export default {
     '@nuxtjs/svg',
     '@nuxtjs/style-resources',
     'nuxt-purgecss',
-    '@nuxtjs/google-analytics'
   ],
 
   purgeCSS: {
@@ -99,9 +99,5 @@ export default {
         },
       },
     },
-  },
-
-  googleAnalytics: {
-    id: 'G-PCBZD4LED1'
   },
 }
