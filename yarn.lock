@@ -6661,10 +6661,10 @@ neo-async@^2.5.0, neo-async@^2.6.1, neo-async@^2.6.2:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-netlify-cms-locales@^1.33.0:
-  version "1.33.0"
-  resolved "https://registry.yarnpkg.com/netlify-cms-locales/-/netlify-cms-locales-1.33.0.tgz#4754749e0eca41d5f9a463823eed8fecf3dc8373"
-  integrity sha512-IBA83qWX1QT4VyHwxxe+SuAbZKhbdDyhp7s49TtJS7QuE9gyUtmVeAWBMalF5Spih/hDwaNISHDaos3WK4HR6g==
+netlify-cms-locales@^1.35.1:
+  version "1.35.1"
+  resolved "https://registry.yarnpkg.com/netlify-cms-locales/-/netlify-cms-locales-1.35.1.tgz#e988aeea8ebbff57e438d359d82f9f36ff3a40ad"
+  integrity sha512-qhjeS2eNYBgh/F2p2fCwyYsuAw0u1IogOpVIP9WV8+Xx73ydxeuiX5YWY0qUG2Ba6LffzNkIiRl7IPvdLqffmg==
 
 no-case@^2.2.0:
   version "2.3.2"
