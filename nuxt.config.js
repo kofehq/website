@@ -21,20 +21,11 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
       { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
-      {
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;600;800&display=swap',
-      },
-      {
-        rel: 'stylesheet',
-        href: 'https://unpkg.com/aos@next/dist/aos.css',
-      },
     ],
   },
 
-  css: [],
+  css: ['~/assets/css/fonts.css', '~/assets/css/aos.css'],
 
   plugins: [
     { src: '@/plugins/vueMq' },
