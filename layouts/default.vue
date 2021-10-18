@@ -12,6 +12,17 @@ export default {
   components: {
     KFooter,
   },
+
+  head () {
+    return {
+      link: [
+        {
+          rel: 'canonical',
+          href: 'https://kofe.design' + this.$route.path
+        }
+      ]
+    }
+  }
 }
 </script>
 
