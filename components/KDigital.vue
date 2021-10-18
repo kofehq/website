@@ -3,7 +3,7 @@
     <div :class="$style['digital']" data-aos="fade-right">
       <h3 :class="$style['digital-title']">Interfaces digitais</h3>
       <div :class="$style['digital-description']">
-        <p>Websites, Aplicativos, Portais,  Sistemas e até cursos online, são alguns exemplos de interfaces digitais utilizadas para promover a interação com clientes por meio de diferentes dispositivos.</p>
+        <p>Websites, Aplicativos, Portais, Sistemas e até cursos online, são alguns exemplos de interfaces digitais utilizadas para promover a interação com clientes por meio de diferentes dispositivos.</p>
         <p>Nós oferecemos serviços de design e desenvolvimento focados no projeto de interfaces intuitivas e únicas para cada objetivo de negócio.</p>
       </div>
     </div>

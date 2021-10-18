@@ -5,8 +5,9 @@
         name="logo"
         :class="$style['header-logo']"
       />
+      <h1 hidden>Kofe Design</h1>
       <img :class="$style['header-image']" src="@/assets/chimp01.png" alt="Desenho de um macaco" width="694" height="800" data-aos="fade-right">
-      <h2 :class="$style['header-title']" data-aos="fade-left">Design code & design sprint</h2>
+      <h2 :class="$style['header-title']" data-aos="fade-left">Design code &amp; design sprint</h2>
     </header>
   </k-center>
 </template>
