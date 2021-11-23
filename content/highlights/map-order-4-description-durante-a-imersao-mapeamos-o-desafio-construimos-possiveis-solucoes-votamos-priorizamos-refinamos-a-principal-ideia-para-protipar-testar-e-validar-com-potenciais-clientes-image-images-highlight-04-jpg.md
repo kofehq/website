@@ -1,7 +1,7 @@
 ---
 image: /images/highlight-04.jpg
-description: Seu produto no melhor caminho para o desenvolvimento do MVP.
-  Construído pelos especialistas do negócio, testado e com a documentação
-  necessária para a implementação.
+description: Esse é o caminho mais rápido para elaborar projetos de UX/UI Design
+  (User Experience and User Interface). Incluindo também a documentação
+  necessária para iniciar o desenvolvimento e implementação front-end.
 order: 4
 ---
