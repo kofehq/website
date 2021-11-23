@@ -1,7 +1,6 @@
 ---
 image: /images/highlight-02.jpg
-description: "Sprints são utilizadas para explorar oportunidades de mercado e
-  validar modelos de negócios antes de investir no desenvolvimento dos produtos,
-  além de criar experiências especiais para os clientes sem meses de pesquisa. "
+description: Usamos Design Sprint para fazer projetos de experiência para os
+  clientes em apenas quatro dias, economizando meses de pesquisa e reuniões.
 order: 2
 ---
