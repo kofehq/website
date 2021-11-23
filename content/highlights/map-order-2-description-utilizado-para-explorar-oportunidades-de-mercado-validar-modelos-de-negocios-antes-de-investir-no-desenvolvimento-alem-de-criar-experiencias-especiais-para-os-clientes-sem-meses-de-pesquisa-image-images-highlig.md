@@ -1,7 +1,6 @@
 ---
 image: /images/highlight-02.jpg
-description: Usamos Design Sprint para fazer projetos de experiência e design de
-  interfaces (UX/UI) em apenas quatro dias, economizando meses de pesquisa e
-  reuniões.
+description: Economizamos meses de pesquisas e reuniões, conduzindo uma
+  sequência de atividades de Design para otimizar a construção da interface.
 order: 2
 ---
