@@ -1,7 +1,8 @@
 ---
 image: /images/highlight-03.jpg
-description: Para qualquer time que deseja ganhar tempo, alinhar objetivos de
-  negócio e coletar dados ou ainda, que têm pressão para serem inovadores, mas
-  não sabem como começar.
+description: Para times que desejam ganhar tempo, alinhar objetivos de negócio
+  entre diferentes áreas, coletar dados sobre o mercado e o público-alvo. E
+  também para quem têm pressão para ser inovador, mas não sabe bem por onde
+  começar.
 order: 3
 ---
