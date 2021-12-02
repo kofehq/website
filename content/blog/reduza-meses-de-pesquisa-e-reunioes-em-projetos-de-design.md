@@ -13,7 +13,7 @@ O processo de lançamento da primeira versão de um produto ou serviço, até qu
 
 As vezes é muito estressante e custoso esperar a lenta e faseada construção de algo concreto ou pior ainda, a validação de interesse pelo mercado. Tempo continua sendo nosso ativo mais precioso e nós trabalhamos de forma a valorizar e usar da melhor possível.
 
-# Design Sprint
+## Design Sprint
 
 Nós optamos por usar o método Design Sprint, apesar de muito desafiador, por causa de sua capacidade de reduz meses de pesquisas, reuniões e retrabalho. Suas características de imersão, foco no processo de Design, trabalho colaborativo e organização de um time especialmente formado para solucionar o desafio, nos dá a melhor ferramenta para poupar tempo.
 
@@ -29,4 +29,4 @@ A partir disso, cabe ao negócio avaliar os aprendizados e decidir como avançar
 
 
 
-\#kofe #kofedesign #designsprint #solucoesageis
+*\#kofe #kofedesign #designsprint #solucoesageis*
