@@ -1,6 +1,6 @@
 ---
 image: /images/artboard-2.jpg
-title: Reduza meses de pesquisa e reuniões
+title: Reduza meses de projeto
 description: Economizamos meses de pesquisas e reuniões, conduzindo uma
   sequência de atividades de Design para otimizar a construção do Projeto de
   Experiência e interface do produto ou serviço.
