@@ -16,7 +16,7 @@ As vezes é muito estressante e custoso esperar a lenta e faseada construção d
 
 Nós optamos por usar o método Design Sprint, apesar de ser muito desafiador, por causa de sua capacidade de reduz o tempo de pesquisas, reuniões e retrabalho em projetos de UX – *User Experience* e UI – *User Interface*. Suas características de imersão, foco no processo de Design, trabalho colaborativo e organização de um time especialmente formado, nos dá a melhor ferramenta para poupar tempo de projeto.
 
-> ##### *"Eu adorei ter participado de um evento de imersão que trouxe tanto resultado em tão pouco tempo. Os dias passaram muito rápido e foram muito produtivos; a condução da Bruna foi gentil e estratégica; e o ambiente estava muito agradável. De verdade, acho que nunca participei de uma imersão tão assertiva. Parabéns!"*
+##### *"Eu adorei ter participado de um evento de imersão que trouxe tanto resultado em tão pouco tempo. Os dias passaram muito rápido e foram muito produtivos; a condução da Bruna foi gentil e estratégica; e o ambiente estava muito agradável. De verdade, acho que nunca participei de uma imersão tão assertiva. Parabéns!"*
 
 São apenas **quatro dias** de imersão de trabalho, cujo objetivo é propor soluções para um desafio, construir e validar a aderência com o público-alvo. 
 
