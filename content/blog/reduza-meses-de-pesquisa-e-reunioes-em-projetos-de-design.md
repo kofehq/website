@@ -2,8 +2,7 @@
 image: /images/artboard-2.jpg
 title: Reduza meses de projeto
 description: Economizamos meses de pesquisas e reuniões conduzindo um método de
-  trabalho de Design próprio para otimizar a construção do Projeto de
-  Experiência de produtos ou serviços.
+  Design para otimizar o Projeto de Experiência de produtos ou serviços.
 ---
 Para construir Projetos de Experiência para produtos ou serviços, é preciso passar por algumas etapas de trabalho. Pesquisar sobre o desafio, elaborar possíveis soluções, testar, aprender e continuar melhorando. 
 
