@@ -1,6 +1,6 @@
 ---
 image: /images/3c736b84-b5ac-44d0-9f20-c6d5d4477de2_1_105_c.jpeg
-title: Reduza meses de pesquisa e reuniões em projetos de Design
+title: Reduza meses de pesquisa e reuniões
 description: Economizamos meses de pesquisas e reuniões, conduzindo uma
   sequência de atividades de Design para otimizar a construção do Projeto de
   Experiência e interface do produto ou serviço.
