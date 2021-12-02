@@ -1,5 +1,5 @@
 ---
-image: /images/kofe-banner-design-interfaces-2.png
+image: /images/1c1e8b85-75a7-49a7-b372-5fbec80183a0_1_105_c_.jpg
 title: Design de Interfaces para a Internet
 description: Neste post vamos explicar o conceito de interfaces digitais e quais
   são os fatores que mais impactam no seu Design.
