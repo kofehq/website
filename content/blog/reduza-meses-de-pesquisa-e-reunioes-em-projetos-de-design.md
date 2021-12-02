@@ -18,8 +18,6 @@ Nós optamos por usar o método Design Sprint, apesar de ser muito desafiador, p
 
 > ##### *"Eu adorei ter participado de um evento de imersão que trouxe tanto resultado em tão pouco tempo. Os dias passaram muito rápido e foram muito produtivos; a condução da Bruna foi gentil e estratégica; e o ambiente estava muito agradável. De verdade, acho que nunca participei de uma imersão tão assertiva. Parabéns!"*
 
-
-
 São apenas **quatro dias** de imersão de trabalho, cujo objetivo é propor soluções para um desafio, construir e validar a aderência com o público-alvo. 
 
 #### Soluções ágeis, mas não mágicas!
