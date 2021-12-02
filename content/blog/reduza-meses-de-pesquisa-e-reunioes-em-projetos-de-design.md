@@ -1,5 +1,5 @@
 ---
-image: /images/1c1e8b85-75a7-49a7-b372-5fbec80183a0_1_105_c_.jpg
+image: /images/3c736b84-b5ac-44d0-9f20-c6d5d4477de2_1_105_c.jpeg
 title: Reduza meses de pesquisa e reuniões em projetos de Design
 description: Economizamos meses de pesquisas e reuniões, conduzindo uma
   sequência de atividades de Design para otimizar a construção do Projeto de
