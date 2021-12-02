@@ -1,6 +1,6 @@
 ---
 image: /images/artboard-1.jpg
-title: Design de Interfaces para a Internet
+title: Design de Interface
 description: Neste post vamos explicar o conceito de interfaces digitais e quais
   são os fatores que mais impactam no seu Design.
 ---
