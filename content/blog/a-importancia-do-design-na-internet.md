@@ -1,6 +1,6 @@
 ---
 image: /images/kofe-banner-design-interfaces-2.png
-title: A importância do Design de Interfaces para a Internet
+title: Design de Interfaces para a Internet
 description: Neste post vamos explicar o conceito de interfaces digitais e quais
   são os fatores que mais impactam no seu Design.
 ---
