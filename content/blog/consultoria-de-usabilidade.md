@@ -1,9 +1,10 @@
 ---
 image: /images/artboard-5.jpg
 title: Consultoria de Usabilidade
-description: Avaliação técnica, do negócio e do público-alvo.
+description: Avaliação técnica, do negócio e do mercado por meio de Consultoria
+  de Usabilidade, UX e UI.
 ---
-##### Consultoria em Usabilidade e UX – User Experiencie
+##### Consultoria sobre Experiência de Uso
 
 Nossos clientes buscam melhorar a experiência de uso dos seus produtos ou serviços. Para isso, nós elaboramos um formato ágil de consultoria que aborda três principais aspectos:
 
@@ -19,7 +20,7 @@ A Análise Heurística nos fornece a avaliação técnica da usabilidade da plat
 
 ### Grupo Focal
 
-O Focus Group, por sua vez, contribui com pesquisa sobre a percepção do time de especialistas envolvidos no desenvolvimento do produto e prestação de serviços da empresa.
+O Focus Group, por sua vez, contribui com pesquisa sobre a percepção do time de especialistas envolvido com o produto ou prestação de serviços da empresa.
 
 ### Testes de Usabilidade
 
