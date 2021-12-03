@@ -34,7 +34,8 @@ A consultoria é entregue no formato de relatório contendo:
 * Principais desafios.
 * Recomendações.
 
-### **Gostou do assunto?**
+##### \
+**Gostou do assunto?**
 
 Quer saber mais? Entre em contato com a gente!
 
