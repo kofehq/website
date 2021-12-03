@@ -4,7 +4,7 @@ title: Kofe Design Sprint
 description: Trabalho de imersão colaborativa com o time de especialistas
   durante quatro dias.
 ---
-# Kofe Design Sprint
+### Kofe Design Sprint
 
 Nós optamos por usar o método Design Sprint, apesar de ser muito desafiador, por causa de sua capacidade de reduz o tempo de pesquisas, reuniões e retrabalho em projetos de UX – *User Experience* e UI – *User Interface*. Suas características de imersão, foco no processo de Design, trabalho colaborativo e organização de um time especialmente formado, nos dá a melhor ferramenta para poupar tempo de projeto.
 
@@ -18,7 +18,7 @@ São apenas **quatro dias de imersão** de trabalho, cujo objetivo é propor s
 
 *Gustavo Kurmann – Sprint com Spar Financial Research*
 
-#### 4 dias de imersão
+### 4 dias de imersão
 
 * Para coletar dados sobre o interesse do mercado e do público-alvo da solução.
 * Para times que desejam inovar, mas não sabem bem por onde começar.
@@ -27,21 +27,19 @@ São apenas **quatro dias de imersão** de trabalho, cujo objetivo é propor s
 
 O caminho mais rápido para elaborar projetos de UX/UI Design (*User Experience and User Interface*).
 
-
-
-#### Objetivos
+### Objetivos
 
 * Explorar oportunidades de mercado e tecnologia.
 * Validar e testar ideias e modelos de negócio antes de investir no desenvolvimento.
 * Criar experiências especiais para os clientes, sem meses de pesquisa.
 
-#### Benefícios
+### Benefícios
 
 * Ganho de tempo.
 * Solução coesa entre os especialistas.
 * Validação antes de investir e lançar.
 
-#### **Gostou do assunto?**
+### **Gostou do assunto?**
 
 Quer saber mais? Entre em contato com a gente!
 
