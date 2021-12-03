@@ -1,7 +1,7 @@
 ---
 image: /images/artboard-5.jpg
 title: Consultoria de Usabilidade
-description: Avaliação técnica, do negócio e dos público-alvo.
+description: Avaliação técnica, do negócio e do público-alvo.
 ---
 ##### Consultoria em Usabilidade e UX – User Experiencie
 
