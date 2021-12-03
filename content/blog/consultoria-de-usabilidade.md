@@ -10,19 +10,19 @@ Nossos clientes buscam melhorar a experiência de uso dos seus produtos ou servi
 • Avaliação interna.\
 • Avaliação externa.
 
-### Análise Heurística
+**Análise Heurística**
 
 A Análise Heurística nos fornece a avaliação técnica da usabilidade da plataforma de acordo com as 10 Heurísticas de usabilidade de Jakob Nielsen, conhecidas como as boas práticas fundamentais sobre o assunto.
 
-### Grupo Focal
+**Grupo Focal**
 
 O Focus Group, por sua vez, contribui com pesquisa sobre a percepção do time de especialistas envolvido com o produto ou prestação de serviços da empresa.
 
-### Testes de Usabilidade
+**Testes de Usabilidade**
 
 Os Testes de Usabilidade nos permitem avaliar a experiência de uso de potenciais clientes do negócio e coletar informações sobre o mercado.
 
-### Relatório da consultoria
+**Relatório da consultoria**
 
 A consultoria é entregue no formato de relatório contendo:
 
@@ -30,8 +30,8 @@ A consultoria é entregue no formato de relatório contendo:
 • Principais desafios.\
 • Recomendações.
 
-### **Gostou do assunto?**
+**Gostou do assunto?**
 
 Quer saber mais? Entre em contato com a gente!
 
-*\#kofe #kofedesign #uxdesign #uidesign #heuristicas #usabilidade #grupofocal #consultoria*
+*\#kofe #kofedesign #uxdesign #uidesign #heuristicas #usabilidade #grupofocal #testedeusabilidade #consultoria*
