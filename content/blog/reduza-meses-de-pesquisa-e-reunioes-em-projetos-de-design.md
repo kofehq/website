@@ -6,8 +6,6 @@ description: Economize meses em pesquisas e reuniões com um método de Design q
 ---
 Para construir Projetos de Experiência para produtos ou serviços, é preciso passar por algumas etapas de trabalho. Pesquisar sobre o desafio, elaborar possíveis soluções, testar, aprender e continuar melhorando. 
 
-### O processo comum
-
 O processo de lançamento da primeira versão de um produto ou serviço, até que entre de fato em contato com os consumidores, pode levar meses ou até mesmo anos. São muitas atividades desde a concepção da ideia até encontrar as pessoas certas para executar, descrever as principais características e requisitos, construir, validar, ajustar, testar, vender, entre outras. 
 
 As vezes é muito estressante e custoso esperar a lenta e faseada construção de algo concreto ou pior ainda, a validação de interesse pelo mercado. Tempo continua sendo nosso ativo mais precioso e nós trabalhamos de forma a valorizar e usar da melhor forma possível.
