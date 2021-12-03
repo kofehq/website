@@ -12,8 +12,6 @@ Nossos clientes buscam melhorar a experiência de uso dos seus produtos ou servi
 * Avaliação interna.
 * Avaliação externa.
 
-
-
 Cada um é atendido por uma atividade específica.
 
 ### Análise Heurística
@@ -36,7 +34,7 @@ A consultoria é entregue no formato de relatório contendo:
 * Principais desafios.
 * Recomendações.
 
-##### \
+#####
 **Gostou do assunto?**
 
 Quer saber mais? Entre em contato com a gente!
