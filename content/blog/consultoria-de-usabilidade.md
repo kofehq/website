@@ -4,8 +4,6 @@ title: Consultoria de Usabilidade
 description: Avaliação técnica, do negócio e do mercado por meio de Consultoria
   de Usabilidade, UX e UI.
 ---
-# Consultoria sobre Experiência de Uso
-
 Nossos clientes buscam melhorar a experiência de uso dos seus produtos ou serviços. Para isso, nós elaboramos um formato ágil de consultoria que aborda três principais aspectos:
 
 • Avaliação técnica.\
