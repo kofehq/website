@@ -12,8 +12,6 @@ Nossos clientes buscam melhorar a experiência de uso dos seus produtos ou servi
 * Avaliação interna.
 * Avaliação externa.
 
-#Cada um é atendido por uma atividade específica.
-
 ### Análise Heurística
 
 A Análise Heurística nos fornece a avaliação técnica da usabilidade da plataforma de acordo com as 10 Heurísticas de usabilidade de Jakob Nielsen, conhecidas como as boas práticas fundamentais sobre o assunto.
