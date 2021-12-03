@@ -18,7 +18,7 @@ São apenas **quatro dias de imersão** de trabalho, cujo objetivo é propor s
 
 *Gustavo Kurmann – Sprint com Spar Financial Research*
 
-### 4 dias de imersão
+#### 4 dias de imersão
 
 * Para coletar dados sobre o interesse do mercado e do público-alvo da solução.
 * Para times que desejam inovar, mas não sabem bem por onde começar.
@@ -27,13 +27,13 @@ São apenas **quatro dias de imersão** de trabalho, cujo objetivo é propor s
 
 O caminho mais rápido para elaborar projetos de UX/UI Design (*User Experience and User Interface*).
 
-### Objetivos
+#### Objetivos
 
 * Explorar oportunidades de mercado e tecnologia.
 * Validar e testar ideias e modelos de negócio antes de investir no desenvolvimento.
 * Criar experiências especiais para os clientes, sem meses de pesquisa.
 
-### Benefícios
+#### Benefícios
 
 * Ganho de tempo.
 * Solução coesa entre os especialistas.
