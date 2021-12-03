@@ -18,24 +18,24 @@ São apenas **quatro dias de imersão** de trabalho, cujo objetivo é propor s
 
 ### 4 dias de imersão
 
-* Para coletar dados sobre o interesse do mercado e do público-alvo da solução.
-* Para times que desejam inovar, mas não sabem bem por onde começar.
-* Para alinhar objetivos de negócio entre diferentes áreas da empresa.
-* Para times que desejam ganhar tempo na etapa de Design do seu produto ou serviço.
+• Para coletar dados sobre o interesse do mercado e do público-alvo da solução.\
+• Para times que desejam inovar, mas não sabem bem por onde começar.\
+• Para alinhar objetivos de negócio entre diferentes áreas da empresa.\
+• Para times que desejam ganhar tempo na etapa de Design do seu produto ou serviço.
 
 O caminho mais rápido para elaborar projetos de UX/UI Design (*User Experience and User Interface*).
 
 ### Objetivos
 
-* Explorar oportunidades de mercado e tecnologia.
-* Validar e testar ideias e modelos de negócio antes de investir no desenvolvimento.
-* Criar experiências especiais para os clientes, sem meses de pesquisa.
+• Explorar oportunidades de mercado e tecnologia.\
+• Validar e testar ideias e modelos de negócio antes de investir no desenvolvimento.\
+• Criar experiências especiais para os clientes, sem meses de pesquisa.
 
 ### Benefícios
 
-* Ganho de tempo.
-* Solução coesa entre os especialistas.
-* Validação antes de investir e lançar.
+• Ganho de tempo.\
+• Solução coesa entre os especialistas.\
+• Validação antes de investir e lançar.
 
 ### **Gostou do assunto?**
 
