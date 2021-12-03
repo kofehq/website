@@ -12,6 +12,8 @@ Nossos clientes buscam melhorar a experiência de uso dos seus produtos ou servi
 * Avaliação interna.
 * Avaliação externa.
 
+
+
 Cada um é atendido por uma atividade específica.
 
 ### Análise Heurística
