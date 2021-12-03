@@ -18,7 +18,7 @@ Nós optamos por usar o método Design Sprint, apesar de ser muito desafiador, p
 
 São apenas **quatro dias de imersão** de trabalho, cujo objetivo é propor soluções para um desafio, construir e validar a aderência com o público-alvo. 
 
-#### Soluções ágeis, mas não mágicas!
+#### Soluções ágeis
 
 O Design Sprint nos coloca no melhor lugar, mais assertivo e inovador possível para a construção de um projeto de sucesso. De maneira prática, conseguimos a contribuição dos especialistas do negócio, construímos e validamos a solução de maneira interna e externa.
 
