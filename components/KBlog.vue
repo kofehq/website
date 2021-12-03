@@ -58,18 +58,9 @@ export default {
 }
 
 .blog-list {
-  display: flex;
-  align-items: stretch;
-  justify-content: space-between;
-}
-
-.blog-item {
-  flex: 1;
-  max-width: calc(50% - 20px);
-
-  &:first-child {
-    margin-right: 20px;
-  }
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
 }
 
 .blog-actions {
@@ -81,17 +72,11 @@ export default {
 
 @media (max-width: 1023px) {
   .blog-list {
-    flex-direction: column;
-    align-items: center;
+    display: block;
   }
 
   .blog-item {
-    max-width: none;
-
-    &:first-child {
-      margin-right: 0;
-      margin-bottom: 40px;
-    }
+    margin-bottom: 40px;
   }
 }
 </style>

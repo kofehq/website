@@ -85,18 +85,14 @@ export default {
 
 <style lang="scss" module>
 .blog-list {
-  display: flex;
-  align-items: stretch;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
   margin-top: 35px;
 }
 
 .blog-post {
   margin-bottom: 20px;
-
-  &:nth-last-child(-n+2) {
-    margin-bottom: 0;
-  }
 }
 
 .blog-actions {
@@ -108,7 +104,7 @@ export default {
 
 @media (max-width: 1023px) {
   .blog-list {
-    flex-direction: column;
+    display: block;
   }
 }
 </style>

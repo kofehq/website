@@ -47,6 +47,7 @@ export default {
   border-radius: 2px;
   position: relative;
   padding-left: 57px;
+  height: 100%;
 
   &::before {
     content: '';
@@ -70,6 +71,7 @@ export default {
   margin: 0 auto;
   height: 100%;
   width: auto;
+  max-width: 100%;
   object-fit: cover;
 }
 
