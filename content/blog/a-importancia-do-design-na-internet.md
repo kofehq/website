@@ -34,6 +34,6 @@ Trabalhamos para projetar interfaces mais interessantes, alinhadas aos objetivos
 
 **Gostou do assunto?**
 
-Quer saber mais? Entre em contato com a gente!
+Quer saber mais? Entre em contato!
 
 *\#design #interface #uxdesign #usabilidade #ai #ergonomiavisual #kofedesign*
