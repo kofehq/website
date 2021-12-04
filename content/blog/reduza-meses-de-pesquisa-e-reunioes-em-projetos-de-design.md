@@ -26,6 +26,6 @@ A partir disso, cabe ao negócio avaliar os aprendizados e decidir como avançar
 
 **Gostou do assunto?**
 
-Quer saber mais? Entre em contato com a gente!
+Quer saber mais? Entre em contato!
 
 *\#kofe #kofedesign #designsprint #solucoesageis*
