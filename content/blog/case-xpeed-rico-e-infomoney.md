@@ -15,7 +15,7 @@ Agradecimentos: Betina Roxo, Cinquepalmi, Gabriella Miranda e a todo o time de p
 
 Saiba mais sobre o curso [clicando aqui](https://xpeedschool.com.br/curso/viver-curtir-investir-tirando-sonhos-do-papel/).
 
-![](/images/curso-xpeed-mockup01.jpg)
+![](/images/curso-xpeed-mockup05.jpg)
 
 **Gostou do assunto?**
 
