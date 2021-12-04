@@ -39,6 +39,6 @@ O caminho mais rápido para elaborar projetos de UX/UI Design (*User Experience 
 
 **Gostou do assunto?**
 
-Quer saber mais? Entre em contato com a gente!
+Quer saber mais? Entre em contato!
 
 *\#kofe #kofedesign #kofedesignsprint #designsprint #solucoesageis #design #florianopolis*
