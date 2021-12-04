@@ -1,7 +1,8 @@
 ---
 image: /images/blog-tablets_v3.jpg
 title: "Case: Xpeed, Rico e Infomoney"
-description: Design e implementação front-end para o curso de Betina Roxo.
+description: "Design e implementação front-end para o curso Viver, Curtir,
+  Investir: Tirando Sonhos do Papel."
 ---
 **Projeto:** Viver, Curtir, Investir: Tirando Sonhos do Papel.
 
