@@ -1,8 +1,8 @@
 ---
 image: /images/blog-testes.jpg
 title: Teste de Usabilidade
-description: "Ferramenta de pesquisa com diferentes formatos, utilizada para
-  avaliar a usabilidade ou fit com o mercado. "
+description: Ferramenta de pesquisa com diferentes formatos, utilizada para
+  coletar dados sobre o negócio, produto ou serviço.
 ---
 Os métodos de pesquisa UX modernos respondem a uma ampla gama de perguntas que auxiliam durante o processo típico de desenvolvimento de produtos ou serviços.
 
