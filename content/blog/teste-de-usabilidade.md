@@ -10,9 +10,14 @@ Embora não seja realista usar o conjunto completo de métodos em um só projeto
 
 De acordo com o objetivo do projeto, podemos realizar três tipos de avaliações:
 
-**• Atitudinal vs. Comportamental:** *O que as pessoas dizem vs o que as pessoas fazem.*\
-**• Qualitativo vs. Quantitativo:** *Por que e como melhorar vs Quantas vezes e por quanto tempo.*\
-**• Contexto de Uso:** *Natural, com script, não utiliza ou híbrido.*
+**Atitudinal vs. Comportamental**\
+*O que as pessoas dizem vs o que as pessoas fazem.*
+
+**Qualitativo vs. Quantitativo**\
+*Por que e como melhorar vs Quantas vezes e por quanto tempo.*
+
+**Contexto de Uso**\
+*Natural, com script, não utiliza ou híbrido.*
 
 **Modelos**
 
