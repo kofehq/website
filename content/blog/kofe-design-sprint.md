@@ -8,22 +8,18 @@ Nós optamos por usar o método Design Sprint, apesar de ser muito desafiador, p
 
 São apenas **quatro dias de imersão** de trabalho, cujo objetivo é propor soluções para um desafio, construir e validar a aderência com o público-alvo. O método de trabalho foi escrito no Google, aplicado nas maiores empresas de tecnologia e compartilhado por meio do livro best-seller, *Sprint* de Jake Knapp.
 
-> "Eu adorei ter participado de um evento de imersão que trouxe tanto resultado em tão pouco tempo. Os dias passaram muito rápido e foram muito produtivos; a condução da Bruna foi gentil e estratégica; e o ambiente estava muito agradável. De verdade, acho que nunca participei de uma imersão tão assertiva. Parabéns!"
+O caminho mais rápido para elaborar projetos de UX/UI Design (*User Experience and User Interface*).
 
-*Natália Barreira – Sprint com Mosimann-horn*
+> *"Eu adorei ter participado de um evento de imersão que trouxe tanto resultado em tão pouco tempo. Os dias passaram muito rápido e foram muito produtivos; a condução da Bruna foi gentil e estratégica; e o ambiente estava muito agradável. De verdade, acho que nunca participei de uma imersão tão assertiva. Parabéns!" Natália Barreira – Sprint com Mosimann-Horn*
+>
+> *"Foi incrível! O resultado foi além do que eu imaginava. O tanto que evoluímos em um espaço de tempo tão curto foi indescritível. A qualidade do trabalho em termos de resultado, planejamento e organização foi altíssima." Gustavo Kurmann – Sprint com Spar Financial Research*
 
-> "Foi incrível! O resultado foi além do que eu imaginava. O tanto que evoluímos em um espaço de tempo tão curto foi indescritível. A qualidade do trabalho em termos de resultado, planejamento e organização foi altíssima."
+**Utilização**
 
-*Gustavo Kurmann – Sprint com Spar Financial Research*
-
-**4 dias de imersão**
-
-• Para coletar dados sobre o interesse do mercado e do público-alvo da solução.\
+• Para coletar dados sobre o interesse do mercado e do público-alvo do negócio.\
 • Para times que desejam inovar, mas não sabem bem por onde começar.\
 • Para alinhar objetivos de negócio entre diferentes áreas da empresa.\
 • Para times que desejam ganhar tempo na etapa de Design do seu produto ou serviço.
-
-O caminho mais rápido para elaborar projetos de UX/UI Design (*User Experience and User Interface*).
 
 **Objetivos**
 
