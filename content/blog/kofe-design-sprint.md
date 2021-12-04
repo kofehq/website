@@ -1,8 +1,8 @@
 ---
 image: /images/artboard-4.jpg
 title: Kofe Design Sprint
-description: Trabalho de imersão colaborativa com o time de especialistas
-  durante quatro dias.
+description: "Trabalho de imersão com o time de especialistas economizando meses
+  de projeto. "
 ---
 Nós optamos por usar o método Design Sprint, apesar de ser muito desafiador, por causa de sua capacidade de reduz o tempo de pesquisas, reuniões e retrabalho em projetos de UX – *User Experience* e UI – *User Interface*. Suas características de imersão, foco no processo de Design, trabalho colaborativo e organização de um time especialmente formado, nos dá a melhor ferramenta para poupar tempo de projeto.
 
