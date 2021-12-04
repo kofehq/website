@@ -3,13 +3,13 @@ image: /images/blog-tablets_v3.jpg
 title: "Case: Xpeed, Rico e Infomoney"
 description: Design e implementação front-end para o curso de Betina Roxo.
 ---
-**Projeto: Viver, Curtir, Investir: Tirando Sonhos do Papel.**
+**Projeto:** Viver, Curtir, Investir: Tirando Sonhos do Papel.
 
-Ano: 2021
+**Ano:** 2021
 
-Cliente: Xpeed
+**Cliente:** Xpeed
 
-Serviços: Design e Front-end.
+**Serviços:** Design e Front-end.
 
 Agradecimentos: Betina Roxo, Cinquepalmi, Gabriella Miranda e a todo o time de produção. 
 
