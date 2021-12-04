@@ -32,6 +32,6 @@ A consultoria é entregue no formato de relatório contendo:
 
 **Gostou do assunto?**
 
-Quer saber mais? Entre em contato com a gente!
+Quer saber mais? Entre em contato!
 
 *\#kofe #kofedesign #uxdesign #uidesign #heuristicas #usabilidade #grupofocal #testedeusabilidade #consultoria*
