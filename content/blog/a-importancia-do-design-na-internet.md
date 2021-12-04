@@ -1,8 +1,8 @@
 ---
 image: /images/artboard-1.jpg
 title: Design de Interface
-description: Neste post vamos explicar o conceito de interfaces digitais e quais
-  são os fatores que mais impactam no seu Design.
+description: Saiba o que são interfaces digitais e quais os fatores que mais
+  impactam no seu Design.
 ---
 Vocês já pararam para pensar na importância do Design na internet? Ou o que de fato isso representa? Neste post vamos explicar o conceito de interfaces digitais e quais são os fatores que mais impactam no seu Design. 
 
