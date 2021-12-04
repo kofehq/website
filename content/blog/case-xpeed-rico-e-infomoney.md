@@ -17,10 +17,6 @@ Saiba mais sobre o curso [clicando aqui](https://xpeedschool.com.br/curso/viver-
 
 ![](/images/curso-xpeed-mockup01.jpg)
 
-![](/images/curso-xpeed-mockup02.jpg)
-
-![](/images/curso-xpeed-mockup04.jpg)
-
 **Gostou do assunto?**
 
 Quer saber mais? Entre em contato!
