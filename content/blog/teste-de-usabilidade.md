@@ -17,7 +17,7 @@ De acordo com o objetivo do projeto, podemos realizar três tipos de avaliaçõe
 *Por que e como melhorar vs Quantas vezes e por quanto tempo.*
 
 **Contexto de Uso**\
-*Natural, com script, não utiliza ou híbrido.*
+*Simulação, com script, não usa ou híbrido.*
 
 **Modelos**
 
