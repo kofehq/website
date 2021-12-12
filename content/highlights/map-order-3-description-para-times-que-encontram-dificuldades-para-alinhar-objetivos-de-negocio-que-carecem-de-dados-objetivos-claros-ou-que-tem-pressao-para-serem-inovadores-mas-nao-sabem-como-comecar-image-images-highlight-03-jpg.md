@@ -1,7 +1,6 @@
 ---
 image: /images/highlight-03.jpg
-description: Para times que desejam ganhar tempo, coletar dados sobre o mercado
-  e o público-alvo e também para quem desejam inovar, mas não sabem bem como
-  começar.
+description: Para times que desejam ganhar tempo, validar com o público-alvo e
+  para quem deseja inovar, mas não sabem bem como começar.
 order: 3
 ---
