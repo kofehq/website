@@ -1,12 +1,16 @@
 ---
 image: /images/artboard-4.jpg
 title: Kofe Design Sprint
-description: "Trabalho de imersão com o time de especialistas economizando meses
-  de projeto. "
+description: Quatro dias de imersão com o time de especialistas para prototipar
+  e validar uma ideia.
 ---
-Nós optamos por usar o método Design Sprint, apesar de ser muito desafiador, por causa de sua capacidade de reduz o tempo de pesquisas, reuniões e retrabalho em projetos de UX – *User Experience* e UI – *User Interface*. Suas características de imersão, foco no processo de Design, trabalho colaborativo e organização de um time especialmente formado, nos dá a melhor ferramenta para poupar tempo de projeto.
+Nós optamos por usar o método Design Sprint, apesar de ser muito desafiador em relação ao prazo, justamente por causa de sua capacidade de reduz o tempo de pesquisas, reuniões e retrabalho em projetos de UX – *User Experience* e UI – *User Interface*. 
 
-São apenas **quatro dias de imersão** de trabalho, cujo objetivo é propor soluções para um desafio, construir e validar a aderência com o público-alvo. O método de trabalho foi escrito no Google, aplicado nas maiores empresas de tecnologia e compartilhado por meio do livro best-seller, *Sprint* de Jake Knapp.
+Suas características de imersão, foco no processo de Design, trabalho colaborativo e organização de um time especialmente formado para o trabalho, nos dá a melhor ferramenta para poupar tempo de projeto.
+
+São apenas **quatro dias de imersão** de trabalho, cujo objetivo é propor soluções para um desafio, construir um protótipo e validar a aderência com o público-alvo.
+
+O método de trabalho foi escrito no Google e é hoje aplicado nas maiores empresas de tecnologia do mundo. Compartilhado por meio do livro best-seller, *Sprint* de Jake Knapp.
 
 O caminho mais rápido para elaborar projetos de UX/UI Design (*User Experience and User Interface*).
 
