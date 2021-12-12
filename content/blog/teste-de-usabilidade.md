@@ -4,9 +4,9 @@ title: Teste de Usabilidade
 description: Ferramenta de pesquisa com diferentes formatos, utilizada para
   coletar dados sobre o negócio, produto ou serviço.
 ---
-Os métodos de pesquisa UX modernos respondem a uma ampla gama de perguntas que auxiliam durante o processo típico de desenvolvimento de produtos ou serviços.
+Os métodos de pesquisa modernos são utilizados para responder a uma ampla gama de perguntas que auxiliam, provendo dados, durante o processo de decisão e desenvolvimento de produtos ou serviços.
 
-Embora não seja realista usar o conjunto completo de métodos em um só projeto, quase todos se beneficiariam de pesquisa e da combinação de resultados.
+Embora não seja realista usar todos os métodos de pesquisa disponíveis em um só projeto, é notório os benefícios da pesquisa e da combinação de resultados a partir de diferentes métodos utilizados.
 
 De acordo com o objetivo do projeto, podemos realizar três tipos de avaliações:
 
