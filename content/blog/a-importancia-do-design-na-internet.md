@@ -4,13 +4,15 @@ title: Design de Interface
 description: Saiba o que são interfaces digitais e quais os fatores que mais
   impactam no seu Design.
 ---
-Vocês já pararam para pensar na importância do Design na internet? Ou o que de fato isso representa? Neste post vamos explicar o conceito de interfaces digitais e quais são os fatores que mais impactam no seu Design. 
+Vocês já pararam para pensar na importância do Design na internet? Ou o que de fato isso representa?
 
-Nós estamos acostumados com o Design de produtos físicos, como por exemplo, do celular ou do computador por onde você está lendo esse texto. Porém, para ler esse texto, você precisa estar conectado(a) à internet e acessar a um produto digital onde ele está publicado. E esse produto digital também tem seu próprio Design, não é mesmo? Cores, fontes, imagens, tudo isso é pensado por meio do seu projeto de Design.
+Nós estamos bem acostumados a observar o Design de produtos físicos, como por exemplo, do celular ou do computador por onde você está lendo esse texto. Porém, para ler esse texto, você precisa estar conectado(a) à internet e acessar a um produto digital onde ele está publicado. E esse produto digital também tem seu próprio Design e podemos observá-lo. São cores, formas, fontes, imagens... tudo pensado e definido por meio do seu projeto de Design.
 
-Então, basicamente, quando falamos sobre Design para a internet, estamos nos referindo aos projetos de **interface** elaborados para produtos digitais, como: aplicativos, sites, lojas virtuais, sistemas, entre outros. Também é a interface desses produtos que permite que você, como usuário, possa se comunicar e interagir com os sistemas, passando seus comandos de interesse. 
+Quando falamos sobre Design para a internet, estamos nos referindo aos **projetos de design para a interface** de produtos digitais, como: aplicativos, sites, lojas virtuais, sistemas, entre outros. 
 
-Por exemplo, é por meio da interface de um produto digital que você pode compartilhar um conteúdo ou até mesmo escolher um produto, fazer o pagamento e definir o endereço para receber em sua casa. 
+Também é a interface desses produtos que permite que você, como usuário, possa se comunicar e interagir com os sistemas, passando seus comandos de interesse. 
+
+Por exemplo, é utilizando interface de um produto digital que você pode compartilhar um conteúdo ou até mesmo escolher um produto, fazer o pagamento e definir o endereço para receber em sua casa. 
 
 **Design de Interface**
 
