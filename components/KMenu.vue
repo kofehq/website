@@ -235,13 +235,16 @@ export default {
   flex-direction: column;
 }
 
+.menu-item {
+  margin-bottom: 25px;
+}
+
 .menu-link {
   font-size: 60px;
   font-weight: 200;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: rgba(#5A223B, 0.8);
-  margin-bottom: 25px;
 }
 
 .menu-social-media {
@@ -332,7 +335,6 @@ export default {
 }
 
 @media (max-width: 767px) {
-
   .menu-wrapper {
     min-height: 42px;
   }
@@ -348,8 +350,8 @@ export default {
   }
 
   .menu-list {
-    margin-top: 40px;
-    padding-left: 30px;
+    margin-top: 60px;
+    padding-left: 25px;
   }
 
   .menu-link {
@@ -359,6 +361,7 @@ export default {
   .menu-social-media {
     max-width: 70%;
     flex-wrap: wrap;
+    margin-top: 30px;
   }
 
   .menu-social-link {
