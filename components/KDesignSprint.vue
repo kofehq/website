@@ -4,13 +4,13 @@
       <div :class="$style['design-sprint-content']">
         <div :class="$style['design-sprint-image-wrapper']" data-aos="fade-right">
           <img src="@/assets/design-sprint.png" alt="Bruna Ferencz" :class="$style['design-sprint-image']" width="530" height="483">
-          <p :class="$style['design-sprint-image-description']">Facilitação profissional pela Designer Bruna Ferencz, certificada por Jake Knapp e a agência AJ&Smart, baseada em Berlim.</p>
+          <p :class="$style['design-sprint-image-description']"><strong>Bruna Ferencz</strong> formada por <strong>Jake Knapp</strong> e <strong>AJ&Smart</strong> em facilitação e liderança de Design Sprints.</p>
         </div>
         <div data-aos="fade-left">
           <h3 :class="$style['design-sprint-title']">Design sprints</h3>
           <div :class="$style['design-sprint-description']">
-            <p>Facilitamos o método Design Sprint 2.0 por sua capacidade de alcançar resultados de alta qualidade em apenas quatro dias. </p>
-            <p>Durante a imersão com o time de especialistas do negócio, conduzimos da concepção, à construção e a validação de soluções para produtos e serviços digitais. </p>
+            <p>Método de trabalho utilizado para projetar soluções de design em apenas quatro dias.</p>
+            <p>Utilizamos Design Sprints para ajudar especialistas a obterem melhores resultados, mais rápido.</p>
           </div>
         </div>
       </div>
@@ -51,13 +51,11 @@ export default {
   line-height: 23px;
   text-align: center;
   letter-spacing: 0.1em;
-  max-width: 420px;
-  margin: 0 auto;
 }
 
 .design-sprint-title {
-  font-weight: 300;
   font-size: 60px;
+  font-weight: 200;
   line-height: 72px;
   letter-spacing: 0.25em;
   text-transform: uppercase;

@@ -5,23 +5,23 @@
       <div :class="$style['services-list']">
         <div :class="$style['service-item']" data-aos="fade-up">
           <img src="@/assets/clock.svg" alt="Relógio" :class="$style['service-icon']" width="42" height="41">
-          <h4 :class="$style['service-title']">Design de interfaces</h4>
+          <h4 :class="$style['service-title']">Design</h4>
           <div :class="$style['service-description']">
-            <p>Fazemos projetos de Design para produtos digitais, com foco nos objetivos da empresa e na experiência de uso que será promovida aos clientes.</p>
+            <p>Design que busca a convergência entre os objetivos de negócio e a experiência dos clientes.</p>
           </div>
         </div>
         <div :class="$style['service-item']" data-aos="fade-up" data-aos-delay="300">
           <img src="@/assets/clock.svg" alt="Relógio" :class="$style['service-icon']" width="42" height="41">
-          <h4 :class="$style['service-title']">Design Sprints</h4>
+          <h4 :class="$style['service-title']">Sprints</h4>
           <div :class="$style['service-description']">
-            <p>Aplicamos o método Design Sprint, escrito no Google, para ajudar seu time a conceber, prototipar e testar projetos de interface em apenas QUATRO DIAS.</p>
+            <p>Para construir e validar ideias antes de investir no desenvolvimento de produtos ou serviços.</p>
           </div>
         </div>
         <div :class="$style['service-item']" data-aos="fade-up" data-aos-delay="600">
           <img src="@/assets/clock.svg" alt="Relógio" :class="$style['service-icon']" width="42" height="41">
           <h4 :class="$style['service-title']">Front-end</h4>
           <div :class="$style['service-description']">
-            <p>Entregamos interfaces com o código escrito em nível de desenvolvimento Front-end. Utilizamos frameworks como Vue JS e Nuxt.</p>
+            <p>Código escrito utilizando frameworks como Vue JS e Nuxt. Soluções personalizadas para a interface do cliente e do administrador.</p>
           </div>
         </div>
       </div>
@@ -98,9 +98,9 @@ export default {
 }
 
 .service-description {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 24px;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
   color: rgba(#3E293D, 0.8);
   text-align: center;
 }
