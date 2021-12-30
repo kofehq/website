@@ -40,8 +40,9 @@
           Clientes  
         </k-action>
         <k-action
+          tag="nuxt-link"
           :class="$style['menu-link']"
-          @click="goTo('#blog')"
+          :to="{ name: 'blog' }"
         >
           Blog  
         </k-action>
