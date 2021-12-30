@@ -8,12 +8,14 @@
       ref="menu"
       :class="$style['menu']"
     >
-      <k-action
-        :class="$style['menu-close']"
-        @click="showMenu = false"
-      >
-        <img src="@/assets/close.svg" alt="Fechar" width="32" height="32">
-      </k-action>
+      <div :class="$style['menu-header']">
+        <k-action
+          :class="$style['menu-close']"
+          @click="showMenu = false"
+        >
+          <img src="@/assets/close.svg" alt="Fechar" width="32" height="32">
+        </k-action>
+      </div>
       <div :class="$style['menu-list']">
         <k-action
           :class="$style['menu-link']"
@@ -151,7 +153,8 @@ export default {
 
 <style lang="scss" module>
 .menu-btn {
-  position: relative;
+  position: fixed;
+  top: 36px;
   z-index: 999;
   transform: translateX(-76px);
 }
@@ -169,10 +172,17 @@ export default {
   justify-content: center;
 }
 
-.menu-close {
+.menu-header {
   position: absolute;
-  top: 30px;
-  left: 25px;
+  top: 36px;
+  left: 50%;
+  width: 100%;
+  max-width: 1080px;
+  transform: translateX(-50%);
+}
+
+.menu-close {
+  transform: translateX(-76px);
   width: 55px;
   height: 55px;
   display: flex;
@@ -217,6 +227,18 @@ export default {
   .menu-btn {
     transform: translateX(0);
   }
+
+  .menu-close {
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 1120px) {
+  .menu-header {
+    left: 20px;
+    right: 20px;
+    transform: none;
+  }
 }
 
 @media (max-width: 767px) {
@@ -225,13 +247,13 @@ export default {
     min-height: 42px;
   }
 
-  .menu-close {
-    top: 20px;
-    left: 20px;
+  .menu-header {
+
   }
 
-  .menu-btn {
-    position: fixed;
+  .menu-close {
+    width: 40px;
+    height: 40px;
   }
 
   .menu-btn-image {
