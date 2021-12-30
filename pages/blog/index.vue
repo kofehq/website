@@ -52,7 +52,7 @@ export default {
 
   data () {
     return {
-      limit: 4,
+      limit: 10,
     }
   },
 
@@ -77,7 +77,7 @@ export default {
 
   methods: {
     loadMore () {
-      this.limit = this.limit + 4
+      this.limit = this.limit + 10
     },
   },
 }
@@ -88,6 +88,7 @@ export default {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 20px;
+  grid-row-gap: 20px;
   margin-top: 35px;
 }
 
