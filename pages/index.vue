@@ -120,6 +120,12 @@ export default {
 
 <style lang="scss" module>
 .page {
-  padding-top: 30px;
+  padding-top: 85px;
+}
+
+@media (max-width: 767px) {
+  .page {
+    padding-top: 30px;
+  }
 }
 </style>
