@@ -286,5 +286,9 @@ export default {
   .project-title {
     font-size: 16px;
   }
+
+  .projects-nav-item {
+    margin: 0 5px;
+  }
 }
 </style>

@@ -326,7 +326,7 @@ export default {
   .testimonial-nav-item {
     width: 10px;
     height: 2px;
-    margin: 0 10px;
+    margin: 0 5px;
   }
 
   .testimonial-list {
