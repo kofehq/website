@@ -208,16 +208,34 @@ export default {
 }
 
 @media (max-width: 767px) {
+  .footer-address {
+    flex-direction: column;
+  }
+
   .footer-address-text {
-    font-size: 16px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .footer-mail {
+    flex-direction: column;
   }
   
   .footer-mail-text {
-    font-size: 16px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .footer-phone {
+    flex-direction: column;
   }
   
   .footer-phone-text {
-    font-size: 16px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
   }
 }
 </style>
