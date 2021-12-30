@@ -153,8 +153,11 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  height: 200px;
+  justify-content: center;
+}
+
+.testimonial-nav-list {
+  margin: 10px 0;
 }
 
 .testimonial-nav-item {
@@ -299,11 +302,11 @@ export default {
 
   .testimonial-nav {
     flex-direction: row;
-    width: 235px;
     height: auto;
-    transform: translateX(-50%);
-    left: 50%;
     top: 190px;
+    left: 0;
+    right: 0;
+    transform: none;
   }
 
   .testimonial-nav-left {
@@ -317,6 +320,7 @@ export default {
   .testimonial-nav-list {
     display: flex;
     align-items: center;
+    margin: 0 10px;
   }
 
   .testimonial-nav-item {

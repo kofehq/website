@@ -141,15 +141,15 @@ export default {
 
 .projects-nav {
   margin: 30px auto 0;
-  max-width: 235px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .projects-nav-list {
   display: flex;
   align-items: center;
+  margin: 0 10px;
 }
 
 .projects-nav-item {
