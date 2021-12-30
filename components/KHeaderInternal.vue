@@ -11,10 +11,15 @@
           <img src="@/assets/back.svg" alt="Voltar" width="56" height="55" :class="$style['header-back-image']">
         </k-action>
         <k-menu v-else />
-        <k-svg
-          name="logo"
-          :class="$style['logo']"
-        />
+        <k-action
+          tag="nuxt-link"
+          :to="{ name: 'index' }"
+        >
+          <k-svg
+            name="logo"
+            :class="$style['header-logo']"
+          />
+        </k-action>
       </div>
     </k-center>
   </header>
@@ -59,6 +64,10 @@ export default {
 
 .header-back {
   transform: translateX(-76px);
+}
+
+.header-logo {
+  color: #5A223B;
 }
 
 @media (max-width: 1250px) {
