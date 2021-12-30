@@ -141,7 +141,6 @@ export default {
 
 .post-body {
   font-size: 18px;
-  line-height: 20px;
   letter-spacing: 0.1em;
 
   h2 {
@@ -160,6 +159,7 @@ export default {
   }
 
   p {
+    line-height: 24px;
     margin-bottom: 20px;
   }
 }
