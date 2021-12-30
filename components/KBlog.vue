@@ -9,7 +9,7 @@
           </div>
         </template>
       </div>
-      <div v-if="posts.length > 2" :class="$style['blog-actions']" data-aos="fade-up">
+      <div :class="$style['blog-actions']" data-aos="fade-up">
         <k-action
           tag="nuxt-link"
           color="primary"
