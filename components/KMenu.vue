@@ -3,111 +3,147 @@
     <k-action :class="$style['menu-btn']" @click="showMenu = true">
       <img src="@/assets/menu.svg" alt="Menu" width="56" height="55" :class="$style['menu-btn-image']" />
     </k-action>
-    <div
-      v-if="showMenu"
-      ref="menu"
-      :class="$style['menu']"
+    <transition
+      :enter-class="$style['menu-enter']"
+      :enter-active-class="$style['menu-enter-active']"
+      :leave-to-class="$style['menu-leave']"
+      :leave-active-class="$style['menu-leave-active']"
+      :duration="{ enter: 2000, leave: 0 }"
     >
-      <div :class="$style['menu-header']">
-        <k-action
-          :class="$style['menu-close']"
-          @click="showMenu = false"
-        >
-          <img src="@/assets/close.svg" alt="Fechar" width="32" height="32">
-        </k-action>
-      </div>
-      <div :class="$style['menu-list']">
-        <k-action
-          :class="$style['menu-link']"
-          @click="goTo('#servicos')"
-        >
-          Serviços  
-        </k-action>
-        <k-action
-          :class="$style['menu-link']"
-          @click="goTo('#design')"
-        >
-          Design sprints  
-        </k-action>
-        <k-action
-          :class="$style['menu-link']"
-          @click="goTo('#projetos')"
-        >
-          Projetos  
-        </k-action>
-        <k-action
-          :class="$style['menu-link']"
-          @click="goTo('#clientes')"
-        >
-          Clientes  
-        </k-action>
-        <k-action
-          tag="nuxt-link"
-          :class="$style['menu-link']"
-          :to="{ name: 'blog' }"
-        >
-          Blog  
-        </k-action>
-        <div :class="$style['menu-social-media']">
+      <div
+        v-if="showMenu"
+        ref="menu"
+        :class="$style['menu']"
+      >
+        <div :class="$style['menu-header']">
           <k-action
-            tag="a"
-            url="https://open.spotify.com/playlist/1AyhlPw1mGsdrDou0LeOyz?si=b663cfe38a794201"
-            target="_blank"
-            :class="$style['menu-social-link']"
+            :class="$style['menu-close']"
+            @click="showMenu = false"
           >
-            <img src="@/assets/spotify.svg" alt="Spotify" :class="$style['menu-social-image']" width="27" height="26">
-          </k-action>
-          <k-action
-            tag="a"
-            url="https://www.instagram.com/kofe.design/"
-            target="_blank"
-            :class="$style['menu-social-link']"
-          >
-            <img src="@/assets/instagram.svg" alt="Instagram" :class="$style['menu-social-image']" width="26" height="26">
-          </k-action>
-          <k-action
-            tag="a"
-            url="https://www.facebook.com/kofe.design/"
-            target="_blank"
-            :class="$style['menu-social-link']"
-          >
-            <img src="@/assets/facebook.svg" alt="Facebook" :class="$style['menu-social-image']" width="26" height="26">
-          </k-action>
-          <k-action
-            tag="a"
-            url="https://www.linkedin.com/company/kofedesign/"
-            target="_blank"
-            :class="$style['menu-social-link']"
-          >
-            <img src="@/assets/linkedin.svg" alt="Linkedin" :class="$style['menu-social-image']" width="27" height="26">
-          </k-action>
-          <k-action
-            tag="a"
-            url="https://api.whatsapp.com/send?phone=5548991409750&text=Ol%C3%A1!%20Gostaria%20de%20receber%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Kofe.%20Poderiam%20me%20ajudar%3F"
-            target="_blank"
-            :class="$style['menu-social-link']"
-          >
-            <img src="@/assets/whatsapp.svg" alt="Whatsapp" :class="$style['menu-social-image']" width="27" height="27">
-          </k-action>
-          <k-action
-            tag="a"
-            url="mailto:atelie@kofe.design"
-            target="_blank"
-            :class="$style['menu-social-link']"
-          >
-            <img src="@/assets/mail.svg" alt="Email" :class="$style['menu-social-image']" width="26" height="18">
-          </k-action>
-          <k-action
-            tag="a"
-            url="https://goo.gl/maps/t7jo9jXGKzrxe7dE8"
-            target="_blank"
-            :class="$style['menu-social-link']"
-          >
-            <img src="@/assets/pin.svg" alt="Pin" :class="$style['menu-social-image']" width="23" height="27">
+            <img src="@/assets/close.svg" alt="Fechar" width="32" height="32">
           </k-action>
         </div>
+        <div :class="$style['menu-list']">
+          <div
+            :class="$style['menu-item']"
+            :style="{ '--animation-order': 1 }"
+          >
+            <k-action
+              :class="$style['menu-link']"
+              @click="goTo('#servicos')"
+            >
+              Serviços  
+            </k-action>
+          </div>
+          <div
+            :class="$style['menu-item']"
+            :style="{ '--animation-order': 2 }"
+          >
+            <k-action
+              :class="$style['menu-link']"
+              @click="goTo('#design')"
+            >
+              Design sprints  
+            </k-action>
+          </div>
+          <div
+            :class="$style['menu-item']"
+            :style="{ '--animation-order': 3 }"
+          >
+            <k-action
+              :class="$style['menu-link']"
+              @click="goTo('#projetos')"
+            >
+              Projetos  
+            </k-action>
+          </div>
+          <div
+            :class="$style['menu-item']"
+            :style="{ '--animation-order': 4 }"
+          >
+            <k-action
+              :class="$style['menu-link']"
+              @click="goTo('#clientes')"
+            >
+              Clientes  
+            </k-action>
+          </div>
+          <div
+            :class="$style['menu-item']"
+            :style="{ '--animation-order': 5 }"
+          >
+            <k-action
+              tag="nuxt-link"
+              :class="$style['menu-link']"
+              :to="{ name: 'blog' }"
+            >
+              Blog  
+            </k-action>
+          </div>
+          <div
+            :class="$style['menu-social-media']"
+            :style="{ '--animation-order': 6 }"
+          >
+            <k-action
+              tag="a"
+              url="https://open.spotify.com/playlist/1AyhlPw1mGsdrDou0LeOyz?si=b663cfe38a794201"
+              target="_blank"
+              :class="$style['menu-social-link']"
+            >
+              <img src="@/assets/spotify.svg" alt="Spotify" :class="$style['menu-social-image']" width="27" height="26">
+            </k-action>
+            <k-action
+              tag="a"
+              url="https://www.instagram.com/kofe.design/"
+              target="_blank"
+              :class="$style['menu-social-link']"
+            >
+              <img src="@/assets/instagram.svg" alt="Instagram" :class="$style['menu-social-image']" width="26" height="26">
+            </k-action>
+            <k-action
+              tag="a"
+              url="https://www.facebook.com/kofe.design/"
+              target="_blank"
+              :class="$style['menu-social-link']"
+            >
+              <img src="@/assets/facebook.svg" alt="Facebook" :class="$style['menu-social-image']" width="26" height="26">
+            </k-action>
+            <k-action
+              tag="a"
+              url="https://www.linkedin.com/company/kofedesign/"
+              target="_blank"
+              :class="$style['menu-social-link']"
+            >
+              <img src="@/assets/linkedin.svg" alt="Linkedin" :class="$style['menu-social-image']" width="27" height="26">
+            </k-action>
+            <k-action
+              tag="a"
+              url="https://api.whatsapp.com/send?phone=5548991409750&text=Ol%C3%A1!%20Gostaria%20de%20receber%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Kofe.%20Poderiam%20me%20ajudar%3F"
+              target="_blank"
+              :class="$style['menu-social-link']"
+            >
+              <img src="@/assets/whatsapp.svg" alt="Whatsapp" :class="$style['menu-social-image']" width="27" height="27">
+            </k-action>
+            <k-action
+              tag="a"
+              url="mailto:atelie@kofe.design"
+              target="_blank"
+              :class="$style['menu-social-link']"
+            >
+              <img src="@/assets/mail.svg" alt="Email" :class="$style['menu-social-image']" width="26" height="18">
+            </k-action>
+            <k-action
+              tag="a"
+              url="https://goo.gl/maps/t7jo9jXGKzrxe7dE8"
+              target="_blank"
+              :class="$style['menu-social-link']"
+            >
+              <img src="@/assets/pin.svg" alt="Pin" :class="$style['menu-social-image']" width="23" height="27">
+            </k-action>
+          </div>
+        </div>
       </div>
-    </div>
+    </transition>
   </div>
 </template>
 
@@ -223,6 +259,45 @@ export default {
   height: 30px;
 }
 
+.menu-enter-active {
+  .menu-close {
+    transform: translateX(-76px);
+    opacity: 1;
+    transition: all 0.5s;
+  }
+
+  .menu-item {
+    transform: translateY(0);
+    opacity: 1;
+    transition: all 0.5s;
+    transition-delay: calc(300ms + (var(--animation-order) * 100ms));
+  }
+
+  .menu-social-media {
+    transform: translateY(0);
+    opacity: 1;
+    transition: all 0.5s;
+    transition-delay: calc(300ms + (var(--animation-order) * 100ms));
+  }
+}
+
+.menu-enter {
+  .menu-close {
+    transform: translateX(-160px);
+    opacity: 0;
+  }
+
+  .menu-item {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+
+  .menu-social-media {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+}
+
 @media (max-width: 1250px) {
   .menu-btn {
     transform: translateX(0);
@@ -230,6 +305,21 @@ export default {
 
   .menu-close {
     transform: translateX(0);
+  }
+
+  .menu-enter-active {
+    .menu-close {
+      transform: translateX(0);
+      opacity: 1;
+      transition: all 0.5s;
+    }
+  }
+
+  .menu-enter {
+    .menu-close {
+      transform: translateX(-50px);
+      opacity: 0;
+    }
   }
 }
 
@@ -245,10 +335,6 @@ export default {
 
   .menu-wrapper {
     min-height: 42px;
-  }
-
-  .menu-header {
-
   }
 
   .menu-close {
