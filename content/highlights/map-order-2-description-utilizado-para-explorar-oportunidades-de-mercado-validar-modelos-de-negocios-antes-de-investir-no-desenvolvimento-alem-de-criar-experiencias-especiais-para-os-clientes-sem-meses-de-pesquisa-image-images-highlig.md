@@ -1,7 +1,6 @@
 ---
 image: /images/highlight-02.jpg
-description: Economizamos meses de pesquisas e reuniões, conduzindo uma
-  sequência de atividades de Design para otimizar a construção do projeto de
-  experiência e interface do produto ou serviço.
-order: 2
+description: Economize em pesquisas e reuniões utilizando o método Design Sprint
+  para elaborar o projeto de design do seu produto ou serviço.
+order: 1
 ---
