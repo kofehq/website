@@ -1,8 +1,18 @@
 <template>
   <div :class="$style['blog-post']">
-    <div :class="$style['blog-post-image-wrapper']">
-      <img :src="post.image" alt="Imagem do post" :class="$style['blog-post-image']" loading="lazy">
-    </div>
+    <k-action
+      tag="nuxt-link"
+      :to="{
+        name: 'blog-slug',
+        params: {
+          slug: post.slug,
+        }
+      }"
+    >
+      <div :class="$style['blog-post-image-wrapper']">
+        <img :src="post.image" alt="Imagem do post" :class="$style['blog-post-image']" loading="lazy">
+      </div>
+    </k-action>
     <div :class="$style['blog-post-content']">
       <h4 :class="$style['blog-post-title']">{{ post.title }}</h4>
       <div :class="$style['blog-post-description']">
