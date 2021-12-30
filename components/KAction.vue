@@ -1,7 +1,7 @@
 <template>
   <nuxt-link
     v-if="tag === 'nuxt-link'"
-    :class="computedClasses"
+    :class="[$style['btn'], computedClasses]"
     :to="to"
   >
     <slot />
@@ -9,7 +9,7 @@
   <component
     :is="tag"
     v-else
-    :class="computedClasses"
+    :class="[$style['btn'], computedClasses]"
     :disabled="disabled"
     :type="type"
     :to="to"
@@ -63,12 +63,10 @@ export default {
 
   computed: {
     computedClasses() {
-      return [
-        this.$style.btn, {
-          [this.$style['btn-color-primary']]: this.color === 'primary',
-          [this.$style['btn-disabled']]: this.disabled,
-        }
-      ]
+      return {
+        [this.$style['btn-color-primary']]: this.color === 'primary',
+        [this.$style['btn-disabled']]: this.disabled,
+      }
     },
   },
 
