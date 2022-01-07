@@ -16,8 +16,6 @@ Por exemplo, é utilizando interface de um produto digital que você pode compar
 
 **Design de Interface**
 
-![](/images/artboard-1.jpg)
-
 Quando pensamos em Design, logo lembramos de uma boa estética e de um acabamento visual mais refinado, certo? Porém, o Design para a internet é tão importante porque também leva em consideração outros fatores além do visual.
 
 A **Ergonomia Visual**, por exemplo, é importante para que os textos e conteúdos tenham tamanho e contraste adequados para uma leitura confortável nas telas.
