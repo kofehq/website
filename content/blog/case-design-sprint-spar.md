@@ -22,17 +22,21 @@ A Spar é uma empresa diferente desde sua idealização e foi um imenso prazer p
 *Silvio Coalho*\
 *Sócio-fundador da Spar Financial*
 
-#### **Resultado**
+#### **Resultado da Sprint**
 
-A Sprint foi uma etapa crucial para a construção do site da Spar. Permitiu priorizar e projetar o design de maneira rápida e totalmente personalizada. 
+A Sprint foi uma etapa crucial para a construção do site da Spar. Permitiu priorizar e projetar o design de maneira rápida e totalmente personalizada. Também promoveu resultados da pesquisa por meio dos Testes de Usabilidade aplicados.
 
-#### Pós-Sprint
+#### Website Finalizado
 
 Com os resultados da Sprint, avançamos com o projeto de Design, elaborando as especificações técnicas para a implementação do código da versão final da interface.
 
-Conheça a Spar Financial:
+Conheça a Spar Financial: https://sparfinancial.com/
 
-https://sparfinancial.com/
+#### Painel Admin Personalizado
+
+Não é só o usuário Cliente que merece uma boa experiência de uso, os administradores também estão 
+
+![](/images/spar-mockup-admin.jpg)
 
 **Gostou do assunto?**
 
