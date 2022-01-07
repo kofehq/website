@@ -1,5 +1,5 @@
 ---
-image: /images/artboard-1.jpg
+image: /images/kofe-banner-design-interfaces-2.png
 title: Design de Interface
 description: Saiba o que são interfaces digitais e quais os fatores que mais
   impactam no seu Design.
@@ -15,6 +15,16 @@ Também é a interface desses produtos que permite que você, como usuário, pos
 Por exemplo, é utilizando interface de um produto digital que você pode compartilhar um conteúdo ou até mesmo escolher um produto, fazer o pagamento e definir o endereço para receber em sua casa. 
 
 **Design de Interface**
+
+![](/images/artboard-3.png)
+
+![](/images/artboard-4.png)
+
+![](/images/artboard-5.png)
+
+![](/images/artboard-6.png)
+
+![](/images/artboard-7.png)
 
 Quando pensamos em Design, logo lembramos de uma boa estética e de um acabamento visual mais refinado, certo? Porém, o Design para a internet é tão importante porque também leva em consideração outros fatores além do visual.
 
