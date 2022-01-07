@@ -26,7 +26,7 @@ Podemos citar também a **Arquitetura de Informação**, que nos ajuda a organiz
 
 Além, é claro, do **UX Design**, o famoso Design da Experiência de Uso, que observa além do layout das telas, a experiência que se deseja promover com o serviço como um todo.
 
-### **O impacto do Design na internet**
+### **O impacto do Design**
 
 Considerando que existem cada vez mais produtos e serviços digitais sendo oferecidos na internet, projetos de Design são importantes porque influenciam diretamente em nosso interesse, capacidade e disposição para utilizar uma interface.
 
