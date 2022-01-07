@@ -34,7 +34,7 @@ Conheça a Spar Financial: https://sparfinancial.com/
 
 #### Painel Admin Personalizado
 
-Não é só o usuário Cliente que merece uma boa experiência de uso, os administradores também estão 
+Não é só o usuário Cliente que merece uma boa experiência de uso, os administradores também recebem um painel administrativo amigável e intuitivo para cadastrar e fazer a gestão do conteúdo, formulários e configurações do site. 
 
 ![](/images/spar-mockup-admin.jpg)
 
