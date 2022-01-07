@@ -18,26 +18,26 @@ O caminho mais rápido para elaborar projetos de UX/UI Design (*User Experience 
 >
 > *"Foi incrível! O resultado foi além do que eu imaginava. O tanto que evoluímos em um espaço de tempo tão curto foi indescritível. A qualidade do trabalho em termos de resultado, planejamento e organização foi altíssima." Gustavo Kurmann – Sprint com Spar Financial Research*
 
-**Utilização**
+### **Utilização**
 
 • Para coletar dados sobre o interesse do mercado e do público-alvo do negócio.\
 • Para times que desejam inovar, mas não sabem bem por onde começar.\
 • Para alinhar objetivos de negócio entre diferentes áreas da empresa.\
 • Para times que desejam ganhar tempo na etapa de Design do seu produto ou serviço.
 
-**Objetivos**
+### **Objetivos**
 
 • Explorar oportunidades de mercado e tecnologia.\
 • Validar e testar ideias e modelos de negócio antes de investir no desenvolvimento.\
 • Criar experiências especiais para os clientes, sem meses de pesquisa.
 
-**Benefícios**
+### **Benefícios**
 
 • Ganho de tempo.\
 • Solução coesa entre os especialistas.\
 • Validação antes de investir e lançar.
 
-**Gostou do assunto?**
+### **Gostou do assunto?**
 
 Quer saber mais? Entre em contato!
 
