@@ -5,6 +5,8 @@ description: Design Sprint com a Spar Financial.
 ---
 A Spar é uma empresa diferente desde sua idealização e foi um imenso prazer para nós ajudá-los a projetar a interface para o seu website. Durante os dias da Sprint conversamos sobre o branding e como tangibilizar a estratégia inovadora do negócio. Ficamos muito felizes com a interface projetada e ainda mais com os resultados obtidos nos Testes de Usabilidade.
 
+![Site da Spar Financial](/images/blog-spar-mockup.jpg "Site da Spar Financial")
+
 ***"Foi incrível! O resultado foi além do que eu imaginava. O tanto que evoluímos em um espaço de tempo tão curto foi indescritível. A qualidade do trabalho em termos de resultado, planejamento e organização foi altíssima."***
 
 *Gustavo Kurmann*\
@@ -19,6 +21,10 @@ A Spar é uma empresa diferente desde sua idealização e foi um imenso prazer p
 
 *Silvio Coalho*\
 *Sócio-fundador da Spar Financial*
+
+![Carol Kurmann trabalhando durante a Design Sprint para o Website da Spar Financial. ](/images/artboard-4.jpg "Dias de Kofe Design Sprint.")
+
+![Ambiente Administrativo Personalizado da Spar Financial.](/images/tecno-mockup-admin-spar_v2.jpg "Ambiente Administrativo Personalizado.")
 
 **Gostou do assunto?**
 
