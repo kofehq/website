@@ -12,7 +12,7 @@ description: "Design e implementação front-end para o curso Viver, Curtir,
 
 **Ano:** 2021
 
-Agradecimentos: Betina Roxo, João Cinquepalmi, Gabriella Miranda e a todo o time de produção. 
+Agradecimentos: Gabriella Miranda, Betina Roxo, João Cinquepalmi e a todo o time de produção. 
 
 Saiba mais sobre o curso [clicando aqui](https://xpeedschool.com.br/curso/viver-curtir-investir-tirando-sonhos-do-papel/).
 
