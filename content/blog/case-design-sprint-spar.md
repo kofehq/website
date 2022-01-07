@@ -24,7 +24,7 @@ A Spar é uma empresa diferente desde sua idealização e foi um imenso prazer p
 
 #### **Resultado da Sprint**
 
-A Sprint foi uma etapa crucial para a construção do site da Spar. Permitiu priorizar e projetar o design de maneira rápida e totalmente personalizada. Também promoveu resultados da pesquisa por meio dos Testes de Usabilidade aplicados.
+A Sprint foi uma etapa crucial para a construção do site da Spar. Permitiu priorizar e projetar o design de maneira rápida e totalmente personalizada. Também promoveu pesquisa por meio dos Testes de Usabilidade aplicados.
 
 #### Website Finalizado
 
