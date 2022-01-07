@@ -22,10 +22,6 @@ A Spar é uma empresa diferente desde sua idealização e foi um imenso prazer p
 *Silvio Coalho*\
 *Sócio-fundador da Spar Financial*
 
-![Carol Kurmann trabalhando durante a Design Sprint para o Website da Spar Financial. ](/images/artboard-4.jpg "Dias de Kofe Design Sprint.")
-
-![Ambiente Administrativo Personalizado da Spar Financial.](/images/tecno-mockup-admin-spar_v2.jpg "Ambiente Administrativo Personalizado.")
-
 **Gostou do assunto?**
 
 Quer saber mais? Entre em contato!
