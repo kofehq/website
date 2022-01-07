@@ -16,7 +16,7 @@ Agradecimentos: Gabriella Miranda, Betina Roxo, João Cinquepalmi e a todo o tim
 
 ![Macbook com imagem de abertura do curso, onde tem a marca da Xpeed e o titulo. "Viver, curtir, investir: tirando sonhos do papel".](/images/curso-xpeed-mockup05.jpg "Viver, curtir, investir: tirando sonhos do papel")
 
-#### UX/UI Design
+### UX/UI Design
 
 Neste projeto de Design elaboramos a interface de aprendizagem de um curso sobre investimentos, mas principalmente, sobre sonhos. Foi muito enriquecedor trabalhar com este time, todo o conteúdo produzido pela Xpeed para o curso teve altíssima qualidade. 
 
@@ -24,7 +24,7 @@ Nós procuramos projetar uma interface fluída, simples e inspiradora.
 
 ![](/images/curso-xpeed-mockup02.jpg)
 
-**Resultados**
+### **Resultados**
 
 Ficamos muito orgulhosos pelo resultado desse projeto. A interface do curso ficou interessante, amigável e intuitiva. Se você fez o curso conta pra gente como foi sua experiência. 
 
@@ -32,7 +32,7 @@ Ficamos muito orgulhosos pelo resultado desse projeto. A interface do curso fico
 
 Saiba mais sobre o curso [clicando aqui](https://xpeedschool.com.br/curso/viver-curtir-investir-tirando-sonhos-do-papel/).
 
-**Gostou do assunto?**
+### **Gostou do assunto?**
 
 Quer saber mais? Entre em contato!
 
