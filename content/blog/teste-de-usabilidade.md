@@ -1,6 +1,6 @@
 ---
 image: /images/blog-testes.jpg
-title: Teste de Usabilidade
+title: Testes de Usabilidade
 description: Ferramenta de pesquisa com diferentes formatos, utilizada para
   coletar dados sobre o negócio, produto ou serviço.
 ---
