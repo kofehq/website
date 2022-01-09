@@ -1,31 +1,31 @@
 ---
 image: /images/artboard-2.jpg
-title: Faça as pazes com o seu cronograma
-description: Economize muito tempo utilizando um método de trabalho ágil para
-  construir e validar produtos ou serviços em apenas quatro dias.
+title: Faça as pazes com o cronograma
+description: Economize tempo e recursos utilizando um método de trabalho ágil.
+  Usamos Sprints para construir e validar produtos ou serviços em apenas quatro
+  dias.
 ---
-Para construir Projetos de Experiência para produtos ou serviços, é preciso passar por algumas etapas de trabalho. Pesquisar sobre o desafio, elaborar possíveis soluções, testar, aprender e continuar melhorando. 
+Projetos de Experiência de Uso – UX para produtos ou serviços precisam passar por algumas etapas de trabalho como pesquisa, rascunho de possíveis soluções, testes, muito aprendizado e melhoria contínua.
 
-O processo de lançamento da primeira versão de um produto ou serviço, até que entre de fato em contato com os consumidores, pode levar meses ou até mesmo anos. São muitas atividades desde a concepção da ideia até encontrar as pessoas certas para executar, descrever as principais características e requisitos, construir, validar, ajustar, testar, vender, entre outras. 
+O lançamento da primeira versão de um produto ou serviço, até que entre de fato em contato com os consumidores, pode levar meses ou anos de trabalho. 
 
-As vezes é muito estressante e custoso esperar a lenta e faseada construção de algo concreto ou pior ainda, a validação de interesse pelo mercado. Tempo continua sendo nosso ativo mais precioso e nós trabalhamos de forma a valorizar e usar da melhor forma possível.
+### **Design Sprint**
 
-**Design Sprint**
+Nós optamos por usar o método Design Sprint por causa de sua capacidade de reduzir consideravelmente o tempo dos projetos e em apenas 4 dias, entregar ao cliente uma versão tangível de suas ideias, discutida entre os especialistas do negócio e testada com o público-alvo.
 
-Nós optamos por usar o método Design Sprint, apesar de ser muito desafiador, por causa de sua capacidade de reduz o tempo de pesquisas, reuniões e retrabalho em projetos de UX – *User Experience* e UI – *User Interface*. Suas características de imersão, foco no processo de Design, trabalho colaborativo e organização de um time especialmente formado, nos dá a melhor ferramenta para poupar tempo de projeto.
+#### Benefícios
 
-*"Eu adorei ter participado de um evento de imersão que trouxe tanto resultado em tão pouco tempo. Os dias passaram muito rápido e foram muito produtivos; a condução da Bruna foi gentil e estratégica; e o ambiente estava muito agradável. De verdade, acho que nunca participei de uma imersão tão assertiva. Parabéns!"*
+Dessa forma fica muito mais fácil e seguro avançar com as decisões de negócio. Os especialistas encontram uma oportunidade estruturada para discutir e avançar no desenho de uma solução. O protótipo construído permite validar as decisões de design e também ser usado como ferramenta para apresentar o negócio antes de investir no desenvolvimento final. 
 
-São apenas **quatro dias de imersão** de trabalho, cujo objetivo é propor soluções para um desafio, construir e validar a aderência com o público-alvo. 
+***"Uma experiência impar, inovadora e um resultado que superou as nossas expectativas."** –* \
+*Wilson Souza CEO Somma Investimentos*
 
-**Soluções ágeis**
+***"Foi incrível! O resultado foi além do que eu imaginava. O tanto que evoluímos em um espaço de tempo tão curto foi indescritível. A qualidade do trabalho em termos de resultado, planejamento e organização foi altíssima."** – Gustavo Kurmann Sócio Fundador Spar Financial*
 
-O Design Sprint nos coloca no melhor lugar, mais assertivo e inovador possível para a construção de um projeto de sucesso. De maneira prática, conseguimos a contribuição dos especialistas do negócio, construímos e validamos a solução de maneira interna e externa.
-
-A partir disso, cabe ao negócio avaliar os aprendizados e decidir como avançar com o lançamento ou incremento. Não existe solução mágica, existe sim muito trabalho, mas que também pode ser otimizado e feito de maneira mais objetiva por meio de ferramentas como o Design Sprint.
+***"Eu adorei ter participado de um evento de imersão que trouxe tanto resultado em tão pouco tempo. Os dias passaram muito rápido e foram muito produtivos; a condução da Bruna foi gentil e estratégica; e o ambiente estava muito agradável. De verdade, acho que nunca participei de uma imersão tão assertiva. Parabéns!"** – Natália Barreira Brand Designer*
 
 **Gostou do assunto?**
 
 Quer saber mais? Entre em contato!
 
-*\#kofe #kofedesign #designsprint #solucoesageis*
+*\#kofe #kofedesign #designsprint #solucoesageis #sprint #brunaferencz #design*
