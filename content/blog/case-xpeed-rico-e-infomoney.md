@@ -1,5 +1,5 @@
 ---
-image: /images/blog-tablets_v2.jpg
+image: /images/blog_xpeed-betina_v2.jpg
 title: "Case: Xpeed, Rico e Infomoney"
 description: "Design e implementação front-end para o curso Viver, Curtir,
   Investir: Tirando Sonhos do Papel."
