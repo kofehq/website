@@ -14,23 +14,27 @@ Em apenas 4 dias nosso cliente tem em mãos uma versão tangível de suas ideias
 
 #### Benefícios
 
-• Uma oportunidade estruturada e guiada para que os especialistas discutam e avancem no desenho coeso de uma solução.
+• Uma oportunidade estruturada e guiada para que os especialistas possam discutir e avançar no desenho coeso de uma solução.
 
-• O protótipo construído durante a Sprint permite validar as decisões de design, mas também pode ser usado como ferramenta de apresentação do negócio antes mesmo de investir em desenvolvimento.
+• O protótipo construído durante a Sprint também pode ser usado como ferramenta de apresentação do produto ou serviço antes mesmo do desenvolvimento.
 
-• Depois de uma Sprint fica muito mais fácil e seguro avançar com as decisões de negócio a partir dos dados produzidos e coletados.
+• A partir dos dados produzidos e coletados durante a Sprint, fica muito mais fácil e seguro avançar com as decisões de negócio.
 
-• Entregamos um relatório com o resumo das decisões do time, resultados dos testes e recomendações.
+• Entregamos um relatório com o resumo das decisões do time, resultados obtidos nos Testes de Usabilidade e recomendações.
 
-• • • 
+
 
 **"Uma experiência impar, inovadora e um resultado que superou as nossas expectativas."** – Wilson Souza CEO Somma Investimentos
 
+
+
 **"Foi incrível! O resultado foi além do que eu imaginava. O tanto que evoluímos em um espaço de tempo tão curto foi indescritível. A qualidade do trabalho em termos de resultado, planejamento e organização foi altíssima."** – Gustavo Kurmann Sócio Fundador Spar Financial
+
+
 
 **"Eu adorei ter participado de um evento de imersão que trouxe tanto resultado em tão pouco tempo. Os dias passaram muito rápido e foram muito produtivos; a condução da Bruna foi gentil e estratégica; e o ambiente estava muito agradável. De verdade, acho que nunca participei de uma imersão tão assertiva. Parabéns!"** – Natália Barreira Brand Designer
 
-• • • 
+
 
 **Gostou do assunto?**
 
