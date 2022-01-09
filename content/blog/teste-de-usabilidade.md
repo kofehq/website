@@ -19,11 +19,11 @@ De acordo com o objetivo do projeto, podemos realizar três tipos de avaliaçõe
 **Contexto de Uso**\
 *Simulação, com script, não usa ou híbrido.*
 
-**Modelos**
+**Modelos oferecidos**
 
-• Grupo Focal (Focus Group)\
-• Testes remotos moderados\
-• Testes remotos não moderados\
+• Grupo Focal online ou presencial\
+• Testes remotos online moderados\
+• Testes remotos online automatizados\
 • Entrevistas guiadas
 
 **Benefícios**
@@ -40,4 +40,4 @@ De acordo com o objetivo do projeto, podemos realizar três tipos de avaliaçõe
 
 Quer saber mais? Entre em contato!
 
-*\#kofedesign #design #uxdesign*
+*\#kofedesign #design #uxdesign #testesdeusabilidade #consultoria #kofe #modelos*
