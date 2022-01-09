@@ -19,24 +19,24 @@ De acordo com o objetivo do projeto, podemos realizar três tipos de avaliaçõe
 **Contexto de Uso**\
 *Simulação, com script, não usa ou híbrido.*
 
-**Modelos oferecidos**
+### **Modelos oferecidos**
 
 • Grupo Focal online ou presencial\
 • Testes remotos online moderados\
 • Testes remotos online automatizados\
 • Entrevistas guiadas
 
-**Benefícios**
+### **Benefícios**
 
 • Coletar dados sobre o negócio, produto ou serviço.\
 • Definir requisitos de projeto para o desenvolvimento.\
 • Fortalecer relacionamento com a audiência.
 
-**Referência**
+#### **Referência**
 
 [When to Use Which user-Experience Research Methods por Christian Rohrer.](https://www.nngroup.com/articles/which-ux-research-methods/)
 
-**Gostou do assunto?**
+### **Gostou do assunto?**
 
 Quer saber mais? Entre em contato!
 
