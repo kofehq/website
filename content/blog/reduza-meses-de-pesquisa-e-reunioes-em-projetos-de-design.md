@@ -1,9 +1,8 @@
 ---
 image: /images/artboard-2.jpg
 title: Faça as pazes com o cronograma
-description: Economize tempo e recursos utilizando um método de trabalho ágil.
-  Usamos Sprints para construir e validar produtos ou serviços em apenas quatro
-  dias.
+description: Economize tempo e recursos de projeto utilizando Design Sprints
+  para construir e validar produtos ou serviços em apenas quatro dias.
 ---
 Projetos de Experiência de Uso – UX para produtos ou serviços precisam passar por algumas etapas de trabalho como pesquisa, rascunho de possíveis soluções, testes, muito aprendizado e melhoria contínua.
 
