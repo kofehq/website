@@ -162,6 +162,11 @@ export default {
     line-height: 24px;
     margin-bottom: 20px;
   }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 @media (max-width: 1120px) {
