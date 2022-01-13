@@ -1,6 +1,6 @@
 ---
 image: /images/blog-testes.jpg
-title: Teste de Usabilidade
+title: Testes de Usabilidade
 description: Ferramenta de pesquisa com diferentes formatos, utilizada para
   coletar dados sobre o negócio, produto ou serviço.
 ---
@@ -19,25 +19,25 @@ De acordo com o objetivo do projeto, podemos realizar três tipos de avaliaçõe
 **Contexto de Uso**\
 *Simulação, com script, não usa ou híbrido.*
 
-**Modelos**
+### **Modelos oferecidos**
 
-• Grupo Focal (Focus Group)\
-• Testes remotos moderados\
-• Testes remotos não moderados\
+• Grupo Focal online ou presencial\
+• Testes remotos online moderados\
+• Testes remotos online automatizados\
 • Entrevistas guiadas
 
-**Benefícios**
+### **Benefícios**
 
 • Coletar dados sobre o negócio, produto ou serviço.\
 • Definir requisitos de projeto para o desenvolvimento.\
 • Fortalecer relacionamento com a audiência.
 
-**Referência**
+#### **Referência**
 
 [When to Use Which user-Experience Research Methods por Christian Rohrer.](https://www.nngroup.com/articles/which-ux-research-methods/)
 
-**Gostou do assunto?**
+### **Gostou do assunto?**
 
 Quer saber mais? Entre em contato!
 
-*\#kofedesign #design #uxdesign*
+*\#kofedesign #design #uxdesign #testesdeusabilidade #consultoria #kofe #modelos*

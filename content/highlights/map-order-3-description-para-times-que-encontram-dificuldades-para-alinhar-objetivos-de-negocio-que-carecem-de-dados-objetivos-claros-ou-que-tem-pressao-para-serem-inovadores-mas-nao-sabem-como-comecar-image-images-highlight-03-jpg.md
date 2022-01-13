@@ -1,6 +1,6 @@
 ---
 image: /images/highlight-03.jpg
-description: Para times que desejam ganhar tempo, validar com o público-alvo e
-  para quem deseja inovar, mas não sabem bem como começar.
+description: Ideal para times que desejam ganhar tempo, validar ideias e para
+  quem deseja inovar, mas não sabe como começar.
 order: 3
 ---

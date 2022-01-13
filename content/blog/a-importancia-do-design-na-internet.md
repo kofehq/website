@@ -1,5 +1,5 @@
 ---
-image: /images/artboard-1.jpg
+image: /images/kofe-banner-design-interfaces-2.png
 title: Design de Interface
 description: Saiba o que são interfaces digitais e quais os fatores que mais
   impactam no seu Design.
@@ -14,7 +14,7 @@ Também é a interface desses produtos que permite que você, como usuário, pos
 
 Por exemplo, é utilizando interface de um produto digital que você pode compartilhar um conteúdo ou até mesmo escolher um produto, fazer o pagamento e definir o endereço para receber em sua casa. 
 
-**Design de Interface**
+### **Aspectos que influenciam o Design**
 
 Quando pensamos em Design, logo lembramos de uma boa estética e de um acabamento visual mais refinado, certo? Porém, o Design para a internet é tão importante porque também leva em consideração outros fatores além do visual.
 
@@ -26,7 +26,7 @@ Podemos citar também a **Arquitetura de Informação**, que nos ajuda a organiz
 
 Além, é claro, do **UX Design**, o famoso Design da Experiência de Uso, que observa além do layout das telas, a experiência que se deseja promover com o serviço como um todo.
 
-**O impacto do Design na internet**
+### **O impacto do Design**
 
 Considerando que existem cada vez mais produtos e serviços digitais sendo oferecidos na internet, projetos de Design são importantes porque influenciam diretamente em nosso interesse, capacidade e disposição para utilizar uma interface.
 
@@ -34,7 +34,7 @@ Você já desinstalou ou desistiu de usar algum aplicativo ou site por causa da 
 
 Trabalhamos para projetar interfaces mais interessantes, alinhadas aos objetivos de negócio e é claro, fáceis de usar!
 
-**Gostou do assunto?**
+### **Gostou do assunto?**
 
 Quer saber mais? Entre em contato!
 
