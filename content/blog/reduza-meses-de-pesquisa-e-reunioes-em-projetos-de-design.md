@@ -28,7 +28,7 @@ Em apenas 4 dias nosso cliente tem em mãos uma versão tangível de suas ideias
 
 **"Foi incrível! O resultado foi além do que eu imaginava. O tanto que evoluímos em um espaço de tempo tão curto foi indescritível. A qualidade do trabalho em termos de resultado, planejamento e organização foi altíssima."** – Gustavo Kurmann Sócio Fundador Spar Financial
 
-**"Eu adorei ter participado de um evento de imersão que trouxe tanto resultado em tão pouco tempo. Os dias passaram muito rápido e foram muito produtivos; a condução da Bruna foi gentil e estratégica; e o ambiente estava muito agradável. De verdade, acho que nunca participei de uma imersão tão assertiva. Parabéns!"** – Natália Barreira Brand Designer
+**"Eu adorei ter participado de um evento de imersão que trouxe tanto resultado em tão pouco tempo. Os dias passaram muito rápido e foram muito produtivos; a condução da Bruna foi gentil e estratégica; e o ambiente estava muito agradável. De verdade, acho que nunca participei de uma imersão tão assertiva. Parabéns!"** – Natália Pixel Brand Designer
 
 ### **Gostou do assunto?**
 
