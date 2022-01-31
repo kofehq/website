@@ -1,5 +1,5 @@
 ---
-image: /images/artboard-4.jpg
+image: /images/artboard-3.jpg
 title: Kofe Design Sprint
 description: Quatro dias de imersão com o time de especialistas para prototipar
   e validar uma solução.
