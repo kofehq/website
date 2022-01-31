@@ -35,4 +35,4 @@ description: "Estamos contratando estagiário(a) para nos ajudar na parte práti
 * Ambiente descontraído, flexível e com feedbacks constantes.
 * Rotina com aprendizado constante.
 
-Gostou? Gostaria de se candidatar para a vaga? Escreva para: **atelie@kofe.design** com o seu currículo e/ou portfólio. Vamos adorar te conhecer!
+Gostou? Gostaria de se candidatar para a vaga? Envie seu currículo e/ou portfólio por email. Vamos adorar te conhecer!
