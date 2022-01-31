@@ -4,7 +4,7 @@ title: Vaga para Estagiário(a) em UX/UI Design
 description: "Estamos contratando estagiário(a) para nos ajudar na parte prática
   dos projetos de UX/UI Design. "
 ---
-### **PROCURAMOS UMA PESSOA QUE:**
+#### **Procuramos uma pessoa que:**
 
 * Seja interessada pela área de UX e UI;
 * Participe e auxilie nas atividades do Design Sprint;
@@ -17,19 +17,19 @@ description: "Estamos contratando estagiário(a) para nos ajudar na parte práti
 * Goste de trabalhar em equipe e se comunique bem;
 * E que se identifica com a nossa cultura!
 
-### **REQUISITOS BÁSICOS:**
+#### **Requisitos básicos:**
 
 * Cursando Design Visual, Design Gráfico ou Design de Produto;
 * Interesse pela área de UX e UI.
 * Disponibilidade para trabalhar 6 horas diárias de segunda à sexta.
 
-### **HABILIDADES QUE FARÃO VOCÊ SE DESTACAR:**
+#### **Habilidades que farão você se destacar:**
 
 * Experiência na criação de ferramentas como personas e jornada do usuário;
 * Experiência interagindo diretamente com os clientes, entender a demanda em campo;
 * Apresentar conhecimentos básicos na criação de interfaces e fluxos de navegação.
 
-### **BENEFÍCIOS DE TRABALHAR COM A KOFE:**
+#### **Benefícios de trabalhar com a Kofe:**
 
 * R$ 1.200,00 - Bolsa Estágio.
 * Ambiente descontraído, flexível e com feedbacks constantes.
