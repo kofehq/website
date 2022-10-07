@@ -37,7 +37,7 @@
     "path": "^0.12.7",
     "prettier": "^2.3.2",
     "sass": "^1.35.2",
-    "sass-loader": "10",
+    "sass-loader": "13",
     "webpack-cli": "^4.7.2"
   }
 }
