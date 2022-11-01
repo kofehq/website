@@ -31,7 +31,7 @@
     "eslint": "^7.29.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-nuxt": "^2.0.0",
-    "eslint-plugin-vue": "^7.12.1",
+    "eslint-plugin-vue": "^9.7.0",
     "fibers": "^5.0.0",
     "netlify-cms-locales": "^1.33.0",
     "path": "^0.12.7",
