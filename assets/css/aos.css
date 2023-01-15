@@ -718,6 +718,30 @@ body[data-aos-delay='3000'] [data-aos] {
 body[data-aos-delay='3000'] [data-aos].aos-animate {
   transition-delay: 3s;
 }
+[data-aos][data-aos][data-aos-duration='3200'],
+body[data-aos-duration='3200'] [data-aos] {
+  transition-duration: 3s;
+}
+[data-aos][data-aos][data-aos-delay='3200'],
+body[data-aos-delay='3200'] [data-aos] {
+  transition-delay: 0s;
+}
+[data-aos][data-aos][data-aos-delay='3200'].aos-animate,
+body[data-aos-delay='3200'] [data-aos].aos-animate {
+  transition-delay: 3s;
+}
+[data-aos][data-aos][data-aos-duration='3400'],
+body[data-aos-duration='3400'] [data-aos] {
+  transition-duration: 3s;
+}
+[data-aos][data-aos][data-aos-delay='3400'],
+body[data-aos-delay='3400'] [data-aos] {
+  transition-delay: 0s;
+}
+[data-aos][data-aos][data-aos-delay='3400'].aos-animate,
+body[data-aos-delay='3400'] [data-aos].aos-animate {
+  transition-delay: 3s;
+}
 [data-aos] {
   pointer-events: none;
 }
