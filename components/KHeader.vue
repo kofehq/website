@@ -1,13 +1,19 @@
 <template>
   <k-center>
     <header :class="$style['header']">
-      <k-svg
-        name="logo"
-        :class="$style['header-logo']"
-      />
+      <k-svg name="logo" :class="$style['header-logo']" />
       <h1 hidden>Kofe Design</h1>
-      <img :class="$style['header-image']" src="@/assets/chimp01.png" alt="Desenho de um macaco" width="694" height="800" data-aos="fade-right">
-      <h2 :class="$style['header-title']" data-aos="fade-left">Design code &amp; design sprint</h2>
+      <img
+        :class="$style['header-image']"
+        src="@/assets/chimp01.png"
+        alt="Desenho de um macaco"
+        width="694"
+        height="800"
+        data-aos="fade-right"
+      />
+      <h2 :class="$style['header-title']" data-aos="fade-left">
+        Tech &amp; Coding
+      </h2>
     </header>
   </k-center>
 </template>
@@ -20,7 +26,7 @@ export default {
   components: {
     KCenter,
     KSvg,
-  }
+  },
 }
 </script>
 
@@ -28,10 +34,9 @@ export default {
 .header {
   position: relative;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-end;
   height: 800px;
-  margin-top: -50px;
   margin-bottom: 100px;
 
   &::before {
@@ -42,7 +47,7 @@ export default {
     z-index: -1;
     height: 710px;
     width: 540px;
-    background: linear-gradient(180deg, #F0E2BB 0%, #F1E8EB 100%);
+    background: linear-gradient(180deg, #f0e2bb 0%, #f1e8eb 100%);
     border-radius: 6px;
   }
 }
@@ -53,7 +58,7 @@ export default {
   left: 40px;
   width: 93px;
   height: 60px;
-  color: #89536B;
+  color: #89536b;
 }
 
 .header-image {
@@ -64,15 +69,15 @@ export default {
 
 .header-title {
   font-family: $font-primary;
-  font-size: 40px;
-  font-weight: 300;
-  line-height: 64px;
-  letter-spacing: 0.8em;
-  color: #89536B;
+  font-size: 60px;
+  font-weight: 200;
+  line-height: 76px;
+  letter-spacing: 0.45em;
+  color: #89536b;
   text-transform: uppercase;
-  max-width: 310px;
-  height: 260px;
-  margin-right: 40px;
+  max-width: 350px;
+  height: 160px;
+  margin-top: 150px;
 }
 
 @media (max-width: 1120px) {

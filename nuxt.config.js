@@ -1,5 +1,3 @@
-import dynamicRoutes from './routes/dynamicRoutes'
-
 export default {
   target: 'static',
 
@@ -62,10 +60,6 @@ export default {
   modules: ['@nuxtjs/axios', '@nuxt/content', '@nuxtjs/sitemap'],
 
   axios: {},
-
-  generate: {
-    routes: dynamicRoutes,
-  },
 
   router: {
     prefetchLinks: false,

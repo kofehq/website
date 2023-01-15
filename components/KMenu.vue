@@ -29,10 +29,12 @@
             :style="{ '--animation-order': 1 }"
           >
             <k-action
+              tag="a"
+              href="#inicio"
               :class="$style['menu-link']"
-              @click="goTo('#servicos')"
+              @click.prevent="goTo('#inicio')"
             >
-              Serviços  
+              Início  
             </k-action>
           </div>
           <div
@@ -40,19 +42,24 @@
             :style="{ '--animation-order': 2 }"
           >
             <k-action
+              tag="a"
+              href="#servicos"
               :class="$style['menu-link']"
-              @click="goTo('#design')"
+              @click.prevent="goTo('#servicos')"
             >
-              Design sprints  
+              Serviços  
             </k-action>
           </div>
+          
           <div
             :class="$style['menu-item']"
             :style="{ '--animation-order': 3 }"
           >
             <k-action
+              tag="a"
+              href="#projetos"
               :class="$style['menu-link']"
-              @click="goTo('#projetos')"
+              @click.prevent="goTo('#projetos')"
             >
               Projetos  
             </k-action>
@@ -62,6 +69,8 @@
             :style="{ '--animation-order': 4 }"
           >
             <k-action
+              tag="a"
+              href="#clientes"
               :class="$style['menu-link']"
               @click="goTo('#clientes')"
             >
@@ -69,20 +78,8 @@
             </k-action>
           </div>
           <div
-            :class="$style['menu-item']"
-            :style="{ '--animation-order': 5 }"
-          >
-            <k-action
-              tag="nuxt-link"
-              :class="$style['menu-link']"
-              :to="{ name: 'blog' }"
-            >
-              Blog  
-            </k-action>
-          </div>
-          <div
             :class="$style['menu-social-media']"
-            :style="{ '--animation-order': 6 }"
+            :style="{ '--animation-order': 5 }"
           >
             <k-action
               tag="a"
@@ -178,11 +175,10 @@ export default {
     goTo (hash) {
       clearAllBodyScrollLocks()
       this.showMenu = false
-      this.$router.push({
-        name: 'index',
-        hash,
+      this.$nextTick(() => {
+        this.$emit("goTo", hash)
       })
-    }
+    },
   }
 }
 </script>

@@ -3,7 +3,7 @@
     <div :class="$style['digital']" data-aos="fade-right">
       <h3 :class="$style['digital-title']">Interfaces digitais</h3>
       <div :class="$style['digital-description']">
-        <p>Projetos de interfaces digitais personalizadas para Websites, Aplicativos, Portais,  Sistemas, entre outros.</p>
+        <p>Desenvolvimento de interfaces digitais personalizadas para Websites, Aplicativos, Portais,  Sistemas, entre outros.</p>
         <p>Buscamos desenvolver interfaces intuitivas e únicas para cada objetivo de negócio.</p>
       </div>
     </div>

@@ -5,23 +5,23 @@
       <div :class="$style['services-list']">
         <div :class="$style['service-item']" data-aos="fade-up">
           <img src="@/assets/clock.svg" alt="Relógio" :class="$style['service-icon']" width="42" height="41">
-          <h4 :class="$style['service-title']">Design</h4>
+          <h4 :class="$style['service-title']">Front-end</h4>
           <div :class="$style['service-description']">
-            <p>Design que busca a convergência entre os objetivos de negócio e a experiência dos clientes.</p>
+            <p>Código escrito utilizando frameworks como VueJS, Nuxt, React e Next, para soluções personalizadas de interfaces como websites, aplicativos e sistemas.</p>
           </div>
         </div>
         <div :class="$style['service-item']" data-aos="fade-up" data-aos-delay="300">
           <img src="@/assets/clock.svg" alt="Relógio" :class="$style['service-icon']" width="42" height="41">
-          <h4 :class="$style['service-title']">Sprints</h4>
+          <h4 :class="$style['service-title']">Backoffice</h4>
           <div :class="$style['service-description']">
-            <p>Para construir e validar ideias antes de investir no desenvolvimento de produtos ou serviços.</p>
+            <p>Painel administrativo customizado de acordo com as necessidades do cliente, incluindo versão multilíngue.</p>
           </div>
         </div>
         <div :class="$style['service-item']" data-aos="fade-up" data-aos-delay="600">
           <img src="@/assets/clock.svg" alt="Relógio" :class="$style['service-icon']" width="42" height="41">
-          <h4 :class="$style['service-title']">Front-end</h4>
+          <h4 :class="$style['service-title']">Hospedagem e API's</h4>
           <div :class="$style['service-description']">
-            <p>Código escrito utilizando frameworks como Vue JS e Nuxt. Soluções personalizadas para a interface do cliente e do administrador.</p>
+            <p>Hospedagem e manutenção de websites e integração com serviços terceiros.</p>
           </div>
         </div>
       </div>
