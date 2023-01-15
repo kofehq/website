@@ -6,12 +6,12 @@
         <template v-for="(project, index) in projects">
           <transition
             :key="index"
-            :enter-active-class="$style[`${slideDirectionClass}-enter-active`]"
-            :leave-active-class="$style['slide-leave-active']"
+            :enter-active-class="$style[`${slideEnterDirectionClass}-enter-active`]"
+            :leave-active-class="$style[`${slideLeaveDirectionClass}-leave-active`]"
           >
             <div v-if="currentIndex === index" :class="$style['project']">
               <h3 :class="$style['project-title']">{{ project.title }}</h3>
-              <img :src="project.image" :alt="project.title" :class="$style['project-image']" width="815" height="459">
+              <img :src="project.image" :alt="project.title" :class="$style['project-image']">
             </div>
           </transition>
         </template>
@@ -70,11 +70,18 @@ export default {
   },
 
   computed: {
-    slideDirectionClass () {
+    slideEnterDirectionClass () {
       if (this.direction === 'left') {
         return 'slide-left'
       }
       return 'slide-right'
+    },
+
+    slideLeaveDirectionClass () {
+      if (this.direction === 'left') {
+        return 'slide-right'
+      }
+      return 'slide-left'
     },
 
     totalItems () {
@@ -121,22 +128,9 @@ export default {
 
 .projects-list {
   background: url('~@/assets/computer.svg') no-repeat center bottom;
-  height: 100%;
   position: relative;
-  overflow: hidden;
   padding-top: 75px;
   padding-bottom: 66px;
-
-  &::before {
-    content: '';
-    position: absolute;
-    top: 75px;
-    left: 0;
-    right: 0;
-    height: 459px;
-    background: linear-gradient(180deg, #F0E2BB 0%, #FFEDF3 100%);
-    border-radius: 2px;
-  }
 }
 
 .projects-nav {
@@ -189,60 +183,66 @@ export default {
 .project-image {
   display: block;
   margin: 0 auto;
+  width: 740px;
+  height: auto;
 }
 
 .project-image-placeholder {
   display: block;
   margin: 0 auto;
   visibility: hidden;
+  width: 740px;
+  height: auto;
 }
 
-.slide-left-enter-active {
-  animation-name: slide-left-in;
-  animation-duration: 0.5s;
-}
+// .slide-left-enter-active {
+//   animation-name: slide-left-in;
+//   animation-duration: 0.5s;
+//   transform-origin: bottom center;
+// }
 
-@keyframes slide-left-in {
-  0%, 20% {
-    opacity: 0;
-    transform: translateX(50%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
+// @keyframes slide-left-in {
+//   0%, 20% {
+//     opacity: 0;
+//     transform: translateX(50%) scale(0.5);
+//   }
+//   100% {
+//     opacity: 1;
+//     transform: translateX(0) scale(1);
+//   }
+// }
 
-.slide-right-enter-active {
-  animation-name: slide-right-in;
-  animation-duration: 0.5s;
-}
+// .slide-right-enter-active {
+//   animation-name: slide-right-in;
+//   animation-duration: 0.5s;
+//   transform-origin: bottom center;
+// }
 
-@keyframes slide-right-in {
-  0%, 20% {
-    opacity: 0;
-    transform: translateX(-50%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
+// @keyframes slide-right-in {
+//   0%, 20% {
+//     opacity: 0;
+//     transform: translateX(-50%) scale(0.5);
+//   }
+//   100% {
+//     opacity: 1;
+//     transform: translateX(0) scale(1);
+//   }
+// }
 
-.slide-leave-active {
-  animation-name: slide-leave;
-  animation-duration: 0.3s;
-  animation-fill-mode: forwards;
-}
+// .slide-leave-active {
+//   animation-name: slide-leave;
+//   animation-duration: 0.3s;
+//   animation-fill-mode: forwards;
+// }
 
-@keyframes slide-leave {
-  0% {
-    opacity: 1;
-  }
-  50%, 100% {
-    opacity: 0;
-  }
-}
+// @keyframes slide-leave {
+//   0% {
+//     opacity: 1;
+//   }
+//   50%, 100% {
+//     opacity: 0;
+//   }
+// }
 
 @media (max-width: 1023px) {
   .projects {
